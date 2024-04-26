@@ -1,0 +1,27 @@
+:root{
+    --color-active: blueviolet;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.active-link{
+    color:var(--color-active);
+}
