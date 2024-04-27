@@ -1,0 +1,20 @@
+@import '../../mixins.scss';
+
+.film{
+    &__favourite{
+        width: 25px;
+        height: 25px;
+        background-color: transparent;
+    }
+    &__watch-later{
+        @extend .film__favourite;
+    }
+}
+
+.favourite{
+    background-color: red;
+}
+
+.watch-later{
+    @extend .favourite;
+}

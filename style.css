@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+#root{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "main sidebar"
+        "footer footer";
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -24,4 +33,25 @@ a:hover{
 
 .active-link{
     color:var(--color-active);
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+.siderbar{
+    grid-area: sidebar;
+}
+
+.sidebar__content{
+    position: sticky;
+    top: 20px;
+}
+
+footer{
+    grid-area: footer;
 }

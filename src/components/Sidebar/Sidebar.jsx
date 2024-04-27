@@ -1,10 +1,10 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import movies from "../../movies-2020s";
-import FilmCard from "../FilmCard/FilmCard";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater } from "../../store/actions";
+import movies from "../../movies-2020s";
+import SidebarFilmCard from "../SidebarFilmCard/SidebarFilmCard";
 
-export default function FilmsPage({}){
+export default function Sidebar(){
     const dispatch = useDispatch();
     const favourites = useSelector((state) => state.favourites);
     const watchLater = useSelector((state) => state.watchLater);
@@ -27,14 +27,17 @@ export default function FilmsPage({}){
         }
     }
 
+    const films = movies.filter(movie => (
+        favourites.includes(movie.id) || watchLater.includes(movie.id)
+    ))
+
     return(
-        <>
-            {movies.map((movie) => {
-                return(
-                    <FilmCard key={movie.id} id={movie.id} href={movie.href} title={movie.title} cast={movie.cast} genres={movie.genres} description={movie.extract}  toggleFavourite={toggleFavourite} isFavourite={favourites.includes(movie.id) ? true : false}
-                    toggleWatchLater={toggleWatchLater} isWatchLater={watchLater.includes(movie.id) ? true : false}/>
-                )
-            })}
-        </>
+        <div className="sidebar__content">
+            <h2>Избранные и фильмы к просмотру позже</h2>
+            {films.map(film => (
+                <SidebarFilmCard key={film.id} id={film.id} title={film.title} href={film.href} thumbnail={film.thumbnail} toggleFavourite={toggleFavourite} toggleWatchLater={toggleWatchLater} isFavourite={favourites.includes(film.id) ? true : false}
+                isWatchLater={watchLater.includes(film.id) ? true : false} />
+            ))}
+        </div>
     )
 }

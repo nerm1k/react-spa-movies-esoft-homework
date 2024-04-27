@@ -1,11 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import './film-card.scss';
 
-export default function FilmCard({title, cast, genres, description}){
+export default function FilmCard({id, href, title, cast, genres, description, toggleFavourite, isFavourite, toggleWatchLater, isWatchLater}){
+    // function setFavourite(){
+    //     dispatch(toggleFavorites(id));
+    // }
+
     return(
         <div className="film">
             <div className="film__title">
-                {title}
+                <Link to={`films/${href}`}>
+                    {title}
+                </Link>
             </div>
+            <button className={isFavourite ? "film__favourite favourite" : "film__favourite"} onClick={() => toggleFavourite(id)}>
+                F
+            </button>
+            <button className={isWatchLater ? "film__watch-later watch-later" : "film__watch-later"} onClick={() => toggleWatchLater(id)}>
+                W
+            </button>
             <div className="film__cast">
                 Актеры:
                 <ul>
