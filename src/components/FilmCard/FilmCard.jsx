@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './film-card.scss';
 
-export default function FilmCard({id, href, title, cast, genres, description, toggleFavourite, isFavourite, toggleWatchLater, isWatchLater}){
+export default function FilmCard({id, href, title, cast, genres, description, rating, toggleFavourite, isFavourite, toggleWatchLater, isWatchLater}){
     // function setFavourite(){
     //     dispatch(toggleFavorites(id));
     // }
@@ -13,6 +13,9 @@ export default function FilmCard({id, href, title, cast, genres, description, to
                 <Link to={`films/${href}`}>
                     {title}
                 </Link>
+            </div>
+            <div className="film__rating">
+                {rating}
             </div>
             <button className={isFavourite ? "film__favourite favourite" : "film__favourite"} onClick={() => toggleFavourite(id)}>
                 F

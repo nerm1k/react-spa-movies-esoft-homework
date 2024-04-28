@@ -19,7 +19,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 0
+    "id": 0,
+    "rating": 6.8
   },
   {
     "title": "Underwater",
@@ -42,7 +43,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Underwater_poster.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 398,
-    "id": 1
+    "id": 1,
+    "rating": 1
   },
   {
     "title": "Like a Boss",
@@ -62,7 +64,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/LikeaBossPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 2
+    "id": 2,
+    "rating": 9
   },
   {
     "title": "Three Christs",
@@ -81,7 +84,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 3
+    "id": 3,
+    "rating": 7.5
   },
   {
     "title": "Inherit the Viper",
@@ -102,7 +106,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Inherit_the_Viper_%282019%29_Film_Poster.jpg",
     "thumbnail_width": 236,
     "thumbnail_height": 350,
-    "id": 4
+    "id": 4,
+    "rating": 8.3
   },
   {
     "title": "The Sonata",
@@ -122,7 +127,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/The_Sonata_%282018%29_Film_Poster.jpg",
     "thumbnail_width": 246,
     "thumbnail_height": 350,
-    "id": 5
+    "id": 5,
+    "rating": 9.7
   },
   {
     "title": "The Murder of Nicole Brown Simpson",
@@ -141,7 +147,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Murder_of_Nicole_Brown_Simpson_poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 380,
-    "id": 6
+    "id": 6,
+    "rating": 4.3
   },
   {
     "title": "Bad Boys for Life",
@@ -166,7 +173,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Bad_Boys_for_Life_poster.jpg",
     "thumbnail_width": 219,
     "thumbnail_height": 325,
-    "id": 7
+    "id": 7,
+    "rating": 9.7
   },
   {
     "title": "Dolittle",
@@ -195,7 +203,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dolittle_%282020_film_poster%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 8
+    "id": 8,
+    "rating": 6.2
   },
   {
     "title": "A Fall from Grace",
@@ -216,7 +225,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/AFallFromGrace.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 9
+    "id": 9,
+    "rating": 8.6
   },
   {
     "title": "The Gentlemen",
@@ -240,7 +250,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Gentlemen_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 10
+    "id": 10,
+    "rating": 7.9
   },
   {
     "title": "The Turning",
@@ -260,7 +271,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Turning_poster_2020.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 11
+    "id": 11,
+    "rating": 2.9
   },
   {
     "title": "The Last Full Measure",
@@ -288,7 +300,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Last_Full_Measure_2019_poster.jpg",
     "thumbnail_width": 256,
     "thumbnail_height": 378,
-    "id": 12
+    "id": 12,
+    "rating": 6.9
   },
   {
     "title": "John Henry",
@@ -310,7 +323,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/JohnHenryPoster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 13
+    "id": 13,
+    "rating": 6.2
   },
   {
     "title": "The Rhythm Section",
@@ -329,7 +343,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/The_Rhythm_Section_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 382,
-    "id": 14
+    "id": 14,
+    "rating": 2.5
   },
   {
     "title": "Gretel & Hansel",
@@ -350,7 +365,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Gretel_%26_Hansel_-_A_Grim_Fairy_Tale_theatrical_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 15
+    "id": 15,
+    "rating": 4.9
   },
   {
     "title": "The Assistant",
@@ -367,7 +383,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9b/The_Assistant_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 16
+    "id": 16,
+    "rating": 7.4
   },
   {
     "title": "Birds of Prey",
@@ -390,7 +407,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Birds_of_Prey_%282020_film%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 17
+    "id": 17,
+    "rating": 6
   },
   {
     "title": "The Lodge",
@@ -410,7 +428,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cf/The_Lodge_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 18
+    "id": 18,
+    "rating": 2.5
   },
   {
     "title": "Timmy Failure: Mistakes Were Made",
@@ -433,7 +452,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c8/Timmy_Failure_Mistakes_Were_Made_Poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 19
+    "id": 19,
+    "rating": 3
   },
   {
     "title": "Horse Girl",
@@ -454,7 +474,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Horse_Girl_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 20
+    "id": 20,
+    "rating": 2.3
   },
   {
     "title": "To All the Boys: P.S. I Still Love You",
@@ -476,7 +497,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bc/To_All_the_Boys_-_P.S._I_Still_Love_You_official_release_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 21
+    "id": 21,
+    "rating": 1.9
   },
   {
     "title": "Sonic the Hedgehog",
@@ -500,7 +522,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/Sonic_the_Hedgehog_film_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 22
+    "id": 22,
+    "rating": 6
   },
   {
     "title": "Fantasy Island",
@@ -524,7 +547,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7e/Fantasy_Island_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 23
+    "id": 23,
+    "rating": 4.2
   },
   {
     "title": "The Photograph",
@@ -545,7 +569,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c4/The_Photograph_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 24
+    "id": 24,
+    "rating": 9.8
   },
   {
     "title": "Downhill",
@@ -566,7 +591,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6a/Downhill_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 25
+    "id": 25,
+    "rating": 9.4
   },
   {
     "title": "Spy Intervention",
@@ -589,7 +615,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cf/Spy_Intervention_%282020%29_Film_Poster.jpg",
     "thumbnail_width": 236,
     "thumbnail_height": 350,
-    "id": 26
+    "id": 26,
+    "rating": 3.1
   },
   {
     "title": "The Kindness of Strangers",
@@ -610,7 +637,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/The_Kindness_of_Strangers_poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 27
+    "id": 27,
+    "rating": 6.8
   },
   {
     "title": "The Call of the Wild",
@@ -631,7 +659,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/The_Call_of_the_Wild_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 28
+    "id": 28,
+    "rating": 6.6
   },
   {
     "title": "Emma",
@@ -655,7 +684,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/53/Emma_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 29
+    "id": 29,
+    "rating": 8.6
   },
   {
     "title": "The Last Thing He Wanted",
@@ -678,7 +708,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/The_Last_Thing_He_Wanted.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 30
+    "id": 30,
+    "rating": 8.2
   },
   {
     "title": "Brahms: The Boy II",
@@ -698,7 +729,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/51/Brahms_The_Boy_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 31
+    "id": 31,
+    "rating": 4.5
   },
   {
     "title": "The Night Clerk",
@@ -718,7 +750,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9f/The_Night_Clerk_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 32
+    "id": 32,
+    "rating": 1.3
   },
   {
     "title": "Impractical Jokers: The Movie",
@@ -738,7 +771,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6a/Impractical_Jokers_The_Movie_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 325,
-    "id": 33
+    "id": 33,
+    "rating": 7.4
   },
   {
     "title": "The Invisible Man",
@@ -760,7 +794,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Invisible_Man_%282020_film%29_-_release_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 34
+    "id": 34,
+    "rating": 8.2
   },
   {
     "title": "All the Bright Places",
@@ -782,7 +817,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8c/All_the_Bright_Places.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 35
+    "id": 35,
+    "rating": 4.2
   },
   {
     "title": "Wendy",
@@ -800,7 +836,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ac/Wendy_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 36
+    "id": 36,
+    "rating": 4.1
   },
   {
     "title": "Guns Akimbo",
@@ -819,7 +856,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Guns_Akimbo_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 37
+    "id": 37,
+    "rating": 0.8
   },
   {
     "title": "Onward",
@@ -840,7 +878,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Onward_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 38
+    "id": 38,
+    "rating": 7.9
   },
   {
     "title": "The Way Back",
@@ -861,7 +900,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Way_Back_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 39
+    "id": 39,
+    "rating": 8.6
   },
   {
     "title": "Spenser Confidential",
@@ -884,7 +924,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c6/Spenser_Confidential_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 40
+    "id": 40,
+    "rating": 0.3
   },
   {
     "title": "The Banker",
@@ -904,7 +945,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/72/The_Banker_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 41
+    "id": 41,
+    "rating": 6.2
   },
   {
     "title": "The Burnt Orange Heresy",
@@ -924,7 +966,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/26/The_Burnt_Orange_Heresey.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 42
+    "id": 42,
+    "rating": 0.9
   },
   {
     "title": "Swallow",
@@ -944,7 +987,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7f/Swallow_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 43
+    "id": 43,
+    "rating": 2.4
   },
   {
     "title": "First Cow",
@@ -962,7 +1006,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/First_Cow_poster.jpeg",
     "thumbnail_width": 253,
     "thumbnail_height": 394,
-    "id": 44
+    "id": 44,
+    "rating": 6.8
   },
   {
     "title": "Bloodshot",
@@ -983,7 +1028,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/Bloodshot_-_official_film_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 45
+    "id": 45,
+    "rating": 9.7
   },
   {
     "title": "The Hunt",
@@ -1005,7 +1051,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/The_Hunt_2020_poster.png",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 46
+    "id": 46,
+    "rating": 0.5
   },
   {
     "title": "I Still Believe",
@@ -1025,7 +1072,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/18/I_Still_Believe_promotional_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 47
+    "id": 47,
+    "rating": 9.6
   },
   {
     "title": "Lost Girls",
@@ -1050,7 +1098,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Lost_Girls_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 48
+    "id": 48,
+    "rating": 0.8
   },
   {
     "title": "Stargirl",
@@ -1069,7 +1118,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Star_girl_Movie_Poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 49
+    "id": 49,
+    "rating": 1.1
   },
   {
     "title": "The Roads Not Taken",
@@ -1088,7 +1138,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/12/The_Roads_Not_Taken_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 50
+    "id": 50,
+    "rating": 9.8
   },
   {
     "title": "Never Rarely Sometimes Always",
@@ -1108,7 +1159,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/Never_Rarely_Sometimes_Always.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 51
+    "id": 51,
+    "rating": 2.6
   },
   {
     "title": "Big Time Adolescence",
@@ -1128,7 +1180,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/Big_Time_Adolescences_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 52
+    "id": 52,
+    "rating": 3.7
   },
   {
     "title": "Lost Transmissions",
@@ -1149,7 +1202,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/LostTransmissionTribeca.png",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 53
+    "id": 53,
+    "rating": 2.9
   },
   {
     "title": "Resistance",
@@ -1174,7 +1228,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1b/Resistance_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 54
+    "id": 54,
+    "rating": 9.6
   },
   {
     "title": "Uncorked",
@@ -1193,7 +1248,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/Uncorked_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 55
+    "id": 55,
+    "rating": 3.3
   },
   {
     "title": "Vivarium",
@@ -1210,7 +1266,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/Vivarium_film_theatrical_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 56
+    "id": 56,
+    "rating": 2.3
   },
   {
     "title": "Coffee & Kareem",
@@ -1231,7 +1288,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Coffee_%26_Kareem_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 57
+    "id": 57,
+    "rating": 8.6
   },
   {
     "title": "Trolls World Tour",
@@ -1258,7 +1316,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/Trolls_World_Tour_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 58
+    "id": 58,
+    "rating": 7.5
   },
   {
     "title": "Love Wedding Repeat",
@@ -1279,7 +1338,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/39/Love_Wedding_Repeat.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 59
+    "id": 59,
+    "rating": 9.3
   },
   {
     "title": "The Main Event",
@@ -1299,7 +1359,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/The_Main_Event_%282020_film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 60
+    "id": 60,
+    "rating": 4.1
   },
   {
     "title": "We Summon the Darkness",
@@ -1322,7 +1383,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/We_Summon_the_Darkness_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 61
+    "id": 61,
+    "rating": 4.4
   },
   {
     "title": "The Lost Husband",
@@ -1340,7 +1402,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4b/Lost_husband.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 62
+    "id": 62,
+    "rating": 8.5
   },
   {
     "title": "Corona Zombies",
@@ -1359,7 +1422,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2c/Corona_Zombies_%282020%29_poster.jpg",
     "thumbnail_width": 245,
     "thumbnail_height": 367,
-    "id": 63
+    "id": 63,
+    "rating": 3.8
   },
   {
     "title": "Sergio",
@@ -1381,7 +1445,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/Sergio_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 64
+    "id": 64,
+    "rating": 4.8
   },
   {
     "title": "The Willoughbys",
@@ -1404,7 +1469,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Willoughbys_Theatrical_release_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 65
+    "id": 65,
+    "rating": 9.6
   },
   {
     "title": "Extraction",
@@ -1426,7 +1492,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Extraction_%282020_film%29.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 66
+    "id": 66,
+    "rating": 2.7
   },
   {
     "title": "Braking for Whales",
@@ -1446,7 +1513,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Braking_for_Whales.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 67
+    "id": 67,
+    "rating": 6.5
   },
   {
     "title": "Bad Education",
@@ -1470,7 +1538,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3d/Bad_Education_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 68
+    "id": 68,
+    "rating": 7.9
   },
   {
     "title": "Dangerous Lies",
@@ -1491,7 +1560,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Dangerous_Lies_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 69
+    "id": 69,
+    "rating": 7.6
   },
   {
     "title": "All Day and a Night",
@@ -1509,7 +1579,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/All_Day_and_a_Night_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 70
+    "id": 70,
+    "rating": 5.5
   },
   {
     "title": "The Wretched",
@@ -1529,7 +1600,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/The_Wretched_%28film%29_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 71
+    "id": 71,
+    "rating": 2.9
   },
   {
     "title": "The Half of It",
@@ -1549,7 +1621,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/71/The_Half_of_It_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 72
+    "id": 72,
+    "rating": 0.1
   },
   {
     "title": "Arkansas",
@@ -1574,7 +1647,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d5/Arkansas_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 73
+    "id": 73,
+    "rating": 9.5
   },
   {
     "title": "Valley Girl",
@@ -1596,7 +1670,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d7/Valley_Girl_2020_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 74
+    "id": 74,
+    "rating": 4.6
   },
   {
     "title": "Capone",
@@ -1618,7 +1693,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2a/Capone_2020_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 75
+    "id": 75,
+    "rating": 8.4
   },
   {
     "title": "The Wrong Missy",
@@ -1639,7 +1715,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Wrong_Missy_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 76
+    "id": 76,
+    "rating": 2
   },
   {
     "title": "Scoob!",
@@ -1666,7 +1743,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ca/Scoob_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 77
+    "id": 77,
+    "rating": 4.5
   },
   {
     "title": "Blood and Money",
@@ -1685,7 +1763,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/49/Blood_and_money.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 78
+    "id": 78,
+    "rating": 8.6
   },
   {
     "title": "Body Cam",
@@ -1706,7 +1785,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Body_Cam_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 79
+    "id": 79,
+    "rating": 3.2
   },
   {
     "title": "The Lovebirds",
@@ -1727,7 +1807,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/The_Lovebirds_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 80
+    "id": 80,
+    "rating": 5.2
   },
   {
     "title": "Inheritance",
@@ -1748,7 +1829,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Inheritance_%282020_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 81
+    "id": 81,
+    "rating": 0.3
   },
   {
     "title": "Survive the Night",
@@ -1766,7 +1848,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Survive_the_Night_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 82
+    "id": 82,
+    "rating": 5.4
   },
   {
     "title": "The Wanting Mare",
@@ -1782,7 +1865,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/28/Wanting_mare.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 83
+    "id": 83,
+    "rating": 3.5
   },
   {
     "title": "The High Note",
@@ -1805,7 +1889,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_High_Note_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 84
+    "id": 84,
+    "rating": 3.9
   },
   {
     "title": "Shirley",
@@ -1825,7 +1910,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/30/Shirley_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 85
+    "id": 85,
+    "rating": 1.3
   },
   {
     "title": "The Last Days of American Crime",
@@ -1845,7 +1931,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/The_Last_Days_of_American_Crime_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 86
+    "id": 86,
+    "rating": 8.6
   },
   {
     "title": "Becky",
@@ -1864,7 +1951,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/53/Becky_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 87
+    "id": 87,
+    "rating": 0.9
   },
   {
     "title": "Think Like a Dog",
@@ -1883,7 +1971,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Think_Like_a_Dog_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 88
+    "id": 88,
+    "rating": 8.1
   },
   {
     "title": "Da 5 Bloods",
@@ -1909,7 +1998,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f0/Da_5_Bloods_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 89
+    "id": 89,
+    "rating": 2.5
   },
   {
     "title": "Artemis Fowl",
@@ -1933,7 +2023,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/Artemis_Fowl_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 90
+    "id": 90,
+    "rating": 2.5
   },
   {
     "title": "The King of Staten Island",
@@ -1955,7 +2046,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/The_King_of_Staten_Island.jpeg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 91
+    "id": 91,
+    "rating": 0.1
   },
   {
     "title": "Sniper: Assassin's End",
@@ -1975,7 +2067,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/51/Sniper-_Assassin%27s_End_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 92
+    "id": 92,
+    "rating": 2.1
   },
   {
     "title": "You Should Have Left",
@@ -1992,7 +2085,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/73/You_Should_Have_Left_Poster_2020.jpeg",
     "thumbnail_width": 252,
     "thumbnail_height": 396,
-    "id": 93
+    "id": 93,
+    "rating": 8.1
   },
   {
     "title": "Wasp Network",
@@ -2013,7 +2107,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/Wasp_Network.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 94
+    "id": 94,
+    "rating": 4.9
   },
   {
     "title": "Feel the Beat",
@@ -2034,7 +2129,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5a/Feel_the_Beat_%28film%29_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 95
+    "id": 95,
+    "rating": 9.3
   },
   {
     "title": "7500",
@@ -2051,7 +2147,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/70/7500_poster.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 375,
-    "id": 96
+    "id": 96,
+    "rating": 6.8
   },
   {
     "title": "Athlete A",
@@ -2065,7 +2162,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/Athlete_A_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 97
+    "id": 97,
+    "rating": 1.7
   },
   {
     "title": "Eurovision Song Contest: The Story of Fire Saga",
@@ -2086,7 +2184,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/Eurovision_Song_Contest-_The_Story_of_Fire_Saga_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 98
+    "id": 98,
+    "rating": 0.3
   },
   {
     "title": "Irresistible",
@@ -2108,7 +2207,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6e/Irresistible_2020_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 99
+    "id": 99,
+    "rating": 5.4
   },
   {
     "title": "My Spy",
@@ -2128,7 +2228,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/26/My_Spy_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 100
+    "id": 100,
+    "rating": 2.5
   },
   {
     "title": "We Bare Bears: The Movie",
@@ -2149,7 +2250,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5b/We_Bare_Bears-_The_Movie_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 101
+    "id": 101,
+    "rating": 8
   },
   {
     "title": "Hamilton",
@@ -2176,7 +2278,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c3/Hamilton_Disney%2B_poster_2020.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 102
+    "id": 102,
+    "rating": 4.2
   },
   {
     "title": "Relic",
@@ -2194,7 +2297,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7a/Relic_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 103
+    "id": 103,
+    "rating": 0.7
   },
   {
     "title": "Desperados",
@@ -2215,7 +2319,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/30/Desperados_%28film%29_poster.jpg",
     "thumbnail_width": 267,
     "thumbnail_height": 373,
-    "id": 104
+    "id": 104,
+    "rating": 9.4
   },
   {
     "title": "The Old Guard",
@@ -2238,7 +2343,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/The_Old_Guard_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 105
+    "id": 105,
+    "rating": 1.7
   },
   {
     "title": "Money Plane",
@@ -2262,7 +2368,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c5/Money_Plane_theatrical_poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 380,
-    "id": 106
+    "id": 106,
+    "rating": 4.3
   },
   {
     "title": "Greyhound",
@@ -2281,7 +2388,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f3/Greyhound_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 107
+    "id": 107,
+    "rating": 0.2
   },
   {
     "title": "Palm Springs",
@@ -2302,7 +2410,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c5/Palm_Springs_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 322,
-    "id": 108
+    "id": 108,
+    "rating": 5.2
   },
   {
     "title": "Fatal Affair",
@@ -2321,7 +2430,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/Poster_for_Fatal_Affair.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 109
+    "id": 109,
+    "rating": 9.5
   },
   {
     "title": "The Silencing",
@@ -2340,7 +2450,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Silencing_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 110
+    "id": 110,
+    "rating": 2.9
   },
   {
     "title": "A Nice Girl Like You",
@@ -2359,7 +2470,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d7/A_Nice_Girl_Like_You_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 111
+    "id": 111,
+    "rating": 0.9
   },
   {
     "title": "Ghosts of War",
@@ -2380,7 +2492,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/72/Ghosts-of-War-Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 112
+    "id": 112,
+    "rating": 6.9
   },
   {
     "title": "Animal Crackers",
@@ -2404,7 +2517,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/17/Animal_Crackers_poster.jpg",
     "thumbnail_width": 256,
     "thumbnail_height": 388,
-    "id": 113
+    "id": 113,
+    "rating": 6.4
   },
   {
     "title": "The Kissing Booth 2",
@@ -2427,7 +2541,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c8/The_Kissing_Booth_2_poster.jpg",
     "thumbnail_width": 262,
     "thumbnail_height": 379,
-    "id": 114
+    "id": 114,
+    "rating": 0.3
   },
   {
     "title": "The Rental",
@@ -2447,7 +2562,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Rental_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 115
+    "id": 115,
+    "rating": 3.2
   },
   {
     "title": "Deep Blue Sea 3",
@@ -2467,7 +2583,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/Deep_Blue_Sea_3.jpg",
     "thumbnail_width": 273,
     "thumbnail_height": 365,
-    "id": 116
+    "id": 116,
+    "rating": 2.1
   },
   {
     "title": "Black Is King",
@@ -2483,7 +2600,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3f/Black_Is_King_poster.png",
     "thumbnail_width": 202,
     "thumbnail_height": 300,
-    "id": 117
+    "id": 117,
+    "rating": 2.5
   },
   {
     "title": "The Secret: Dare To Dream",
@@ -2502,7 +2620,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6f/The_Secret_Dare_to_Dream_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 118
+    "id": 118,
+    "rating": 6.1
   },
   {
     "title": "Summerland",
@@ -2521,7 +2640,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2c/Summerland_2020_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 163,
-    "id": 119
+    "id": 119,
+    "rating": 9.1
   },
   {
     "title": "She Dies Tomorrow",
@@ -2541,7 +2661,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5b/She_Dies_Tomorrow_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 120
+    "id": 120,
+    "rating": 4.3
   },
   {
     "title": "An American Pickle",
@@ -2559,7 +2680,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/54/An_American_Pickle_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 121
+    "id": 121,
+    "rating": 1.5
   },
   {
     "title": "The Tax Collector",
@@ -2579,7 +2701,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/51/The_Tax_Collector.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 122
+    "id": 122,
+    "rating": 0.8
   },
   {
     "title": "Waiting for the Barbarians",
@@ -2599,7 +2722,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/Waiting_for_the_Barbarians_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 123
+    "id": 123,
+    "rating": 6.3
   },
   {
     "title": "Project Power",
@@ -2624,7 +2748,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b3/Project_Power_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 124
+    "id": 124,
+    "rating": 3.7
   },
   {
     "title": "The SpongeBob Movie: Sponge on the Run (Canadian theatrical release)",
@@ -2654,7 +2779,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_SpongeBob_Movie_-_Sponge_on_the_Run.png",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 125
+    "id": 125,
+    "rating": 0.4
   },
   {
     "title": "Magic Camp",
@@ -2674,7 +2800,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7b/Magic_Camp_Poster.jpeg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 126
+    "id": 126,
+    "rating": 4.2
   },
   {
     "title": "Spree",
@@ -2694,7 +2821,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8c/SpreePoster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 127
+    "id": 127,
+    "rating": 3.5
   },
   {
     "title": "Boys State",
@@ -2708,7 +2836,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/65/Boys-state-movie-poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 128
+    "id": 128,
+    "rating": 4
   },
   {
     "title": "The One and Only Ivan",
@@ -2737,7 +2866,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_One_and_Only_Ivan_Poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 129
+    "id": 129,
+    "rating": 3.6
   },
   {
     "title": "Unhinged",
@@ -2758,7 +2888,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/Unhinged2020Poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 130
+    "id": 130,
+    "rating": 3.5
   },
   {
     "title": "Tesla",
@@ -2779,7 +2910,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d0/Tesla_2020_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 131
+    "id": 131,
+    "rating": 2
   },
   {
     "title": "Cut Throat City",
@@ -2802,7 +2934,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/97/Cut_Throat_City_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 132
+    "id": 132,
+    "rating": 1.1
   },
   {
     "title": "Words on Bathroom Walls",
@@ -2825,7 +2958,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/Words_on_Bathroom_Walls.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 133
+    "id": 133,
+    "rating": 6.5
   },
   {
     "title": "Hard Kill",
@@ -2843,7 +2977,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/56/Hard_kill_xlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 134
+    "id": 134,
+    "rating": 7.1
   },
   {
     "title": "Chemical Hearts",
@@ -2861,7 +2996,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ea/Chemical_Hearts.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 135
+    "id": 135,
+    "rating": 7.9
   },
   {
     "title": "Tenet",
@@ -2890,7 +3026,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 136
+    "id": 136,
+    "rating": 2.4
   },
   {
     "title": "Bill & Ted Face the Music",
@@ -2918,7 +3055,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b9/Bill_%26_Ted_Face_the_Music_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 137
+    "id": 137,
+    "rating": 5.7
   },
   {
     "title": "The New Mutants",
@@ -2941,7 +3079,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/TheNewMutantsPoster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 138
+    "id": 138,
+    "rating": 3.7
   },
   {
     "title": "The Personal History of David Copperfield",
@@ -2967,7 +3106,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Personal_History_of_David_Copperfield_poster.jpg/320px-The_Personal_History_of_David_Copperfield_poster.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 239,
-    "id": 139
+    "id": 139,
+    "rating": 3.7
   },
   {
     "title": "I'm Thinking of Ending Things",
@@ -2986,7 +3126,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2f/I%27m_Thinking_Of_Ending_Things_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 140
+    "id": 140,
+    "rating": 9.8
   },
   {
     "title": "Phineas and Ferb the Movie: Candace Against the Universe",
@@ -3009,7 +3150,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Poster_for_Phineas_and_Ferb_The_Movie_Candace_Against_The_Universe.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 293,
-    "id": 141
+    "id": 141,
+    "rating": 7.1
   },
   {
     "title": "All Together Now",
@@ -3032,7 +3174,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0a/All_Together_Now_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 142
+    "id": 142,
+    "rating": 9.3
   },
   {
     "title": "Rogue",
@@ -3050,7 +3193,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/08/Rogue2020Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 143
+    "id": 143,
+    "rating": 7.3
   },
   {
     "title": "Centigrade",
@@ -3068,7 +3212,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1b/Centigrade_%282020_film%29.jpg",
     "thumbnail_width": 262,
     "thumbnail_height": 381,
-    "id": 144
+    "id": 144,
+    "rating": 3.4
   },
   {
     "title": "Fatima",
@@ -3093,7 +3238,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1b/Fatima_2020_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 145
+    "id": 145,
+    "rating": 3.2
   },
   {
     "title": "All Together Now",
@@ -3116,7 +3262,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0a/All_Together_Now_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 146
+    "id": 146,
+    "rating": 2.2
   },
   {
     "title": "Love, Guaranteed",
@@ -3134,7 +3281,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Love%2C_Guaranteed_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 308,
-    "id": 147
+    "id": 147,
+    "rating": 6.1
   },
   {
     "title": "Mulan",
@@ -3159,7 +3307,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/17/Mulan_%282020_film%29_poster.jpg",
     "thumbnail_width": 257,
     "thumbnail_height": 381,
-    "id": 148
+    "id": 148,
+    "rating": 7
   },
   {
     "title": "Critical Thinking",
@@ -3184,7 +3333,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e3/Theatrical_release_poster_for_Critical_Thinking.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 149
+    "id": 149,
+    "rating": 9.4
   },
   {
     "title": "The Owners",
@@ -3206,7 +3356,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/05/The_Owners_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 150
+    "id": 150,
+    "rating": 3.7
   },
   {
     "title": "Guest House",
@@ -3228,7 +3379,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/Guest_House_%282020_film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 323,
-    "id": 151
+    "id": 151,
+    "rating": 1.9
   },
   {
     "title": "The Babysitter: Killer Queen",
@@ -3250,7 +3402,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Babysitter_Killer_Queen_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 152
+    "id": 152,
+    "rating": 7.4
   },
   {
     "title": "Unpregnant",
@@ -3271,7 +3424,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/Unpregnant_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 153
+    "id": 153,
+    "rating": 0.3
   },
   {
     "title": "The Devil All the Time",
@@ -3297,7 +3451,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6c/The_Devil_All_The_Time.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 154
+    "id": 154,
+    "rating": 3
   },
   {
     "title": "The Broken Hearts Gallery",
@@ -3319,7 +3474,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Broken_Hearts_Gallery.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 155
+    "id": 155,
+    "rating": 7.1
   },
   {
     "title": "I Met a Girl",
@@ -3338,7 +3494,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/I_Met_A_Girl_2020_Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 362,
-    "id": 156
+    "id": 156,
+    "rating": 7.5
   },
   {
     "title": "Rent-A-Pal",
@@ -3358,7 +3515,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/38/Rent_a_pal_xlg.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 157
+    "id": 157,
+    "rating": 8.2
   },
   {
     "title": "Cats & Dogs 3: Paws Unite!",
@@ -3378,7 +3536,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a6/Cats_%26_Dogs_3_Paws_Unite%21_poster.jpeg",
     "thumbnail_width": 182,
     "thumbnail_height": 268,
-    "id": 158
+    "id": 158,
+    "rating": 1.6
   },
   {
     "title": "The Secrets We Keep",
@@ -3397,7 +3556,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Secrets_We_Keep.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 159
+    "id": 159,
+    "rating": 7.4
   },
   {
     "title": "Antebellum",
@@ -3418,7 +3578,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Antebellum_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 160
+    "id": 160,
+    "rating": 8.9
   },
   {
     "title": "The Nest",
@@ -3439,7 +3600,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cc/The_Nest_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 161
+    "id": 161,
+    "rating": 7.8
   },
   {
     "title": "Blackbird",
@@ -3461,7 +3623,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/Blackbird_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 162
+    "id": 162,
+    "rating": 5.4
   },
   {
     "title": "Lost Girls & Love Hotels",
@@ -3481,7 +3644,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/Lost_Girls_%26_Love_Hotels_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 322,
-    "id": 163
+    "id": 163,
+    "rating": 8.3
   },
   {
     "title": "Killian & the Comeback Kids",
@@ -3497,7 +3661,8 @@ const movies = [
     ],
     "href": "Killian_%26_the_Comeback_Kids",
     "extract": "Killian & the Comeback Kids is a 2020 American folk-rock musical film written and directed by Taylor A. Purdee. The film stars Purdee, John Donchak, Nathan Purdee, and Kassie DePaiva along with an ensemble cast that features Maddi Jane and Lee Grant. Killian & the Comeback Kids follows a mixed-race musician who finds himself back in his struggling rural hometown after graduating from an expensive university. The film's screenplay and original music have been preserved by The Academy of Motion Pictures Arts and Sciences' permanent archive.",
-    "id": 164
+    "id": 164,
+    "rating": 8
   },
   {
     "title": "Enola Holmes",
@@ -3521,7 +3686,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e6/Enola_Holmes_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 165
+    "id": 165,
+    "rating": 7
   },
   {
     "title": "The Trial of the Chicago 7",
@@ -3550,7 +3716,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c2/TrialChicago7poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 166
+    "id": 166,
+    "rating": 0.1
   },
   {
     "title": "Ava",
@@ -3573,7 +3740,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/Ava_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 167
+    "id": 167,
+    "rating": 3.1
   },
   {
     "title": "Kajillionaire",
@@ -3594,7 +3762,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/22/Kajillionaire_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 168
+    "id": 168,
+    "rating": 5.4
   },
   {
     "title": "The Last Shift",
@@ -3616,7 +3785,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/36/The_Last_Shift_poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 169
+    "id": 169,
+    "rating": 8.7
   },
   {
     "title": "Secret Society of Second-Born Royals",
@@ -3636,7 +3806,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/70/Secret_Society_of_Second-Born_Royals_poster.jpeg",
     "thumbnail_width": 282,
     "thumbnail_height": 352,
-    "id": 170
+    "id": 170,
+    "rating": 2.9
   },
   {
     "title": "She's in Portland",
@@ -3655,7 +3826,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/41/Shes_in_portland.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 171
+    "id": 171,
+    "rating": 0.1
   },
   {
     "title": "Sightless",
@@ -3673,7 +3845,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2d/Sightless_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 172
+    "id": 172,
+    "rating": 1.6
   },
   {
     "title": "The Boys in the Band",
@@ -3697,7 +3870,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6f/The_Boys_in_the_Band.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 173
+    "id": 173,
+    "rating": 6.7
   },
   {
     "title": "The Glorias",
@@ -3719,7 +3893,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9b/The_Glorias.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 174
+    "id": 174,
+    "rating": 6.7
   },
   {
     "title": "On the Rocks",
@@ -3740,7 +3915,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/On_the_Rocks_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 175
+    "id": 175,
+    "rating": 4.7
   },
   {
     "title": "Spontaneous",
@@ -3763,7 +3939,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Spontaneous_%28film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 176
+    "id": 176,
+    "rating": 9.8
   },
   {
     "title": "Vampires vs. the Bronx",
@@ -3788,7 +3965,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b2/Vampires_vs._the_Bronx.png",
     "thumbnail_width": 220,
     "thumbnail_height": 308,
-    "id": 177
+    "id": 177,
+    "rating": 9.7
   },
   {
     "title": "Possessor",
@@ -3810,7 +3988,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Possessor_%28film%29_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 362,
-    "id": 178
+    "id": 178,
+    "rating": 6.5
   },
   {
     "title": "Death of Me",
@@ -3828,7 +4007,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2d/Death_of_Me_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 179
+    "id": 179,
+    "rating": 10
   },
   {
     "title": "The Call",
@@ -3845,7 +4025,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a5/The_Call_%282020_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 180
+    "id": 180,
+    "rating": 0.5
   },
   {
     "title": "American Pie Presents: Girls' Rules",
@@ -3867,7 +4048,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bd/American_Pie_Presents_Girls%27_Rules.png",
     "thumbnail_width": 220,
     "thumbnail_height": 323,
-    "id": 181
+    "id": 181,
+    "rating": 4
   },
   {
     "title": "The Lie",
@@ -3885,7 +4067,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/The_Lie_poster_2018.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 182
+    "id": 182,
+    "rating": 1.1
   },
   {
     "title": "Black Box",
@@ -3903,7 +4086,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Black_Box_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 183
+    "id": 183,
+    "rating": 4.7
   },
   {
     "title": "Hubie Halloween",
@@ -3930,7 +4114,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4b/Hubie_Halloween_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 184
+    "id": 184,
+    "rating": 3.2
   },
   {
     "title": "Books of Blood",
@@ -3949,7 +4134,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/Books_of_blood_xlg.jpg",
     "thumbnail_width": 254,
     "thumbnail_height": 392,
-    "id": 185
+    "id": 185,
+    "rating": 5.3
   },
   {
     "title": "Charm City Kings",
@@ -3968,7 +4154,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d5/Charm_City_Kings_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 186
+    "id": 186,
+    "rating": 6.7
   },
   {
     "title": "The War with Grandpa",
@@ -3991,7 +4178,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/The_War_with_Grandpa.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 316,
-    "id": 187
+    "id": 187,
+    "rating": 3.6
   },
   {
     "title": "A Rainy Day in New York",
@@ -4013,7 +4201,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f2/A_Rainy_Day_in_New_York_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 188
+    "id": 188,
+    "rating": 6.4
   },
   {
     "title": "Yellow Rose",
@@ -4033,7 +4222,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d3/Yellow_Rose_Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 362,
-    "id": 189
+    "id": 189,
+    "rating": 9.8
   },
   {
     "title": "The 40-Year-Old Version",
@@ -4053,7 +4243,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_40_Year_Old_Version.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 190
+    "id": 190,
+    "rating": 2.1
   },
   {
     "title": "Nocturne",
@@ -4073,7 +4264,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Nocturne_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 191
+    "id": 191,
+    "rating": 4.6
   },
   {
     "title": "Evil Eye",
@@ -4093,7 +4285,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fa/Evil_Eye_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 192
+    "id": 192,
+    "rating": 9.2
   },
   {
     "title": "A Babysitter's Guide to Monster Hunting",
@@ -4113,7 +4306,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2c/A_Babysitter%27s_Guide_to_Monster_Hunting.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 193
+    "id": 193,
+    "rating": 8.6
   },
   {
     "title": "Love and Monsters",
@@ -4133,7 +4327,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/LoveAndMonstersPoster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 194
+    "id": 194,
+    "rating": 2.2
   },
   {
     "title": "Honest Thief",
@@ -4155,7 +4350,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Honest_Thief_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 195
+    "id": 195,
+    "rating": 4.5
   },
   {
     "title": "Clouds",
@@ -4180,7 +4376,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Clouds_2020_film_poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 196
+    "id": 196,
+    "rating": 0.1
   },
   {
     "title": "The Devil Has a Name",
@@ -4203,7 +4400,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/85/The_Devil_Has_a_Name.png",
     "thumbnail_width": 220,
     "thumbnail_height": 323,
-    "id": 197
+    "id": 197,
+    "rating": 1.5
   },
   {
     "title": "The Kid Detective",
@@ -4225,7 +4423,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d3/The_Kid_Detective%2C_USA_film_poster%2C_2020.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 198
+    "id": 198,
+    "rating": 4.9
   },
   {
     "title": "Alone",
@@ -4244,7 +4443,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/Alone_ii_xlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 199
+    "id": 199,
+    "rating": 3
   },
   {
     "title": "2 Hearts",
@@ -4264,7 +4464,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/42/Two_hearts_xlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 200
+    "id": 200,
+    "rating": 6.8
   },
   {
     "title": "The Opening Act",
@@ -4282,7 +4483,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/85/The_Opening_Act_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 201
+    "id": 201,
+    "rating": 5.3
   },
   {
     "title": "Tremors: Shrieker Island",
@@ -4299,7 +4501,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tremors_Shrieker_Island_Poster.png",
     "thumbnail_width": 270,
     "thumbnail_height": 369,
-    "id": 202
+    "id": 202,
+    "rating": 2.1
   },
   {
     "title": "The Witches",
@@ -4322,7 +4525,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a7/The_Witches_%28Official_2020_Film_Poster%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 203
+    "id": 203,
+    "rating": 3.4
   },
   {
     "title": "Over the Moon",
@@ -4346,7 +4550,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Over_the_Moon_%282020%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 204
+    "id": 204,
+    "rating": 8.6
   },
   {
     "title": "Borat Subsequent Moviefilm",
@@ -4364,7 +4569,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/Borat_2_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 205
+    "id": 205,
+    "rating": 3.8
   },
   {
     "title": "After We Collided",
@@ -4389,7 +4595,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/After_We_Collided_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 206
+    "id": 206,
+    "rating": 6.4
   },
   {
     "title": "The Empty Man",
@@ -4412,7 +4619,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/The_Empty_Man_Film_Poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 207
+    "id": 207,
+    "rating": 1.8
   },
   {
     "title": "Synchronic",
@@ -4430,7 +4638,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f5/Synchronic_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 208
+    "id": 208,
+    "rating": 4.3
   },
   {
     "title": "Bad Hair",
@@ -4452,7 +4661,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/19/Bad_Hair_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 209
+    "id": 209,
+    "rating": 3.1
   },
   {
     "title": "Friendsgiving",
@@ -4473,7 +4683,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/40/Friendsgiving_poster.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 376,
-    "id": 210
+    "id": 210,
+    "rating": 3.8
   },
   {
     "title": "The Craft: Legacy",
@@ -4495,7 +4706,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Craft_-_Legacy.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 211
+    "id": 211,
+    "rating": 0.1
   },
   {
     "title": "Holidate",
@@ -4514,7 +4726,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/01/Holidate_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 212
+    "id": 212,
+    "rating": 5.7
   },
   {
     "title": "Come Play",
@@ -4535,7 +4748,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0f/Come_Play_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 213
+    "id": 213,
+    "rating": 2.8
   },
   {
     "title": "His House",
@@ -4555,7 +4769,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/His_House_film_poster.png/320px-His_House_film_poster.png",
     "thumbnail_width": 320,
     "thumbnail_height": 237,
-    "id": 214
+    "id": 214,
+    "rating": 0.7
   },
   {
     "title": "Spell",
@@ -4574,7 +4789,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b9/Spell.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 215
+    "id": 215,
+    "rating": 3.7
   },
   {
     "title": "Jungleland",
@@ -4594,7 +4810,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/67/Jungleland_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 216
+    "id": 216,
+    "rating": 1
   },
   {
     "title": "Let Him Go",
@@ -4614,7 +4831,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/Let_Him_Go_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 217
+    "id": 217,
+    "rating": 6.5
   },
   {
     "title": "The Informer",
@@ -4635,7 +4853,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/The_Informer_poster_2020.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 218
+    "id": 218,
+    "rating": 3.7
   },
   {
     "title": "The Dark and the Wicked",
@@ -4654,7 +4873,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Dark_and_the_Wicked.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 219
+    "id": 219,
+    "rating": 7
   },
   {
     "title": "Hillbilly Elegy",
@@ -4677,7 +4897,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/40/Hillbilly_Elegy_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 220
+    "id": 220,
+    "rating": 5.3
   },
   {
     "title": "Mank",
@@ -4707,7 +4928,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f8/Mank.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 221
+    "id": 221,
+    "rating": 5.4
   },
   {
     "title": "Freaky",
@@ -4729,7 +4951,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6c/Freaky_%28film%29_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 222
+    "id": 222,
+    "rating": 4.4
   },
   {
     "title": "Jingle Jangle: A Christmas Journey",
@@ -4752,7 +4975,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/Jingle_Jangle_A_Christmas_Journey_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 223
+    "id": 223,
+    "rating": 3.5
   },
   {
     "title": "Dreamland",
@@ -4775,7 +4999,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/Dreamland_poster_2019.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 344,
-    "id": 224
+    "id": 224,
+    "rating": 9.9
   },
   {
     "title": "Fatman",
@@ -4794,7 +5019,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/Fatman_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 225
+    "id": 225,
+    "rating": 5.8
   },
   {
     "title": "The Life Ahead",
@@ -4814,7 +5040,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/The_Life_Ahead_poster.webp/259px-The_Life_Ahead_poster.webp.png",
     "thumbnail_width": 320,
     "thumbnail_height": 474,
-    "id": 226
+    "id": 226,
+    "rating": 9.3
   },
   {
     "title": "The Climb",
@@ -4836,7 +5063,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Climb_%282019_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 227
+    "id": 227,
+    "rating": 2.8
   },
   {
     "title": "Chick Fight",
@@ -4856,7 +5084,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e1/Chick_Fight_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 228
+    "id": 228,
+    "rating": 3.1
   },
   {
     "title": "The Princess Switch: Switched Again",
@@ -4875,7 +5104,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b9/The_Princess_Switch_Switched_Again.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 229
+    "id": 229,
+    "rating": 5
   },
   {
     "title": "Run",
@@ -4895,7 +5125,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/Run_poster.jpeg",
     "thumbnail_width": 254,
     "thumbnail_height": 392,
-    "id": 230
+    "id": 230,
+    "rating": 8
   },
   {
     "title": "Sound of Metal",
@@ -4915,7 +5146,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/Sound_of_Metal_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 231
+    "id": 231,
+    "rating": 8.5
   },
   {
     "title": "The Last Vermeer",
@@ -4933,7 +5165,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/The_Last_Vermeer.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 232
+    "id": 232,
+    "rating": 9.5
   },
   {
     "title": "Jiu Jitsu",
@@ -4954,7 +5187,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/36/Jiu_Jitsu_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 233
+    "id": 233,
+    "rating": 4.8
   },
   {
     "title": "Buddy Games",
@@ -4972,7 +5206,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/95/The_Buddy_Games_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 234
+    "id": 234,
+    "rating": 2
   },
   {
     "title": "The Croods: A New Age",
@@ -4998,7 +5233,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/91/The_Croods_-_A_New_Age.png",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 235
+    "id": 235,
+    "rating": 6.1
   },
   {
     "title": "Happiest Season",
@@ -5023,7 +5259,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/Happiest_Season_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 236
+    "id": 236,
+    "rating": 3.2
   },
   {
     "title": "Ma Rainey's Black Bottom",
@@ -5047,7 +5284,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Ma_Rainey%27s_Black_Bottom_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 237
+    "id": 237,
+    "rating": 7
   },
   {
     "title": "The Christmas Chronicles 2",
@@ -5071,7 +5309,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ef/The_Christmas_Chronicles_2.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 238
+    "id": 238,
+    "rating": 9.5
   },
   {
     "title": "Uncle Frank",
@@ -5095,7 +5334,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d5/Uncle_Frank_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 239
+    "id": 239,
+    "rating": 5.3
   },
   {
     "title": "Folklore: The Long Pond Studio Sessions",
@@ -5115,7 +5355,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b5/Folklore_The_Long_Pond_Studio_Sessions_Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 362,
-    "id": 240
+    "id": 240,
+    "rating": 4.5
   },
   {
     "title": "Superintelligence",
@@ -5137,7 +5378,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e5/Superintelligence_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 241
+    "id": 241,
+    "rating": 0.2
   },
   {
     "title": "Life in a Year",
@@ -5157,7 +5399,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/Life_in_a_Year_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 242
+    "id": 242,
+    "rating": 1.1
   },
   {
     "title": "Black Beauty",
@@ -5179,7 +5422,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cc/Black_Beauty_Disney%2B_Poster.jpeg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 243
+    "id": 243,
+    "rating": 3.8
   },
   {
     "title": "The Prom",
@@ -5203,7 +5447,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/The_Prom_%28film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 244
+    "id": 244,
+    "rating": 3.2
   },
   {
     "title": "All My Life",
@@ -5226,7 +5471,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/08/All_My_Life%2C_2020_film%2C_official_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 245
+    "id": 245,
+    "rating": 0.4
   },
   {
     "title": "Godmothered",
@@ -5246,7 +5492,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/Godmothered.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 246
+    "id": 246,
+    "rating": 9.1
   },
   {
     "title": "Half Brothers",
@@ -5263,7 +5510,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/Half_Brothers_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 247
+    "id": 247,
+    "rating": 5.7
   },
   {
     "title": "Wander",
@@ -5283,7 +5531,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/Wander_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 248
+    "id": 248,
+    "rating": 9
   },
   {
     "title": "Black Bear",
@@ -5303,7 +5552,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/65/Black_Bear_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 318,
-    "id": 249
+    "id": 249,
+    "rating": 0.1
   },
   {
     "title": "Let Them All Talk",
@@ -5324,7 +5574,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/Let_Them_All_Talk_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 250
+    "id": 250,
+    "rating": 8
   },
   {
     "title": "The Midnight Sky",
@@ -5346,7 +5597,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Midnight_Sky_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 251
+    "id": 251,
+    "rating": 9.8
   },
   {
     "title": "Songbird",
@@ -5370,7 +5622,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Songbird_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 252
+    "id": 252,
+    "rating": 1.4
   },
   {
     "title": "Wild Mountain Thyme",
@@ -5392,7 +5645,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cb/Wild_Mountain_Thyme_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 253
+    "id": 253,
+    "rating": 8
   },
   {
     "title": "Safety",
@@ -5415,7 +5669,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c1/Disney_Safety_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 254
+    "id": 254,
+    "rating": 7.2
   },
   {
     "title": "Wander Darkly",
@@ -5436,7 +5691,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9e/Wander_Darkly.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 255
+    "id": 255,
+    "rating": 7
   },
   {
     "title": "I'm Your Woman",
@@ -5457,7 +5713,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f7/I%27m_Your_Woman_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 256
+    "id": 256,
+    "rating": 0.2
   },
   {
     "title": "The Stand In",
@@ -5477,7 +5734,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/The_Stand-In.jpg",
     "thumbnail_width": 267,
     "thumbnail_height": 373,
-    "id": 257
+    "id": 257,
+    "rating": 3.6
   },
   {
     "title": "Archenemy",
@@ -5501,7 +5759,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/Archenemy_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 258
+    "id": 258,
+    "rating": 4.6
   },
   {
     "title": "Farewell Amor",
@@ -5520,7 +5779,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/Farewell_amor.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 259
+    "id": 259,
+    "rating": 0.1
   },
   {
     "title": "Monster Hunter",
@@ -5541,7 +5801,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ec/Monster_Hunter_Film_Poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 260
+    "id": 260,
+    "rating": 3.5
   },
   {
     "title": "Greenland",
@@ -5566,7 +5827,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2a/Greenland_%28film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 261
+    "id": 261,
+    "rating": 2.9
   },
   {
     "title": "Fatale",
@@ -5586,7 +5848,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Fatale_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 262
+    "id": 262,
+    "rating": 3.4
   },
   {
     "title": "Skylines",
@@ -5608,7 +5871,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9f/Skylines_%28film%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 263
+    "id": 263,
+    "rating": 10
   },
   {
     "title": "Hunter Hunter",
@@ -5628,7 +5892,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/Hunter-hunter-movie-poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 264
+    "id": 264,
+    "rating": 1.8
   },
   {
     "title": "Breach",
@@ -5648,7 +5913,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e6/Breach_%282020_film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 265
+    "id": 265,
+    "rating": 6
   },
   {
     "title": "Ariana Grande: Excuse Me, I Love You",
@@ -5664,7 +5930,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ariana_Grande_Excuse_Me%2C_I_Love_You.jpg",
     "thumbnail_width": 283,
     "thumbnail_height": 354,
-    "id": 266
+    "id": 266,
+    "rating": 9.5
   },
   {
     "title": "Sylvie's Love",
@@ -5685,7 +5952,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/Sylvie%27s_Love.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 267
+    "id": 267,
+    "rating": 3.5
   },
   {
     "title": "Wonder Woman 1984",
@@ -5706,7 +5974,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4f/Wonder_Woman_1984_poster.png",
     "thumbnail_width": 256,
     "thumbnail_height": 379,
-    "id": 268
+    "id": 268,
+    "rating": 5.3
   },
   {
     "title": "Soul",
@@ -5737,7 +6006,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 269
+    "id": 269,
+    "rating": 7.6
   },
   {
     "title": "We Can Be Heroes",
@@ -5761,7 +6031,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8b/We_Can_Be_Heroes_2020_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 270
+    "id": 270,
+    "rating": 1
   },
   {
     "title": "News of the World",
@@ -5778,7 +6049,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/94/News_of_the_World_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 271
+    "id": 271,
+    "rating": 4.3
   },
   {
     "title": "One Night in Miami...",
@@ -5803,7 +6075,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/One_Night_in_Miami_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 272
+    "id": 272,
+    "rating": 7
   },
   {
     "title": "Promising Young Woman",
@@ -5825,7 +6098,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/Promising_Young_Woman_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 273
+    "id": 273,
+    "rating": 9
   },
   {
     "title": "Pieces of a Woman",
@@ -5848,7 +6122,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Pieces_of_a_Woman.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 274
+    "id": 274,
+    "rating": 4
   },
   {
     "title": "Shadow in the Cloud",
@@ -5869,7 +6144,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0e/Shadow_in_the_Cloud.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 275
+    "id": 275,
+    "rating": 4.9
   },
   {
     "title": "The White Tiger",
@@ -5887,7 +6163,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/The_White_Tiger_film_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 276
+    "id": 276,
+    "rating": 3.4
   },
   {
     "title": "Locked Down",
@@ -5915,7 +6192,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/Locked_Down_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 277
+    "id": 277,
+    "rating": 6.7
   },
   {
     "title": "The Dig",
@@ -5938,7 +6216,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/97/The_Dig_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 278
+    "id": 278,
+    "rating": 8.4
   },
   {
     "title": "Outside the Wire",
@@ -5959,7 +6238,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/OutsideTheWire.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 378,
-    "id": 279
+    "id": 279,
+    "rating": 6.1
   },
   {
     "title": "The Marksman",
@@ -5979,7 +6259,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/35/TheMarksmanPoster.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 378,
-    "id": 280
+    "id": 280,
+    "rating": 8.4
   },
   {
     "title": "The Ultimate Playlist of Noise",
@@ -6001,7 +6282,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b1/The_Ultimate_Playlist_of_Noise_poster.jpeg",
     "thumbnail_width": 184,
     "thumbnail_height": 273,
-    "id": 281
+    "id": 281,
+    "rating": 3.4
   },
   {
     "title": "American Skin",
@@ -6022,7 +6304,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a3/American_Skin.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 282
+    "id": 282,
+    "rating": 3.5
   },
   {
     "title": "Don't Tell a Soul",
@@ -6041,7 +6324,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/94/DontTellASoul.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 283
+    "id": 283,
+    "rating": 0.9
   },
   {
     "title": "Our Friend",
@@ -6062,7 +6346,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c7/Our_Friend_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 284
+    "id": 284,
+    "rating": 0.5
   },
   {
     "title": "No Man's Land",
@@ -6082,7 +6367,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/93/No_mans_land.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 285
+    "id": 285,
+    "rating": 5.1
   },
   {
     "title": "Born a Champion",
@@ -6101,7 +6387,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/64/Born_a_champion.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 286
+    "id": 286,
+    "rating": 0.1
   },
   {
     "title": "Wrong Turn",
@@ -6123,7 +6410,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/WrongTurn2021poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 287
+    "id": 287,
+    "rating": 8.7
   },
   {
     "title": "Penguin Bloom",
@@ -6142,7 +6430,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bc/Penguin_Bloom_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 314,
-    "id": 288
+    "id": 288,
+    "rating": 6.8
   },
   {
     "title": "The Little Things",
@@ -6166,7 +6455,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/The_Little_Things_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 289
+    "id": 289,
+    "rating": 1.8
   },
   {
     "title": "Finding ʻOhana",
@@ -6190,7 +6480,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/32/Finding_%27Ohana_%282021%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 290
+    "id": 290,
+    "rating": 4.6
   },
   {
     "title": "Nomadland",
@@ -6210,7 +6501,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a5/Nomadland_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 291
+    "id": 291,
+    "rating": 4.9
   },
   {
     "title": "Malcolm & Marie",
@@ -6228,7 +6520,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Malcolm_and_Marie_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 292
+    "id": 292,
+    "rating": 8.5
   },
   {
     "title": "Palmer",
@@ -6248,7 +6541,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/Palmer_%28Official_Film_Poster%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 293
+    "id": 293,
+    "rating": 5.7
   },
   {
     "title": "Falling",
@@ -6269,7 +6563,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f2/Falling_%282020%29_film_poster.jpeg",
     "thumbnail_width": 230,
     "thumbnail_height": 341,
-    "id": 294
+    "id": 294,
+    "rating": 2.3
   },
   {
     "title": "Bliss",
@@ -6286,7 +6581,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Bliss_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 295
+    "id": 295,
+    "rating": 3.9
   },
   {
     "title": "Little Fish",
@@ -6307,7 +6603,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/Little_Fish_2021_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 296
+    "id": 296,
+    "rating": 0.6
   },
   {
     "title": "Son of the South",
@@ -6328,7 +6625,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ce/SonoftheSouth2020.png",
     "thumbnail_width": 254,
     "thumbnail_height": 377,
-    "id": 297
+    "id": 297,
+    "rating": 8.2
   },
   {
     "title": "PVT Chat",
@@ -6348,7 +6646,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/Pvt_chat.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 298
+    "id": 298,
+    "rating": 8.1
   },
   {
     "title": "Music",
@@ -6367,7 +6666,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/Music_%282021_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 299
+    "id": 299,
+    "rating": 1.4
   },
   {
     "title": "Judas and the Black Messiah",
@@ -6394,7 +6694,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/Judas_and_the_Black_Messiah_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 300
+    "id": 300,
+    "rating": 3.4
   },
   {
     "title": "The Mauritanian",
@@ -6415,7 +6716,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/53/The_Mauritanian_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 301
+    "id": 301,
+    "rating": 7.1
   },
   {
     "title": "Breaking News in Yuba County",
@@ -6439,7 +6741,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Breaking_News_in_Yuba_County.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 302
+    "id": 302,
+    "rating": 5.1
   },
   {
     "title": "Barb and Star Go to Vista Del Mar",
@@ -6458,7 +6761,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/05/Barb_and_Star_Go_to_Vista_Del_Mar.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 303
+    "id": 303,
+    "rating": 6.7
   },
   {
     "title": "Minari",
@@ -6480,7 +6784,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8a/Minari_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 304
+    "id": 304,
+    "rating": 2.3
   },
   {
     "title": "To All the Boys: Always and Forever",
@@ -6503,7 +6808,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d0/To_all_the_boys_always_and_forever.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 305
+    "id": 305,
+    "rating": 6.7
   },
   {
     "title": "The World to Come",
@@ -6522,7 +6828,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/The_World_to_Come_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 306
+    "id": 306,
+    "rating": 7.2
   },
   {
     "title": "French Exit",
@@ -6543,7 +6850,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/French_Exit_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 307
+    "id": 307,
+    "rating": 9.9
   },
   {
     "title": "Land",
@@ -6561,7 +6869,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/LandFilmPoster.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 378,
-    "id": 308
+    "id": 308,
+    "rating": 2.1
   },
   {
     "title": "Willy's Wonderland",
@@ -6582,7 +6891,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e0/Willys_wonderland.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 309
+    "id": 309,
+    "rating": 8.4
   },
   {
     "title": "The Map of Tiny Perfect Things",
@@ -6602,7 +6912,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/The_Map_of_Tiny_Perfect_Things_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 310
+    "id": 310,
+    "rating": 9
   },
   {
     "title": "Fear of Rain",
@@ -6621,7 +6932,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Fear_of_Rain_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 311
+    "id": 311,
+    "rating": 6.8
   },
   {
     "title": "I Care a Lot",
@@ -6643,7 +6955,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/I_Care_A_Lot_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 312
+    "id": 312,
+    "rating": 4.1
   },
   {
     "title": "Flora & Ulysses",
@@ -6668,7 +6981,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Flora_and_Ulysses_Poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 313
+    "id": 313,
+    "rating": 7
   },
   {
     "title": "Silk Road",
@@ -6694,7 +7008,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/81/Silk_Road_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 314
+    "id": 314,
+    "rating": 5.9
   },
   {
     "title": "Tom & Jerry",
@@ -6722,7 +7037,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Tom_%26_Jerry_%28Official_2021_Film_Poster%29.png",
     "thumbnail_width": 256,
     "thumbnail_height": 384,
-    "id": 315
+    "id": 315,
+    "rating": 0.4
   },
   {
     "title": "The United States vs. Billie Holiday",
@@ -6749,7 +7065,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/The_United_States_vs_Billie_Holliday.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 316
+    "id": 316,
+    "rating": 7.1
   },
   {
     "title": "Cherry",
@@ -6770,7 +7087,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 317
+    "id": 317,
+    "rating": 1.6
   },
   {
     "title": "Crisis",
@@ -6795,7 +7113,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/30/Crisis_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 318
+    "id": 318,
+    "rating": 0.7
   },
   {
     "title": "Billie Eilish: The World's a Little Blurry",
@@ -6814,7 +7133,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d9/Billie_Eilish_-_The_World%27s_a_Little_Blurry.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 319
+    "id": 319,
+    "rating": 3.9
   },
   {
     "title": "The Vigil",
@@ -6835,7 +7155,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/The_Vigil_%282019%29_international_release_poster.jpg",
     "thumbnail_width": 245,
     "thumbnail_height": 327,
-    "id": 320
+    "id": 320,
+    "rating": 4
   },
   {
     "title": "Moxie",
@@ -6861,7 +7182,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f1/Moxie_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 321
+    "id": 321,
+    "rating": 6.4
   },
   {
     "title": "Coming 2 America",
@@ -6887,7 +7209,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Coming_2_America_release_poster.jpg",
     "thumbnail_width": 270,
     "thumbnail_height": 338,
-    "id": 322
+    "id": 322,
+    "rating": 2.3
   },
   {
     "title": "The SpongeBob Movie: Sponge on the Run",
@@ -6917,7 +7240,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_SpongeBob_Movie_-_Sponge_on_the_Run.png",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 323
+    "id": 323,
+    "rating": 8.6
   },
   {
     "title": "Raya and the Last Dragon",
@@ -6945,7 +7269,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ea/Raya_and_the_Last_Dragon.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 324
+    "id": 324,
+    "rating": 5.4
   },
   {
     "title": "Chaos Walking",
@@ -6971,7 +7296,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/63/Chaos_Walking_%28film%29.png",
     "thumbnail_width": 220,
     "thumbnail_height": 339,
-    "id": 325
+    "id": 325,
+    "rating": 6.4
   },
   {
     "title": "Boss Level",
@@ -6996,7 +7322,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/Boss_Level_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 326
+    "id": 326,
+    "rating": 0.6
   },
   {
     "title": "Boogie",
@@ -7016,7 +7343,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d3/Boogie_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 327
+    "id": 327,
+    "rating": 5.3
   },
   {
     "title": "Yes Day",
@@ -7035,7 +7363,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Yes_Day_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 328
+    "id": 328,
+    "rating": 6.5
   },
   {
     "title": "Long Weekend",
@@ -7057,7 +7386,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3c/Long_Weekend_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 329
+    "id": 329,
+    "rating": 8.6
   },
   {
     "title": "Cosmic Sin",
@@ -7077,7 +7407,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/Cosmic_sin.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 330
+    "id": 330,
+    "rating": 9.1
   },
   {
     "title": "Trust",
@@ -7100,7 +7431,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Trust_2021_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 331
+    "id": 331,
+    "rating": 9.4
   },
   {
     "title": "Zack Snyder's Justice League",
@@ -7129,7 +7461,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Zack_Snyder%27s_Justice_League.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 332
+    "id": 332,
+    "rating": 3.9
   },
   {
     "title": "The Courier",
@@ -7150,7 +7483,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/The_Courier_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 333
+    "id": 333,
+    "rating": 9.4
   },
   {
     "title": "City of Lies",
@@ -7168,7 +7502,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/42/City_of_Lies_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 334
+    "id": 334,
+    "rating": 9.5
   },
   {
     "title": "Happily",
@@ -7187,7 +7522,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/aa/Happily_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 335
+    "id": 335,
+    "rating": 8.6
   },
   {
     "title": "Nobody",
@@ -7210,7 +7546,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c7/Nobody_2021_Film_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 336
+    "id": 336,
+    "rating": 3.5
   },
   {
     "title": "Bad Trip",
@@ -7228,7 +7565,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/68/Bad_Trip_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 337
+    "id": 337,
+    "rating": 9.2
   },
   {
     "title": "The Seventh Day",
@@ -7248,7 +7586,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/The_Seventh_Day_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 338
+    "id": 338,
+    "rating": 0.4
   },
   {
     "title": "Senior Moment",
@@ -7268,7 +7607,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/Senior_Moment_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 339
+    "id": 339,
+    "rating": 5.2
   },
   {
     "title": "Godzilla vs. Kong",
@@ -7291,7 +7631,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/63/Godzilla_vs._Kong.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 340
+    "id": 340,
+    "rating": 3.9
   },
   {
     "title": "Concrete Cowboy",
@@ -7312,7 +7653,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/69/Concrete_cowboy.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 341
+    "id": 341,
+    "rating": 5.7
   },
   {
     "title": "The Unholy",
@@ -7334,7 +7676,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b2/The_Unholy_2021_Film_Poster.png",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 342
+    "id": 342,
+    "rating": 6.1
   },
   {
     "title": "Every Breath You Take",
@@ -7354,7 +7697,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Every_Breath_You_Take.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 343
+    "id": 343,
+    "rating": 6.4
   },
   {
     "title": "Shiva Baby",
@@ -7375,7 +7719,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/38/Shiva_Baby_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 344
+    "id": 344,
+    "rating": 6.5
   },
   {
     "title": "The Girl Who Believes in Miracles",
@@ -7394,7 +7739,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4b/Girl_who_believes_in_miracles.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 345
+    "id": 345,
+    "rating": 5.1
   },
   {
     "title": "The Believer",
@@ -7415,7 +7761,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/Believer.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 346
+    "id": 346,
+    "rating": 8.7
   },
   {
     "title": "Dawn of the Beast",
@@ -7435,7 +7782,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/74/Dawn_of_the_Beast.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 347
+    "id": 347,
+    "rating": 3.2
   },
   {
     "title": "Voyagers",
@@ -7459,7 +7807,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/32/Voyagers.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 348
+    "id": 348,
+    "rating": 0.4
   },
   {
     "title": "Thunder Force",
@@ -7482,7 +7831,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2b/Thunder_Force_2021_movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 349
+    "id": 349,
+    "rating": 8.9
   },
   {
     "title": "Arlo the Alligator Boy",
@@ -7509,7 +7859,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/10/Arlo_the_Alligator_Boy_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 363,
-    "id": 350
+    "id": 350,
+    "rating": 0.9
   },
   {
     "title": "Monday",
@@ -7528,7 +7879,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/aa/Monday_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 351
+    "id": 351,
+    "rating": 9.8
   },
   {
     "title": "In the Earth",
@@ -7550,7 +7902,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/In_the_Earth_movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 352
+    "id": 352,
+    "rating": 7.5
   },
   {
     "title": "Stowaway",
@@ -7571,7 +7924,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/Stowaway_2021_Film_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 353
+    "id": 353,
+    "rating": 8.8
   },
   {
     "title": "Mortal Kombat",
@@ -7596,7 +7950,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Mortal_Kombat_%282021_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 354
+    "id": 354,
+    "rating": 8.9
   },
   {
     "title": "The Mitchells vs. the Machines",
@@ -7625,7 +7980,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/41/MitchellsMachinesPoster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 355
+    "id": 355,
+    "rating": 5
   },
   {
     "title": "Vanquish",
@@ -7643,7 +7999,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f5/VanquishPoster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 356
+    "id": 356,
+    "rating": 5.2
   },
   {
     "title": "Together Together",
@@ -7661,7 +8018,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b0/Together_Together_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 322,
-    "id": 357
+    "id": 357,
+    "rating": 4.6
   },
   {
     "title": "We Broke Up",
@@ -7678,7 +8036,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1b/We_broke_up.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 358
+    "id": 358,
+    "rating": 1.3
   },
   {
     "title": "The Deep Ones",
@@ -7700,7 +8059,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b1/The_Deep_Ones.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 359
+    "id": 359,
+    "rating": 2.6
   },
   {
     "title": "Things Heard & Seen",
@@ -7719,7 +8079,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Things_Heard_and_Seen_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 360
+    "id": 360,
+    "rating": 7
   },
   {
     "title": "Without Remorse",
@@ -7744,7 +8105,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f7/Without_Remorse_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 361
+    "id": 361,
+    "rating": 7.6
   },
   {
     "title": "The Virtuoso",
@@ -7766,7 +8128,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6f/The_Virtuoso_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 362
+    "id": 362,
+    "rating": 9
   },
   {
     "title": "Four Good Days",
@@ -7784,7 +8147,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c8/Four_Good_Days_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 363
+    "id": 363,
+    "rating": 0.1
   },
   {
     "title": "Separation",
@@ -7804,7 +8168,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5e/Separation_2021_Film_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 364
+    "id": 364,
+    "rating": 4
   },
   {
     "title": "The Resort",
@@ -7824,7 +8189,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Resort_2021.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 365
+    "id": 365,
+    "rating": 2.2
   },
   {
     "title": "Wrath of Man",
@@ -7850,7 +8216,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/af/Wrath-of-man.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 366
+    "id": 366,
+    "rating": 3.4
   },
   {
     "title": "Monster",
@@ -7875,7 +8242,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b3/Monster_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 367
+    "id": 367,
+    "rating": 0.1
   },
   {
     "title": "The Paper Tigers",
@@ -7895,7 +8263,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/32/The_Paper_Tigers_%28poster%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 368
+    "id": 368,
+    "rating": 5.2
   },
   {
     "title": "Mainstream",
@@ -7916,7 +8285,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/Mainstream_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 369
+    "id": 369,
+    "rating": 8.7
   },
   {
     "title": "The Water Man",
@@ -7937,7 +8307,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Water_Man_film_poster.png",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 370
+    "id": 370,
+    "rating": 3.4
   },
   {
     "title": "Here Today",
@@ -7958,7 +8329,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/66/Here_Today_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 371
+    "id": 371,
+    "rating": 9.3
   },
   {
     "title": "Above Suspicion",
@@ -7978,7 +8350,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/51/Above_Suspicion_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 372
+    "id": 372,
+    "rating": 0.5
   },
   {
     "title": "Reboot Camp",
@@ -7996,7 +8369,8 @@ const movies = [
     ],
     "href": "Reboot_Camp",
     "extract": "Reboot Camp is an American satirical comedy film written and directed by Ivo Raza. It premiered at the 2020 Austin Film Festival where it won the Comedy Vanguard Audience Award for best comedy film. It also won best narrative feature award at the 2020 Maui Film Festival and best comedy at the 2021 Garden State Film Festival and best comedy at CINEQUEST 2021. The film features an ensemble cast including David Lipper, Lindsey Shaw, Keli Price, Ja Rule, Chaz Bono, David Koechner, Eric Roberts, Maya Stojan, Shar Jackson and Ed Begley Jr.",
-    "id": 373
+    "id": 373,
+    "rating": 6.2
   },
   {
     "title": "Benny Loves You",
@@ -8018,7 +8392,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/67/Benny_Loves_You.jpeg",
     "thumbnail_width": 264,
     "thumbnail_height": 377,
-    "id": 374
+    "id": 374,
+    "rating": 5.4
   },
   {
     "title": "Oxygen",
@@ -8037,7 +8412,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Oxygen_2021_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 375
+    "id": 375,
+    "rating": 1.8
   },
   {
     "title": "Army of the Dead",
@@ -8065,7 +8441,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/Army_of_the_Dead_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 376
+    "id": 376,
+    "rating": 1.3
   },
   {
     "title": "Those Who Wish Me Dead",
@@ -8088,7 +8465,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3d/Those_Who_Wish_Me_Dead.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 377
+    "id": 377,
+    "rating": 10
   },
   {
     "title": "The Woman in the Window",
@@ -8111,7 +8489,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/The_Woman_in_the_Window.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 378
+    "id": 378,
+    "rating": 6
   },
   {
     "title": "Spiral",
@@ -8130,7 +8509,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/Spiral_Official_Poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 379
+    "id": 379,
+    "rating": 5.7
   },
   {
     "title": "Georgetown",
@@ -8150,7 +8530,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/35/Georgetown_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 380
+    "id": 380,
+    "rating": 8.8
   },
   {
     "title": "Finding You",
@@ -8175,7 +8556,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/84/Finding_you.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 381
+    "id": 381,
+    "rating": 2.5
   },
   {
     "title": "The Killing of Two Lovers",
@@ -8196,7 +8578,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ec/The_Killing_of_Two_Lovers.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 325,
-    "id": 382
+    "id": 382,
+    "rating": 9.5
   },
   {
     "title": "616 Wilford Lane",
@@ -8216,7 +8599,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6f/616_Wilford_Lane.jpeg",
     "thumbnail_width": 267,
     "thumbnail_height": 373,
-    "id": 383
+    "id": 383,
+    "rating": 0.5
   },
   {
     "title": "Dream Horse",
@@ -8242,7 +8626,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7e/Dream_Horse_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 384
+    "id": 384,
+    "rating": 4.3
   },
   {
     "title": "Blast Beat",
@@ -8265,7 +8650,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/15/Blast_beat.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 385
+    "id": 385,
+    "rating": 2.8
   },
   {
     "title": "A Quiet Place Part II",
@@ -8286,7 +8672,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/A_Quiet_Place_Part_II.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 376,
-    "id": 386
+    "id": 386,
+    "rating": 1.9
   },
   {
     "title": "Cruella",
@@ -8309,7 +8696,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f6/Cruella_2021_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 387
+    "id": 387,
+    "rating": 3.3
   },
   {
     "title": "Plan B",
@@ -8326,7 +8714,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/Plan_B_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 388
+    "id": 388,
+    "rating": 5.5
   },
   {
     "title": "Changing the Game",
@@ -8339,7 +8728,8 @@ const movies = [
       "Andraya Yearwood"
     ],
     "genres": [],
-    "id": 389
+    "id": 389,
+    "rating": 4.2
   },
   {
     "title": "Spirit Untamed",
@@ -8362,7 +8752,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5c/Spirit_untamed_xxlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 390
+    "id": 390,
+    "rating": 7.3
   },
   {
     "title": "The Conjuring: The Devil Made Me Do It",
@@ -8383,7 +8774,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/The_Conjuring_-_The_Devil_Made_Me_Do_It.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 391
+    "id": 391,
+    "rating": 1.2
   },
   {
     "title": "Gully",
@@ -8404,7 +8796,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/01/Gully_Poster_resized.jpg",
     "thumbnail_width": 228,
     "thumbnail_height": 285,
-    "id": 392
+    "id": 392,
+    "rating": 1.3
   },
   {
     "title": "Flashback",
@@ -8425,7 +8818,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ef/The-education-of-fredrick-fitzell-canadian-movie-poster-md.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 393
+    "id": 393,
+    "rating": 6.9
   },
   {
     "title": "Under the Stadium Lights",
@@ -8442,7 +8836,8 @@ const movies = [
     ],
     "href": "Under_the_Stadium_Lights",
     "extract": "Under the Stadium Lights is a 2021 sports drama film directed by Todd Randall and starring Milo Gibson and Laurence Fishburne. It is based on the nonfiction book Brother's Keeper by Al Pickett and Chad Mitchell. The film follows the players, coach, and team chaplain of a high school football team in Abilene, Texas.",
-    "id": 394
+    "id": 394,
+    "rating": 4.4
   },
   {
     "title": "Grace and Grit",
@@ -8456,7 +8851,8 @@ const movies = [
       "Nick Stahl"
     ],
     "genres": [],
-    "id": 395
+    "id": 395,
+    "rating": 1.1
   },
   {
     "title": "Awake",
@@ -8477,7 +8873,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/Awake_%282021_film%29_Official_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 396
+    "id": 396,
+    "rating": 9.9
   },
   {
     "title": "Infinite",
@@ -8500,7 +8897,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/07/Infinite_%282021_film%29_release_poster.jpeg",
     "thumbnail_width": 257,
     "thumbnail_height": 388,
-    "id": 397
+    "id": 397,
+    "rating": 6.5
   },
   {
     "title": "Peter Rabbit 2: The Runaway",
@@ -8523,7 +8921,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Peter_Rabbit_2_-_RT_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 398
+    "id": 398,
+    "rating": 2.5
   },
   {
     "title": "In the Heights",
@@ -8550,7 +8949,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6a/In_The_Heights_teaser_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 399
+    "id": 399,
+    "rating": 2.6
   },
   {
     "title": "Wish Dragon",
@@ -8577,7 +8977,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d7/Wish_Dragon.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 400
+    "id": 400,
+    "rating": 3
   },
   {
     "title": "The Misfits",
@@ -8599,7 +9000,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/MisfitsTeaserPoster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 362,
-    "id": 401
+    "id": 401,
+    "rating": 1.8
   },
   {
     "title": "12 Mighty Orphans",
@@ -8622,7 +9024,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/12_Mighty_Orphans_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 402
+    "id": 402,
+    "rating": 6.9
   },
   {
     "title": "The House Next Door: Meet the Blacks 2",
@@ -8649,7 +9052,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5a/Meet_the_Blacks_2_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 403
+    "id": 403,
+    "rating": 6.1
   },
   {
     "title": "Queen Bees",
@@ -8671,7 +9075,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/29/Queen_Bees_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 378,
-    "id": 404
+    "id": 404,
+    "rating": 8.3
   },
   {
     "title": "DOMINO: Battle of the Bones",
@@ -8683,7 +9088,8 @@ const movies = [
       "Carlito Olivero"
     ],
     "genres": [],
-    "id": 405
+    "id": 405,
+    "rating": 0.3
   },
   {
     "title": "Hitman's Wife's Bodyguard",
@@ -8706,7 +9112,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Hitman%27s_Wife%27s_Bodyguard_%282021_film%29_theatrical_release_poster.jpg",
     "thumbnail_width": 254,
     "thumbnail_height": 392,
-    "id": 406
+    "id": 406,
+    "rating": 8.7
   },
   {
     "title": "Luca",
@@ -8733,7 +9140,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/33/Luca_%282021_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 407
+    "id": 407,
+    "rating": 5.4
   },
   {
     "title": "Fatherhood",
@@ -8756,7 +9164,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f5/Fatherhood_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 408
+    "id": 408,
+    "rating": 7.4
   },
   {
     "title": "The Birthday Cake",
@@ -8778,7 +9187,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/28/Birthday_cake_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 409
+    "id": 409,
+    "rating": 7.7
   },
   {
     "title": "Rita Moreno: Just a Girl Who Decided to Go for It",
@@ -8806,7 +9216,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/Rita_Moreno_Just_a_Girl_Who_Decided_to_Go_for_It.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 410
+    "id": 410,
+    "rating": 8
   },
   {
     "title": "The Sparks Brothers",
@@ -8823,7 +9234,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/The_Sparks_Brothers_Sundance_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 411
+    "id": 411,
+    "rating": 4.3
   },
   {
     "title": "Truman & Tennessee: An Intimate Conversation",
@@ -8833,7 +9245,8 @@ const movies = [
       "Zachary Quinto"
     ],
     "genres": [],
-    "id": 412
+    "id": 412,
+    "rating": 0.8
   },
   {
     "title": "Stalker",
@@ -8847,7 +9260,8 @@ const movies = [
       "Scott Subiono"
     ],
     "genres": [],
-    "id": 413
+    "id": 413,
+    "rating": 9.3
   },
   {
     "title": "Love Spreads",
@@ -8865,7 +9279,8 @@ const movies = [
     ],
     "href": "Love_Spreads_(film)",
     "extract": "Love Spreads is a 2021 American-British comedy film written, directed, and produced by Jamie Adams. It stars Alia Shawkat, Eiza González, Chanel Cresswell, Nick Helm, Dolly Wells and Tara Lee.",
-    "id": 414
+    "id": 414,
+    "rating": 4.4
   },
   {
     "title": "A Crime on the Bayou",
@@ -8882,7 +9297,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/96/A_Crime_on_the_Bayou_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 415
+    "id": 415,
+    "rating": 0.5
   },
   {
     "title": "Good on Paper",
@@ -8902,7 +9318,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/Good_on_Paper_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 416
+    "id": 416,
+    "rating": 3.3
   },
   {
     "title": "F9",
@@ -8929,7 +9346,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2b/F9_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 417
+    "id": 417,
+    "rating": 6.3
   },
   {
     "title": "The Ice Road",
@@ -8954,7 +9372,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8f/TheIceRoad.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 418
+    "id": 418,
+    "rating": 6.3
   },
   {
     "title": "Werewolves Within",
@@ -8981,7 +9400,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/Werewolves_Within_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 419
+    "id": 419,
+    "rating": 2.9
   },
   {
     "title": "False Positive",
@@ -9001,7 +9421,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/42/False_Positive_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 420
+    "id": 420,
+    "rating": 1.4
   },
   {
     "title": "Lansky",
@@ -9024,7 +9445,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/Lansky_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 421
+    "id": 421,
+    "rating": 2
   },
   {
     "title": "I Carry You with Me",
@@ -9045,7 +9467,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f3/I_Carry_You_With_Me_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 422
+    "id": 422,
+    "rating": 9.7
   },
   {
     "title": "Mary J. Blige's My Life",
@@ -9064,7 +9487,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e9/Mary_J_Blige_My_Life.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 423
+    "id": 423,
+    "rating": 1.9
   },
   {
     "title": "Fathom",
@@ -9081,7 +9505,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d6/Fathom_poster.png",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 424
+    "id": 424,
+    "rating": 8.8
   },
   {
     "title": "Rollers",
@@ -9093,7 +9518,8 @@ const movies = [
       "Kevin Bigley"
     ],
     "genres": [],
-    "id": 425
+    "id": 425,
+    "rating": 4.2
   },
   {
     "title": "America: The Motion Picture",
@@ -9118,7 +9544,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/America_the_motion_picture.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 426
+    "id": 426,
+    "rating": 1.4
   },
   {
     "title": "Zola",
@@ -9139,7 +9566,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Zola_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 427
+    "id": 427,
+    "rating": 0.8
   },
   {
     "title": "No Sudden Move",
@@ -9170,7 +9598,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8f/No_Sudden_Move_poster.jpg",
     "thumbnail_width": 249,
     "thumbnail_height": 370,
-    "id": 428
+    "id": 428,
+    "rating": 9.6
   },
   {
     "title": "The Tomorrow War",
@@ -9196,7 +9625,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/The_Tomorrow_War_%282021_film%29_official_theatrical_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 429
+    "id": 429,
+    "rating": 7.5
   },
   {
     "title": "The Boss Baby: Family Business",
@@ -9220,7 +9650,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/The_poster_for_The_Boss_Baby%2C_Family_Business%2C_with_new_date.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 430
+    "id": 430,
+    "rating": 9.5
   },
   {
     "title": "The Forever Purge",
@@ -9243,7 +9674,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/Forever_Purge_poster.jpg",
     "thumbnail_width": 246,
     "thumbnail_height": 370,
-    "id": 431
+    "id": 431,
+    "rating": 7.5
   },
   {
     "title": "Fear Street Part One: 1994",
@@ -9269,7 +9701,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5a/Fear_Street_Part_One_-_1994_%282021_film%29.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 432
+    "id": 432,
+    "rating": 6.4
   },
   {
     "title": "Summer of Soul",
@@ -9292,7 +9725,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/Summer_of_Soul_2021.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 433
+    "id": 433,
+    "rating": 1.9
   },
   {
     "title": "Till Death",
@@ -9312,7 +9746,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/25/Till_Death_2021_Horror_Film_poster.png",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 434
+    "id": 434,
+    "rating": 2.4
   },
   {
     "title": "Let Us In",
@@ -9334,7 +9769,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ec/Let_us_in.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 435
+    "id": 435,
+    "rating": 4.7
   },
   {
     "title": "Black Widow",
@@ -9357,7 +9793,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 436
+    "id": 436,
+    "rating": 6.2
   },
   {
     "title": "Fear Street Part Two: 1978",
@@ -9386,7 +9823,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Fear_Street%2C_Part_Two_-_1978_teaser_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 437
+    "id": 437,
+    "rating": 2.7
   },
   {
     "title": "Summertime",
@@ -9407,7 +9845,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d1/Summertime_%282020_film%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 438
+    "id": 438,
+    "rating": 3.2
   },
   {
     "title": "Gunpowder Milkshake",
@@ -9430,7 +9869,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/Gunpowder_Milkshake_%28poster%29.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 439
+    "id": 439,
+    "rating": 7.4
   },
   {
     "title": "Space Jam: A New Legacy",
@@ -9456,7 +9896,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b7/SpaceJamANewLegacyOfficialPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 440
+    "id": 440,
+    "rating": 7.1
   },
   {
     "title": "Escape Room: Tournament of Champions",
@@ -9478,7 +9919,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/36/Escape_Room_Tournament_of_Champions_Movie_Poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 441
+    "id": 441,
+    "rating": 6.8
   },
   {
     "title": "Fear Street Part Three: 1666",
@@ -9507,7 +9949,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/29/Fear_Street%2C_Part_Three_-_1666_teaser_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 442
+    "id": 442,
+    "rating": 6.6
   },
   {
     "title": "Die in a Gunfight",
@@ -9531,7 +9974,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/Die_in_a_Gunfight_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 313,
-    "id": 443
+    "id": 443,
+    "rating": 0.6
   },
   {
     "title": "Pig",
@@ -9549,7 +9993,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/Pig_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 444
+    "id": 444,
+    "rating": 1
   },
   {
     "title": "Out of Death",
@@ -9568,7 +10013,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ce/Out_of_Death_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 445
+    "id": 445,
+    "rating": 2.3
   },
   {
     "title": "Roadrunner: A Film About Anthony Bourdain",
@@ -9584,7 +10030,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/40/Roadrunner_Anthony_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 446
+    "id": 446,
+    "rating": 9.6
   },
   {
     "title": "How It Ends",
@@ -9607,7 +10054,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/How_it_Ends_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 447
+    "id": 447,
+    "rating": 3.7
   },
   {
     "title": "Trollhunters: Rise of the Titans",
@@ -9636,7 +10084,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fe/Trollhunters_Movie.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 448
+    "id": 448,
+    "rating": 3.5
   },
   {
     "title": "Snake Eyes",
@@ -9659,7 +10108,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/Snake_Eyes_G.I._Joe_Origins_Movie_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 449
+    "id": 449,
+    "rating": 2
   },
   {
     "title": "Old",
@@ -9687,7 +10137,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/Old_%28film%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 450
+    "id": 450,
+    "rating": 9.4
   },
   {
     "title": "Joe Bell",
@@ -9707,7 +10158,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4c/Joe_Bell_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 451
+    "id": 451,
+    "rating": 5.2
   },
   {
     "title": "Jolt",
@@ -9730,7 +10182,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jolt_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 452
+    "id": 452,
+    "rating": 8.6
   },
   {
     "title": "Midnight in the Switchgrass",
@@ -9751,7 +10204,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1e/Midnight_in_the_Switchgrass.png",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 453
+    "id": 453,
+    "rating": 4.4
   },
   {
     "title": "Broken Diamonds",
@@ -9771,7 +10225,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/ff/Broken_Diamonds_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 454
+    "id": 454,
+    "rating": 8.5
   },
   {
     "title": "Val",
@@ -9787,7 +10242,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2f/Val_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 455
+    "id": 455,
+    "rating": 7.3
   },
   {
     "title": "Ailey",
@@ -9801,7 +10257,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/Ailey_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 456
+    "id": 456,
+    "rating": 2.6
   },
   {
     "title": "Jungle Cruise",
@@ -9823,7 +10280,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c6/Jungle_Cruise_-_theatrical_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 457
+    "id": 457,
+    "rating": 3.8
   },
   {
     "title": "Vivo",
@@ -9848,7 +10306,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dd/Vivo_poster.jpg",
     "thumbnail_width": 244,
     "thumbnail_height": 409,
-    "id": 458
+    "id": 458,
+    "rating": 1.9
   },
   {
     "title": "Stillwater",
@@ -9867,7 +10326,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8f/Stillwater_2021_film.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 459
+    "id": 459,
+    "rating": 9.2
   },
   {
     "title": "The Green Knight",
@@ -9891,7 +10351,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Green_Knight_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 460
+    "id": 460,
+    "rating": 2.3
   },
   {
     "title": "Nine Days",
@@ -9912,7 +10373,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/Nine_Days_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 461
+    "id": 461,
+    "rating": 6.9
   },
   {
     "title": "Ride the Eagle",
@@ -9931,7 +10393,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/Ride_the_Eagle.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 462
+    "id": 462,
+    "rating": 1.4
   },
   {
     "title": "The Evening Hour",
@@ -9952,7 +10415,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Evening_Hour_poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 463
+    "id": 463,
+    "rating": 5
   },
   {
     "title": "Lorelei",
@@ -9969,7 +10433,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/Lorelei_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 464
+    "id": 464,
+    "rating": 2.6
   },
   {
     "title": "Enemies of the State",
@@ -9983,7 +10448,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/69/Enemies_of_the_State_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 465
+    "id": 465,
+    "rating": 1.3
   },
   {
     "title": "The Suicide Squad",
@@ -10015,7 +10481,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Suicide_Squad_%28film%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 466
+    "id": 466,
+    "rating": 6.8
   },
   {
     "title": "Naked Singularity",
@@ -10038,7 +10505,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/74/Naked_Singularity_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 467
+    "id": 467,
+    "rating": 4.1
   },
   {
     "title": "John and the Hole",
@@ -10057,7 +10525,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/John-and-the-hole.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 468
+    "id": 468,
+    "rating": 9.8
   },
   {
     "title": "Playing God",
@@ -10076,7 +10545,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Playing_God_%282021_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 469
+    "id": 469,
+    "rating": 8.3
   },
   {
     "title": "Swan Song",
@@ -10097,7 +10567,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Swan_Song_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 470
+    "id": 470,
+    "rating": 8
   },
   {
     "title": "She Ball",
@@ -10112,7 +10583,8 @@ const movies = [
       "Evan Ross"
     ],
     "genres": [],
-    "id": 471
+    "id": 471,
+    "rating": 9.3
   },
   {
     "title": "The Kissing Booth 3",
@@ -10136,7 +10608,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Kissing_Booth_3.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 472
+    "id": 472,
+    "rating": 7.1
   },
   {
     "title": "Homeroom",
@@ -10150,7 +10623,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/81/Homeroom_Sundance_poster_2021.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 473
+    "id": 473,
+    "rating": 1.7
   },
   {
     "title": "Free Guy",
@@ -10172,7 +10646,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Free_Guy_2021_Poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 474
+    "id": 474,
+    "rating": 0
   },
   {
     "title": "Respect",
@@ -10196,7 +10671,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/Respect_2020_film_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 386,
-    "id": 475
+    "id": 475,
+    "rating": 3.7
   },
   {
     "title": "Beckett",
@@ -10216,7 +10692,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/71/Beckett_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 476
+    "id": 476,
+    "rating": 8.8
   },
   {
     "title": "Don't Breathe 2",
@@ -10235,7 +10712,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d3/DontBreathe2OfficialPoster2021.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 477
+    "id": 477,
+    "rating": 4.9
   },
   {
     "title": "CODA",
@@ -10257,7 +10735,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Coda_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 478
+    "id": 478,
+    "rating": 9.5
   },
   {
     "title": "Not Going Quietly",
@@ -10271,7 +10750,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c9/Not_Going_Quietly.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 479
+    "id": 479,
+    "rating": 6.2
   },
   {
     "title": "PAW Patrol: The Movie",
@@ -10299,7 +10779,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/83/PAW_Patrol_The_Movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 480
+    "id": 480,
+    "rating": 3.4
   },
   {
     "title": "Reminiscence",
@@ -10322,7 +10803,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/73/ReminiscencePoster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 481
+    "id": 481,
+    "rating": 9.2
   },
   {
     "title": "The Protégé",
@@ -10342,7 +10824,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Prot%C3%A9g%C3%A9.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 482
+    "id": 482,
+    "rating": 1.9
   },
   {
     "title": "Sweet Girl",
@@ -10367,7 +10850,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Sweet_Girl_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 483
+    "id": 483,
+    "rating": 0.9
   },
   {
     "title": "The Loud House Movie",
@@ -10398,7 +10882,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d6/LoudHouseMoviePoster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 372,
-    "id": 484
+    "id": 484,
+    "rating": 1.5
   },
   {
     "title": "The Night House",
@@ -10419,7 +10904,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/53/The_Night_House.png",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 485
+    "id": 485,
+    "rating": 0.2
   },
   {
     "title": "Flag Day",
@@ -10440,7 +10926,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/Flag_Day_poster.jpeg",
     "thumbnail_width": 273,
     "thumbnail_height": 364,
-    "id": 486
+    "id": 486,
+    "rating": 1.8
   },
   {
     "title": "Cryptozoo",
@@ -10466,7 +10953,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9b/Cryptozoo_poster.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 376,
-    "id": 487
+    "id": 487,
+    "rating": 9.6
   },
   {
     "title": "Habit",
@@ -10487,7 +10975,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0e/Habit_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 488
+    "id": 488,
+    "rating": 5.4
   },
   {
     "title": "Demonic",
@@ -10508,7 +10997,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/25/Demonic_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 489
+    "id": 489,
+    "rating": 5.4
   },
   {
     "title": "Risen",
@@ -10524,7 +11014,8 @@ const movies = [
       "Marcus Johnson"
     ],
     "genres": [],
-    "id": 490
+    "id": 490,
+    "rating": 3.8
   },
   {
     "title": "The Witcher: Nightmare of the Wolf",
@@ -10545,7 +11036,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/The_Witcher_Nightmare_of_the_Wolf.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 491
+    "id": 491,
+    "rating": 4.5
   },
   {
     "title": "Really Love",
@@ -10566,7 +11058,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Really_Love_2020.png",
     "thumbnail_width": 266,
     "thumbnail_height": 374,
-    "id": 492
+    "id": 492,
+    "rating": 3.8
   },
   {
     "title": "Candyman",
@@ -10588,7 +11081,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Candyman_%282021_film%29.png",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 493
+    "id": 493,
+    "rating": 3.2
   },
   {
     "title": "Vacation Friends",
@@ -10609,7 +11103,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/31/Vacation_Friends.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 494
+    "id": 494,
+    "rating": 7.8
   },
   {
     "title": "He's All That",
@@ -10632,7 +11127,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/He%27s_All_That.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 495
+    "id": 495,
+    "rating": 3.2
   },
   {
     "title": "No Man of God",
@@ -10652,7 +11148,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d7/No_Man_of_God_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 496
+    "id": 496,
+    "rating": 2.3
   },
   {
     "title": "Rushed",
@@ -10673,7 +11170,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/Rushed.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 497
+    "id": 497,
+    "rating": 6.7
   },
   {
     "title": "Afterlife of the Party",
@@ -10695,7 +11193,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3f/Afterlife_of_the_Party.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 498
+    "id": 498,
+    "rating": 2.9
   },
   {
     "title": "Shang-Chi and the Legend of the Ten Rings",
@@ -10719,7 +11218,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/74/Shang-Chi_and_the_Legend_of_the_Ten_Rings_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 499
+    "id": 499,
+    "rating": 0.1
   },
   {
     "title": "Cinderella",
@@ -10742,7 +11242,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c9/Cinderella_%282021_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 500
+    "id": 500,
+    "rating": 5.8
   },
   {
     "title": "Worth",
@@ -10764,7 +11265,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/Worth_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 501
+    "id": 501,
+    "rating": 7.2
   },
   {
     "title": "The Gateway",
@@ -10785,7 +11287,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f3/The_Gateway_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 502
+    "id": 502,
+    "rating": 2.4
   },
   {
     "title": "Wild Indian",
@@ -10804,7 +11307,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/Wild_Indian_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 503
+    "id": 503,
+    "rating": 8.7
   },
   {
     "title": "We Need to Do Something",
@@ -10824,7 +11328,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/We_Need_to_Do_Something.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 504
+    "id": 504,
+    "rating": 1.6
   },
   {
     "title": "Kate",
@@ -10847,7 +11352,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e5/Kate_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 505
+    "id": 505,
+    "rating": 0.8
   },
   {
     "title": "Everybody's Talking About Jamie",
@@ -10874,7 +11380,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c6/Everybody%27s_Talking_About_Jamie_%28film%29.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 506
+    "id": 506,
+    "rating": 6
   },
   {
     "title": "Malignant",
@@ -10894,7 +11401,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Malignant2021poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 507
+    "id": 507,
+    "rating": 5.5
   },
   {
     "title": "Queenpins",
@@ -10914,7 +11422,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/Queenpins_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 508
+    "id": 508,
+    "rating": 3.2
   },
   {
     "title": "The Card Counter",
@@ -10934,7 +11443,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Card_Counter_%282021%29_film_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 509
+    "id": 509,
+    "rating": 7.4
   },
   {
     "title": "Come from Away",
@@ -10961,7 +11471,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/Come_from_Away.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 510
+    "id": 510,
+    "rating": 1.4
   },
   {
     "title": "The Voyeurs",
@@ -10981,7 +11492,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/The_Voyeurs_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 511
+    "id": 511,
+    "rating": 1.4
   },
   {
     "title": "Small Engine Repair",
@@ -11003,7 +11515,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/22/Small_Engine_Repair.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 512
+    "id": 512,
+    "rating": 8.3
   },
   {
     "title": "Language Lessons",
@@ -11021,7 +11534,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Language_Lessons_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 513
+    "id": 513,
+    "rating": 0.5
   },
   {
     "title": "Show Me the Father",
@@ -11043,7 +11557,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/Show_Me_the_Father_Promotional_Poster.jpg",
     "thumbnail_width": 261,
     "thumbnail_height": 381,
-    "id": 514
+    "id": 514,
+    "rating": 3.9
   },
   {
     "title": "Catch the Bullet",
@@ -11054,7 +11569,8 @@ const movies = [
       "Tom Skerritt"
     ],
     "genres": [],
-    "id": 515
+    "id": 515,
+    "rating": 1.9
   },
   {
     "title": "Dating and New York",
@@ -11074,7 +11590,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/Dating_and_New_York.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 516
+    "id": 516,
+    "rating": 9.8
   },
   {
     "title": "Bad Candy",
@@ -11092,7 +11609,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9d/Bad_candy.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 517
+    "id": 517,
+    "rating": 7.6
   },
   {
     "title": "Generation Wrecks",
@@ -11105,7 +11623,8 @@ const movies = [
       "Heather Matarazzo"
     ],
     "genres": [],
-    "id": 518
+    "id": 518,
+    "rating": 5.1
   },
   {
     "title": "My Son",
@@ -11125,7 +11644,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8b/My_Son_%282021_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 333,
-    "id": 519
+    "id": 519,
+    "rating": 4.8
   },
   {
     "title": "Nightbooks",
@@ -11143,7 +11663,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8e/Nightbooks_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 520
+    "id": 520,
+    "rating": 9
   },
   {
     "title": "The Starling",
@@ -11170,7 +11691,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/The_Starling.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 521
+    "id": 521,
+    "rating": 4.5
   },
   {
     "title": "The Eyes of Tammy Faye",
@@ -11190,7 +11712,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2f/The_Eyes_of_Tammy_Faye_%282021_film%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 522
+    "id": 522,
+    "rating": 9.5
   },
   {
     "title": "Cry Macho",
@@ -11209,7 +11732,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b5/Cry_Macho_film_poster.png",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 523
+    "id": 523,
+    "rating": 2.9
   },
   {
     "title": "Copshop",
@@ -11229,7 +11753,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c1/Copshop.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 378,
-    "id": 524
+    "id": 524,
+    "rating": 3
   },
   {
     "title": "Blue Bayou",
@@ -11251,7 +11776,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/Blue_Bayou_%28film%29.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 378,
-    "id": 525
+    "id": 525,
+    "rating": 5.6
   },
   {
     "title": "Prisoners of the Ghostland",
@@ -11273,7 +11799,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e9/Prisoners_of_the_Ghostland.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 526
+    "id": 526,
+    "rating": 0.2
   },
   {
     "title": "Best Sellers",
@@ -11295,7 +11822,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cc/Best_Sellers_%28film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 527
+    "id": 527,
+    "rating": 8.1
   },
   {
     "title": "Lady of the Manor",
@@ -11315,7 +11843,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/Lady_of_the_Manor_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 528
+    "id": 528,
+    "rating": 3.2
   },
   {
     "title": "The Nowhere Inn",
@@ -11335,7 +11864,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f9/Nowhere_inn_xlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 529
+    "id": 529,
+    "rating": 9.2
   },
   {
     "title": "My Name is Pauli Murray",
@@ -11349,7 +11879,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/My_Name_is_Pauli_Murray.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 530
+    "id": 530,
+    "rating": 6.8
   },
   {
     "title": "The Killing of Kenneth Chamberlain",
@@ -11371,7 +11902,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7e/The_Killing_of_Kenneth_Chamberlain.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 531
+    "id": 531,
+    "rating": 1.5
   },
   {
     "title": "Intrusion",
@@ -11389,7 +11921,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/Intrusion_2021_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 532
+    "id": 532,
+    "rating": 5.7
   },
   {
     "title": "My Little Pony: A New Generation",
@@ -11416,7 +11949,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/aa/My_Little_Pony_A_New_Generation_film_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 533
+    "id": 533,
+    "rating": 8.7
   },
   {
     "title": "Dear Evan Hansen",
@@ -11439,7 +11973,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/59/Dear_Evan_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 534
+    "id": 534,
+    "rating": 9.1
   },
   {
     "title": "The Guilty",
@@ -11463,7 +11998,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/59/The_Guilty_%282021_film%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 535
+    "id": 535,
+    "rating": 4.1
   },
   {
     "title": "Birds of Paradise",
@@ -11483,7 +12019,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/Birds_of_Paradise_%282021_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 536
+    "id": 536,
+    "rating": 7.8
   },
   {
     "title": "After We Fell",
@@ -11510,7 +12047,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/After_We_Fell_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 537
+    "id": 537,
+    "rating": 9.6
   },
   {
     "title": "Venom: Let There Be Carnage",
@@ -11531,7 +12069,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a7/Venom_Let_There_Be_Carnage_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 538
+    "id": 538,
+    "rating": 7
   },
   {
     "title": "The Many Saints of Newark",
@@ -11557,7 +12096,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/32/TheManySaintsOfNewarkPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 539
+    "id": 539,
+    "rating": 0.6
   },
   {
     "title": "The Addams Family 2",
@@ -11583,7 +12123,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Addams_Family_2_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 540
+    "id": 540,
+    "rating": 9.3
   },
   {
     "title": "Bingo Hell",
@@ -11602,7 +12143,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4f/Bingo_Hell.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 541
+    "id": 541,
+    "rating": 1.6
   },
   {
     "title": "Black as Night",
@@ -11621,7 +12163,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e5/Black_as_night.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 542
+    "id": 542,
+    "rating": 5.8
   },
   {
     "title": "Old Henry",
@@ -11643,7 +12186,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/Old_Henry_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 543
+    "id": 543,
+    "rating": 5.2
   },
   {
     "title": "The Jesus Music",
@@ -11663,7 +12207,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Jesus_music.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 544
+    "id": 544,
+    "rating": 9.5
   },
   {
     "title": "Mayday",
@@ -11684,7 +12229,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/22/Mayday_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 545
+    "id": 545,
+    "rating": 2.9
   },
   {
     "title": "God's Not Dead: We the People",
@@ -11705,7 +12251,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d8/God%27s_Not_Dead_4_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 546
+    "id": 546,
+    "rating": 7.2
   },
   {
     "title": "There's Someone Inside Your House",
@@ -11725,7 +12272,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/ba/There%27s_Someone_Inside_Your_House_%28film_poster%29.png",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 547
+    "id": 547,
+    "rating": 4
   },
   {
     "title": "No Time to Die",
@@ -11752,7 +12300,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/No_Time_to_Die_poster.jpg/320px-No_Time_to_Die_poster.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 236,
-    "id": 548
+    "id": 548,
+    "rating": 5.3
   },
   {
     "title": "Mass",
@@ -11771,7 +12320,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5e/Mass_2021_film.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 549
+    "id": 549,
+    "rating": 5.6
   },
   {
     "title": "South of Heaven",
@@ -11790,7 +12340,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/19/South_of_Heaven_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 550
+    "id": 550,
+    "rating": 2.7
   },
   {
     "title": "The Manor",
@@ -11813,7 +12364,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Manor_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 551
+    "id": 551,
+    "rating": 3.6
   },
   {
     "title": "Madres",
@@ -11830,7 +12382,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b0/Madres.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 552
+    "id": 552,
+    "rating": 5.9
   },
   {
     "title": "Justin Bieber: Our World",
@@ -11848,7 +12401,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9c/Justin_Bieber_Our_World_film_poster.jpg",
     "thumbnail_width": 284,
     "thumbnail_height": 352,
-    "id": 553
+    "id": 553,
+    "rating": 8.7
   },
   {
     "title": "Survive the Game",
@@ -11866,7 +12420,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/Survive_the_game.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 554
+    "id": 554,
+    "rating": 1.9
   },
   {
     "title": "Halloween Kills",
@@ -11887,7 +12442,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/61/Halloween_Kills_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 555
+    "id": 555,
+    "rating": 3.6
   },
   {
     "title": "The Last Duel",
@@ -11908,7 +12464,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/The_Last_Duel_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 556
+    "id": 556,
+    "rating": 5.1
   },
   {
     "title": "Needle in a Timestack",
@@ -11928,7 +12485,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ce/Needle_in_a_Timestack.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 557
+    "id": 557,
+    "rating": 2.4
   },
   {
     "title": "Hard Luck Love Song",
@@ -11951,7 +12509,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f0/Hard_Luck_Love_Song.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 558
+    "id": 558,
+    "rating": 7.9
   },
   {
     "title": "Introducing, Selma Blair",
@@ -11967,7 +12526,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Introducing_Selma_Blair.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 559
+    "id": 559,
+    "rating": 5.5
   },
   {
     "title": "The Velvet Underground",
@@ -11983,7 +12543,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/81/The_Velvet_Underground_%28Todd_Haynes%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 560
+    "id": 560,
+    "rating": 3.8
   },
   {
     "title": "Night Teeth",
@@ -12004,7 +12565,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/Night_Teeth.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 561
+    "id": 561,
+    "rating": 9.1
   },
   {
     "title": "Dune",
@@ -12032,7 +12594,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 562
+    "id": 562,
+    "rating": 8.9
   },
   {
     "title": "Ron's Gone Wrong",
@@ -12057,7 +12620,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a5/Ron%27s_Gone_Wrong_%282021%29_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 563
+    "id": 563,
+    "rating": 1.6
   },
   {
     "title": "The French Dispatch",
@@ -12085,7 +12649,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/The_French_Dispatch.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 564
+    "id": 564,
+    "rating": 2.4
   },
   {
     "title": "The Harder They Fall",
@@ -12110,7 +12675,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_Harder_They_Fall_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 565
+    "id": 565,
+    "rating": 7.5
   },
   {
     "title": "The Electrical Life of Louis Wain",
@@ -12132,7 +12698,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/The_Electrical_Life_of_Louis_Wain.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 566
+    "id": 566,
+    "rating": 6.9
   },
   {
     "title": "Warning",
@@ -12154,7 +12721,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/31/Warning_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 567
+    "id": 567,
+    "rating": 4.4
   },
   {
     "title": "Passing",
@@ -12177,7 +12745,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2c/Passing_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 568
+    "id": 568,
+    "rating": 5.2
   },
   {
     "title": "Hypnotic",
@@ -12195,7 +12764,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/Hypnotic_%282021_film%29.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 569
+    "id": 569,
+    "rating": 3
   },
   {
     "title": "Antlers",
@@ -12218,7 +12788,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0d/AntlersOctober2021poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 570
+    "id": 570,
+    "rating": 2.4
   },
   {
     "title": "Army of Thieves",
@@ -12240,7 +12811,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/ArmyOfThievesTeaserPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 571
+    "id": 571,
+    "rating": 7.8
   },
   {
     "title": "A Mouthful of Air",
@@ -12261,7 +12833,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/A_Mouthful_of_Air.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 572
+    "id": 572,
+    "rating": 9.9
   },
   {
     "title": "The Souvenir Part II",
@@ -12285,7 +12858,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Souvenir_Part_2.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 573
+    "id": 573,
+    "rating": 6
   },
   {
     "title": "Paranormal Activity: Next of Kin",
@@ -12306,7 +12880,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5f/Paranormal_Activity_Next_of_Kin.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 574
+    "id": 574,
+    "rating": 8.8
   },
   {
     "title": "The Spine of Night",
@@ -12329,7 +12904,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Spine_of_night.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 575
+    "id": 575,
+    "rating": 6.7
   },
   {
     "title": "Violet",
@@ -12347,7 +12923,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/56/VIOLET_poster_sm3.jpg",
     "thumbnail_width": 216,
     "thumbnail_height": 317,
-    "id": 576
+    "id": 576,
+    "rating": 8.7
   },
   {
     "title": "Heart of Champions",
@@ -12365,7 +12942,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Heart_of_Champions.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 389,
-    "id": 577
+    "id": 577,
+    "rating": 1.9
   },
   {
     "title": "Eternals",
@@ -12393,7 +12971,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 578
+    "id": 578,
+    "rating": 3.9
   },
   {
     "title": "Red Notice",
@@ -12414,7 +12993,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0c/Red_Notice_-_film_promotional_image.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 579
+    "id": 579,
+    "rating": 1.3
   },
   {
     "title": "Finch",
@@ -12429,7 +13009,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/ba/Finch_%28film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 580
+    "id": 580,
+    "rating": 8.3
   },
   {
     "title": "Spencer",
@@ -12450,7 +13031,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ea/Spencer_%28film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 367,
-    "id": 581
+    "id": 581,
+    "rating": 2.2
   },
   {
     "title": "Dangerous",
@@ -12471,7 +13053,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/Dangerous_%28film%29.jpg",
     "thumbnail_width": 257,
     "thumbnail_height": 388,
-    "id": 582
+    "id": 582,
+    "rating": 8.1
   },
   {
     "title": "Love Hard",
@@ -12490,7 +13073,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f6/Love_Hard_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 583
+    "id": 583,
+    "rating": 9.7
   },
   {
     "title": "The Beta Test",
@@ -12510,7 +13094,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/95/The_Beta_Test_teaser_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 584
+    "id": 584,
+    "rating": 4.4
   },
   {
     "title": "Clifford the Big Red Dog",
@@ -12537,7 +13122,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c5/Clifford2021Poster.jpg",
     "thumbnail_width": 262,
     "thumbnail_height": 380,
-    "id": 585
+    "id": 585,
+    "rating": 9.9
   },
   {
     "title": "Tick, Tick... Boom!",
@@ -12560,7 +13146,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/91/Tick_Tick_Boom_Movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 586
+    "id": 586,
+    "rating": 5.2
   },
   {
     "title": "Home Sweet Home Alone",
@@ -12583,7 +13170,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Home_Sweet_Home_Alone_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 587
+    "id": 587,
+    "rating": 0.6
   },
   {
     "title": "Apex",
@@ -12602,7 +13190,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/27/Apex_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 588
+    "id": 588,
+    "rating": 6.8
   },
   {
     "title": "The Power of the Dog",
@@ -12626,7 +13215,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Power_of_the_Dog_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 589
+    "id": 589,
+    "rating": 7.8
   },
   {
     "title": "Bruised",
@@ -12648,7 +13238,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/91/Bruised_film.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 590
+    "id": 590,
+    "rating": 9.1
   },
   {
     "title": "The Princess Switch 3: Romancing the Star",
@@ -12667,7 +13258,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/97/The_Princess_Switch_3.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 591
+    "id": 591,
+    "rating": 6.1
   },
   {
     "title": "Ghostbusters: Afterlife",
@@ -12694,7 +13286,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d1/Ghostbusters_-_Afterlife_official_theatrical_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 397,
-    "id": 592
+    "id": 592,
+    "rating": 8.8
   },
   {
     "title": "King Richard",
@@ -12718,7 +13311,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/King_Richard_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 593
+    "id": 593,
+    "rating": 1.5
   },
   {
     "title": "Extinct",
@@ -12747,7 +13341,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Extinct%28film%29poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 594
+    "id": 594,
+    "rating": 6.5
   },
   {
     "title": "C'mon C'mon",
@@ -12768,7 +13363,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/56/C%27mon_C%27mon.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 595
+    "id": 595,
+    "rating": 9
   },
   {
     "title": "Black Friday",
@@ -12789,7 +13385,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Black_Friday%21_film_poster.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 377,
-    "id": 596
+    "id": 596,
+    "rating": 0.2
   },
   {
     "title": "Zeros and Ones",
@@ -12806,7 +13403,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/08/Zeros_and_Ones.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 597
+    "id": 597,
+    "rating": 9.7
   },
   {
     "title": "Friend of the World",
@@ -12827,7 +13425,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/Friend_of_the_World.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 598
+    "id": 598,
+    "rating": 5.2
   },
   {
     "title": "Encanto",
@@ -12854,7 +13453,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/83/Encanto_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 599
+    "id": 599,
+    "rating": 3.8
   },
   {
     "title": "House of Gucci",
@@ -12878,7 +13478,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fe/House.of.Gucci.film.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 600
+    "id": 600,
+    "rating": 1.8
   },
   {
     "title": "The Unforgivable",
@@ -12901,7 +13502,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/The_Unforgiveable.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 601
+    "id": 601,
+    "rating": 4.8
   },
   {
     "title": "Resident Evil: Welcome to Raccoon City",
@@ -12924,7 +13526,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/01/Welcome_to_Raccoon_City.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 602
+    "id": 602,
+    "rating": 4.3
   },
   {
     "title": "8-Bit Christmas",
@@ -12944,7 +13547,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f0/8_Bit_Christmas.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 603
+    "id": 603,
+    "rating": 6.3
   },
   {
     "title": "The Humans",
@@ -12965,7 +13569,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c0/The_Humans_poster.jpeg",
     "thumbnail_width": 252,
     "thumbnail_height": 396,
-    "id": 604
+    "id": 604,
+    "rating": 9.4
   },
   {
     "title": "South Park: Post Covid",
@@ -12988,7 +13593,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3d/SouthParkPostCovid.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 605
+    "id": 605,
+    "rating": 7.2
   },
   {
     "title": "Licorice Pizza",
@@ -13010,7 +13616,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3c/LicoricePizzaPoster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 275,
-    "id": 606
+    "id": 606,
+    "rating": 1.4
   },
   {
     "title": "Single All the Way",
@@ -13032,7 +13639,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/38/Single_All_the_Way_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 607
+    "id": 607,
+    "rating": 4.2
   },
   {
     "title": "Back to the Outback",
@@ -13057,7 +13665,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/66/BacktoTheOutback.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 608
+    "id": 608,
+    "rating": 8.1
   },
   {
     "title": "Diary of a Wimpy Kid",
@@ -13078,7 +13687,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cd/Diary_of_a_Wimpy_Kid_%282021%29_Official_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 609
+    "id": 609,
+    "rating": 2.9
   },
   {
     "title": "Encounter",
@@ -13102,7 +13712,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/Encounter_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 610
+    "id": 610,
+    "rating": 3.2
   },
   {
     "title": "Mixtape",
@@ -13121,7 +13732,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f1/Mixtape_xlg.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 611
+    "id": 611,
+    "rating": 1.9
   },
   {
     "title": "Deadlock",
@@ -13140,7 +13752,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c4/Deadlock_2021_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 612
+    "id": 612,
+    "rating": 7.3
   },
   {
     "title": "West Side Story",
@@ -13165,7 +13778,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/West_Side_Story_2021_Official_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 613
+    "id": 613,
+    "rating": 0.1
   },
   {
     "title": "Don't Look Up",
@@ -13196,7 +13810,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5c/Don%27t_Look_Up_2021_film.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 313,
-    "id": 614
+    "id": 614,
+    "rating": 9.5
   },
   {
     "title": "National Champions",
@@ -13223,7 +13838,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/83/National_Champions_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 615
+    "id": 615,
+    "rating": 6.8
   },
   {
     "title": "Being the Ricardos",
@@ -13247,7 +13863,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Being_the_Ricardos.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 616
+    "id": 616,
+    "rating": 8.7
   },
   {
     "title": "Red Rocket",
@@ -13266,7 +13883,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e7/Red_Rocket_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 617
+    "id": 617,
+    "rating": 8.2
   },
   {
     "title": "The Hating Game",
@@ -13287,7 +13905,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d9/The_Hating_Game_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 618
+    "id": 618,
+    "rating": 7.3
   },
   {
     "title": "Rumble",
@@ -13313,7 +13932,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Rumble_2021_film_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 619
+    "id": 619,
+    "rating": 2.7
   },
   {
     "title": "South Park: Post Covid: The Return of Covid",
@@ -13336,7 +13956,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/SouthParkPostCovidTheReturn.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 620
+    "id": 620,
+    "rating": 1.1
   },
   {
     "title": "Spider-Man: No Way Home",
@@ -13364,7 +13985,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 621
+    "id": 621,
+    "rating": 9.3
   },
   {
     "title": "Nightmare Alley",
@@ -13389,7 +14011,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/52/Nightmare_Alley_%282021_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 622
+    "id": 622,
+    "rating": 5.1
   },
   {
     "title": "The Lost Daughter",
@@ -13413,7 +14036,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Lost_Daughter_%28film%29.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 377,
-    "id": 623
+    "id": 623,
+    "rating": 0.6
   },
   {
     "title": "Swan Song",
@@ -13435,7 +14059,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/Swan_Song_%282021_Benjamin_Cleary_film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 624
+    "id": 624,
+    "rating": 5.8
   },
   {
     "title": "The Tender Bar",
@@ -13453,7 +14078,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b0/The_Tender_Bar_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 390,
-    "id": 625
+    "id": 625,
+    "rating": 5.9
   },
   {
     "title": "Mother/Android",
@@ -13472,7 +14098,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/Mother_Android.jpg",
     "thumbnail_width": 262,
     "thumbnail_height": 380,
-    "id": 626
+    "id": 626,
+    "rating": 9.7
   },
   {
     "title": "Fortress",
@@ -13490,7 +14117,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/Fortress_2021_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 627
+    "id": 627,
+    "rating": 7.4
   },
   {
     "title": "Sing 2",
@@ -13521,7 +14149,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/Sing_2_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 628
+    "id": 628,
+    "rating": 2.6
   },
   {
     "title": "The Matrix Resurrections",
@@ -13545,7 +14174,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/50/The_Matrix_Resurrections.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 629
+    "id": 629,
+    "rating": 4
   },
   {
     "title": "The King's Man",
@@ -13570,7 +14200,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/67/The_King%27s_Man.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 630
+    "id": 630,
+    "rating": 5.4
   },
   {
     "title": "The Tragedy of Macbeth",
@@ -13594,7 +14225,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/69/The_Tragedy_of_Macbeth_2021_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 631
+    "id": 631,
+    "rating": 4.7
   },
   {
     "title": "A Journal for Jordan",
@@ -13615,7 +14247,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fc/A_Journal_for_Jordan.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 632
+    "id": 632,
+    "rating": 8.3
   },
   {
     "title": "American Underdog",
@@ -13634,7 +14267,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4c/American_Underdog.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 633
+    "id": 633,
+    "rating": 0.2
   },
   {
     "title": "Memoria",
@@ -13657,7 +14291,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Memoria_poster.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 377,
-    "id": 634
+    "id": 634,
+    "rating": 4.7
   },
   {
     "title": "The 355",
@@ -13681,7 +14316,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/52/The_355_poster.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 376,
-    "id": 635
+    "id": 635,
+    "rating": 7.2
   },
   {
     "title": "The Legend of La Llorona",
@@ -13699,7 +14335,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c7/Legend_of_la_llorona.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 636
+    "id": 636,
+    "rating": 3.4
   },
   {
     "title": "The Commando",
@@ -13718,7 +14355,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/The_Commando.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 637
+    "id": 637,
+    "rating": 6
   },
   {
     "title": "American Siege",
@@ -13735,7 +14373,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/16/American_Siege.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 638
+    "id": 638,
+    "rating": 6.3
   },
   {
     "title": "Scream",
@@ -13758,7 +14397,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/Scream2022film.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 391,
-    "id": 639
+    "id": 639,
+    "rating": 7.7
   },
   {
     "title": "Hotel Transylvania: Transformania",
@@ -13789,7 +14429,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8b/Hotel_Transylvania_Transformania.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 640
+    "id": 640,
+    "rating": 2.4
   },
   {
     "title": "Shattered",
@@ -13808,7 +14449,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/Shattered_film.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 641
+    "id": 641,
+    "rating": 6.2
   },
   {
     "title": "The Royal Treatment",
@@ -13825,7 +14467,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/42/The_Royal_Treatment.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 352,
-    "id": 642
+    "id": 642,
+    "rating": 2.7
   },
   {
     "title": "Redeeming Love",
@@ -13848,7 +14491,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/64/Redeeming_Love_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 643
+    "id": 643,
+    "rating": 8
   },
   {
     "title": "The King's Daughter",
@@ -13872,7 +14516,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ca/The_King%27s_Daughter_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 644
+    "id": 644,
+    "rating": 9.1
   },
   {
     "title": "The Tiger Rising",
@@ -13893,7 +14538,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f5/The_Tiger_Rising_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 645
+    "id": 645,
+    "rating": 2.7
   },
   {
     "title": "Hellblazers",
@@ -13913,7 +14559,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/Hellblazers.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 646
+    "id": 646,
+    "rating": 7.9
   },
   {
     "title": "The Fallout",
@@ -13935,7 +14582,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Fallout_2021.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 647
+    "id": 647,
+    "rating": 9.5
   },
   {
     "title": "Home Team",
@@ -13957,7 +14605,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5c/Home_Team_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 648
+    "id": 648,
+    "rating": 4.8
   },
   {
     "title": "The Ice Age Adventures of Buck Wild",
@@ -13978,7 +14627,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0f/The_Ice_Age_Adventures_of_Buck_Wild.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 372,
-    "id": 649
+    "id": 649,
+    "rating": 3.4
   },
   {
     "title": "Clean",
@@ -13998,7 +14648,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Clean_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 650
+    "id": 650,
+    "rating": 1.8
   },
   {
     "title": "Sundown",
@@ -14015,7 +14666,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ca/Sundown_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 651
+    "id": 651,
+    "rating": 5.5
   },
   {
     "title": "Jackass Forever",
@@ -14037,7 +14689,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/Jackass_Forever_film_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 652
+    "id": 652,
+    "rating": 9.6
   },
   {
     "title": "Moonfall",
@@ -14060,7 +14713,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d3/Moonfall_film_poster.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 376,
-    "id": 653
+    "id": 653,
+    "rating": 10
   },
   {
     "title": "Last Looks",
@@ -14083,7 +14737,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/22/Last_Looks.jpg",
     "thumbnail_width": 256,
     "thumbnail_height": 389,
-    "id": 654
+    "id": 654,
+    "rating": 2.3
   },
   {
     "title": "The Long Night",
@@ -14102,7 +14757,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Long_Night_%282022_film%29.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 655
+    "id": 655,
+    "rating": 5.3
   },
   {
     "title": "Kimi",
@@ -14120,7 +14776,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/Kimi_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 656
+    "id": 656,
+    "rating": 3.9
   },
   {
     "title": "Shut In",
@@ -14139,7 +14796,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2c/Shut_In_%282022_film%29.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 378,
-    "id": 657
+    "id": 657,
+    "rating": 7.3
   },
   {
     "title": "Death on the Nile",
@@ -14167,7 +14825,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e9/Death_on_the_Nile_%282020_film%29_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 658
+    "id": 658,
+    "rating": 7.9
   },
   {
     "title": "Marry Me",
@@ -14190,7 +14849,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f9/Marry_Me_%282022_film%29.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 659
+    "id": 659,
+    "rating": 2.3
   },
   {
     "title": "Blacklight",
@@ -14210,7 +14870,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ad/Blacklight_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 660
+    "id": 660,
+    "rating": 9.9
   },
   {
     "title": "I Want You Back",
@@ -14231,7 +14892,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ef/I_Want_You_Back_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 661
+    "id": 661,
+    "rating": 5.9
   },
   {
     "title": "Tall Girl 2",
@@ -14254,7 +14916,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fc/Tall_Girl_2.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 662
+    "id": 662,
+    "rating": 2.4
   },
   {
     "title": "The Sky Is Everywhere",
@@ -14275,7 +14938,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Sky_Is_Everywhere.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 663
+    "id": 663,
+    "rating": 7.4
   },
   {
     "title": "The In Between",
@@ -14295,7 +14959,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/31/The_In_Between_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 664
+    "id": 664,
+    "rating": 9.2
   },
   {
     "title": "Fistful of Vengeance",
@@ -14318,7 +14983,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Poster_for_Fistful_of_Vengeance.png",
     "thumbnail_width": 200,
     "thumbnail_height": 297,
-    "id": 665
+    "id": 665,
+    "rating": 2.6
   },
   {
     "title": "Uncharted",
@@ -14339,7 +15005,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d4/Uncharted_Official_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 666
+    "id": 666,
+    "rating": 7.2
   },
   {
     "title": "Dog",
@@ -14362,7 +15029,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/12/Dog_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 667
+    "id": 667,
+    "rating": 1.1
   },
   {
     "title": "Texas Chainsaw Massacre",
@@ -14386,7 +15054,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dd/NetflixTCMPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 668
+    "id": 668,
+    "rating": 8
   },
   {
     "title": "The Cursed",
@@ -14404,7 +15073,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5b/The_Cursed_%282021_film%29.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 378,
-    "id": 669
+    "id": 669,
+    "rating": 7.5
   },
   {
     "title": "A Fairy Tale After All",
@@ -14426,7 +15096,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a3/A_Fairy_Tale_After_All_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 670
+    "id": 670,
+    "rating": 8.6
   },
   {
     "title": "Cyrano",
@@ -14447,7 +15118,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/Cyrano_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 671
+    "id": 671,
+    "rating": 9.3
   },
   {
     "title": "Studio 666",
@@ -14474,7 +15146,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/Studio_666.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 672
+    "id": 672,
+    "rating": 8.6
   },
   {
     "title": "A Madea Homecoming",
@@ -14495,7 +15168,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/A_madea_homecoming.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 673
+    "id": 673,
+    "rating": 8.7
   },
   {
     "title": "No Exit",
@@ -14514,7 +15188,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/No_Exit_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 674
+    "id": 674,
+    "rating": 0.4
   },
   {
     "title": "Gasoline Alley",
@@ -14534,7 +15209,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3c/Gasoline_Alley_%282022_film%29.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 675
+    "id": 675,
+    "rating": 7.1
   },
   {
     "title": "The Batman",
@@ -14558,7 +15234,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg",
     "thumbnail_width": 236,
     "thumbnail_height": 350,
-    "id": 676
+    "id": 676,
+    "rating": 1.7
   },
   {
     "title": "After Yang",
@@ -14582,7 +15259,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/84/After_Yang.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 677
+    "id": 677,
+    "rating": 7.1
   },
   {
     "title": "Fresh",
@@ -14604,7 +15282,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b0/Fresh_%282022%29_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 678
+    "id": 678,
+    "rating": 6.1
   },
   {
     "title": "A Day to Die",
@@ -14622,7 +15301,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f9/A_Day_to_Die_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 372,
-    "id": 679
+    "id": 679,
+    "rating": 9.3
   },
   {
     "title": "The Adam Project",
@@ -14645,7 +15325,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Adam_Project_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 680
+    "id": 680,
+    "rating": 4
   },
   {
     "title": "Turning Red",
@@ -14671,7 +15352,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9e/Turning_Red_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 681
+    "id": 681,
+    "rating": 8.3
   },
   {
     "title": "Tyson's Run",
@@ -14690,7 +15372,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Tyson%27s_Run_New_Poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 682
+    "id": 682,
+    "rating": 7.7
   },
   {
     "title": "Rescued by Ruby",
@@ -14709,7 +15392,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c6/Rescued_by_Ruby.jpeg",
     "thumbnail_width": 284,
     "thumbnail_height": 351,
-    "id": 683
+    "id": 683,
+    "rating": 8.9
   },
   {
     "title": "The Outfit",
@@ -14732,7 +15416,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cc/The_Outfit_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 684
+    "id": 684,
+    "rating": 1.5
   },
   {
     "title": "Deep Water",
@@ -14756,7 +15441,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Deep_Water_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 685
+    "id": 685,
+    "rating": 0.8
   },
   {
     "title": "Cheaper by the Dozen",
@@ -14775,7 +15461,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bf/Cheaper_by_the_Dozen_2022_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 686
+    "id": 686,
+    "rating": 8.8
   },
   {
     "title": "Windfall",
@@ -14794,7 +15481,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Windfall_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 687
+    "id": 687,
+    "rating": 3.2
   },
   {
     "title": "X",
@@ -14816,7 +15504,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/X_%282022_film%29.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 688
+    "id": 688,
+    "rating": 2.4
   },
   {
     "title": "Umma",
@@ -14838,7 +15527,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/Umma_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 689
+    "id": 689,
+    "rating": 5.9
   },
   {
     "title": "Alice",
@@ -14858,7 +15548,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/Alice_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 690
+    "id": 690,
+    "rating": 3.9
   },
   {
     "title": "Master",
@@ -14877,7 +15568,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f6/Master_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 691
+    "id": 691,
+    "rating": 4.8
   },
   {
     "title": "Measure of Revenge",
@@ -14897,7 +15589,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Measure_of_Revenge.jpeg",
     "thumbnail_width": 274,
     "thumbnail_height": 364,
-    "id": 692
+    "id": 692,
+    "rating": 9.3
   },
   {
     "title": "The Lost City",
@@ -14919,7 +15612,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/TheLostCityPoster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 693
+    "id": 693,
+    "rating": 9.2
   },
   {
     "title": "Everything Everywhere All at Once",
@@ -14943,7 +15637,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 694
+    "id": 694,
+    "rating": 9.3
   },
   {
     "title": "Infinite Storm",
@@ -14964,7 +15659,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e5/Infinite_Storm.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 695
+    "id": 695,
+    "rating": 0.3
   },
   {
     "title": "7 Days",
@@ -14983,7 +15679,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/7DaysFilmPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 696
+    "id": 696,
+    "rating": 2.4
   },
   {
     "title": "Moonshot",
@@ -15005,7 +15702,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/19/Moonshot_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 697
+    "id": 697,
+    "rating": 3.5
   },
   {
     "title": "Morbius",
@@ -15026,7 +15724,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2f/Morbius_%28film%29_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 698
+    "id": 698,
+    "rating": 0.3
   },
   {
     "title": "The Bubble",
@@ -15051,7 +15750,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/The_Bubble_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 699
+    "id": 699,
+    "rating": 9.5
   },
   {
     "title": "The Contractor",
@@ -15074,7 +15774,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cb/The_Contractor_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 700
+    "id": 700,
+    "rating": 2.4
   },
   {
     "title": "Better Nate Than Ever",
@@ -15095,7 +15796,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Better_Nate_Than_Ever_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 701
+    "id": 701,
+    "rating": 1
   },
   {
     "title": "Apollo 10 1⁄2: A Space Age Childhood",
@@ -15116,7 +15818,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cd/Apollo_10%C2%BD_A_Space_Age_Childhood_Poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 702
+    "id": 702,
+    "rating": 1
   },
   {
     "title": "Sonic the Hedgehog 2",
@@ -15143,7 +15846,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3e/Sonic_the_Hedgehog_2_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 325,
-    "id": 703
+    "id": 703,
+    "rating": 3.2
   },
   {
     "title": "Ambulance",
@@ -15162,7 +15866,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Ambulance_film_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 398,
-    "id": 704
+    "id": 704,
+    "rating": 8
   },
   {
     "title": "All the Old Knives",
@@ -15182,7 +15887,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f0/All_the_Old_Knives.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 705
+    "id": 705,
+    "rating": 0.2
   },
   {
     "title": "Metal Lords",
@@ -15204,7 +15910,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cd/Metal_Lords_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 706
+    "id": 706,
+    "rating": 4.7
   },
   {
     "title": "Father Stu",
@@ -15224,7 +15931,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/db/Father_Stu.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 707
+    "id": 707,
+    "rating": 5.1
   },
   {
     "title": "Fantastic Beasts: The Secrets of Dumbledore",
@@ -15248,7 +15956,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/Fantastic_Beasts-_The_Secrets_of_Dumbledore.png",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 708
+    "id": 708,
+    "rating": 3.2
   },
   {
     "title": "Dual",
@@ -15268,7 +15977,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d1/Dual_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 709
+    "id": 709,
+    "rating": 8.3
   },
   {
     "title": "Choose or Die",
@@ -15288,7 +15998,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/Choose_or_Die_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 313,
-    "id": 710
+    "id": 710,
+    "rating": 1.4
   },
   {
     "title": "Titanic 666",
@@ -15309,7 +16020,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e7/Titanic_666.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 378,
-    "id": 711
+    "id": 711,
+    "rating": 8.7
   },
   {
     "title": "The Bad Guys",
@@ -15336,7 +16048,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/The_Bad_Guys_poster.jpeg",
     "thumbnail_width": 256,
     "thumbnail_height": 389,
-    "id": 712
+    "id": 712,
+    "rating": 8.1
   },
   {
     "title": "The Northman",
@@ -15360,7 +16073,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Northman.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 713
+    "id": 713,
+    "rating": 3.6
   },
   {
     "title": "The Unbearable Weight of Massive Talent",
@@ -15384,7 +16098,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Unbearable_Weight_of_Massive_Talent.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 714
+    "id": 714,
+    "rating": 1.3
   },
   {
     "title": "Polar Bear",
@@ -15400,7 +16115,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Polar_Bear_film_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 715
+    "id": 715,
+    "rating": 4.2
   },
   {
     "title": "The Survivor",
@@ -15422,7 +16138,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/73/The_Survivor_%282021_film%29.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 716
+    "id": 716,
+    "rating": 7
   },
   {
     "title": "Memory",
@@ -15444,7 +16161,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/Memory_official_logo.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 717
+    "id": 717,
+    "rating": 5.8
   },
   {
     "title": "Crush",
@@ -15465,7 +16183,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4f/Crush_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 718
+    "id": 718,
+    "rating": 8
   },
   {
     "title": "Fortress: Sniper's Eye",
@@ -15483,7 +16202,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/68/Fortress_Sniper%27s_Eye.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 719
+    "id": 719,
+    "rating": 3.6
   },
   {
     "title": "Green Ghost and the Masters of the Stone",
@@ -15496,7 +16216,8 @@ const movies = [
       "Danny Trejo"
     ],
     "genres": [],
-    "id": 720
+    "id": 720,
+    "rating": 2
   },
   {
     "title": "Corrective Measures",
@@ -15513,7 +16234,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/97/Corrective_Measures_poster.png",
     "thumbnail_width": 267,
     "thumbnail_height": 373,
-    "id": 721
+    "id": 721,
+    "rating": 3.1
   },
   {
     "title": "Doctor Strange in the Multiverse of Madness",
@@ -15535,7 +16257,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 722
+    "id": 722,
+    "rating": 7.3
   },
   {
     "title": "Along for the Ride",
@@ -15556,7 +16279,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/Along_for_the_Ride_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 723
+    "id": 723,
+    "rating": 4.8
   },
   {
     "title": "Marmaduke",
@@ -15576,7 +16300,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Marmaduke_2022_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 724
+    "id": 724,
+    "rating": 7.8
   },
   {
     "title": "Escape the Field",
@@ -15595,7 +16320,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/Escape_the_Field.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 725
+    "id": 725,
+    "rating": 6.4
   },
   {
     "title": "Operation Mincemeat",
@@ -15617,7 +16343,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Operation_Mincemeat.jpg/320px-Operation_Mincemeat.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 241,
-    "id": 726
+    "id": 726,
+    "rating": 2.1
   },
   {
     "title": "Senior Year",
@@ -15643,7 +16370,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2f/SeniorYearNetflixTeaser.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 727
+    "id": 727,
+    "rating": 7.9
   },
   {
     "title": "Firestarter",
@@ -15666,7 +16394,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/Firestarter_%282022%29_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 728
+    "id": 728,
+    "rating": 8.7
   },
   {
     "title": "Sneakerella",
@@ -15685,7 +16414,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/Sneakerella.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 729
+    "id": 729,
+    "rating": 8.3
   },
   {
     "title": "On the Count of Three",
@@ -15706,7 +16436,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/08/On_the_Count_of_Three.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 730
+    "id": 730,
+    "rating": 2.3
   },
   {
     "title": "Private Property",
@@ -15726,7 +16457,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/Private_property_film.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 731
+    "id": 731,
+    "rating": 2
   },
   {
     "title": "Family Camp",
@@ -15745,7 +16477,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/40/Family_camp.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 732
+    "id": 732,
+    "rating": 4.4
   },
   {
     "title": "Montana Story",
@@ -15762,7 +16495,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b9/Montana_Story.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 733
+    "id": 733,
+    "rating": 1.8
   },
   {
     "title": "Vendetta",
@@ -15783,7 +16517,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e4/Vendetta_film_poster.png",
     "thumbnail_width": 274,
     "thumbnail_height": 364,
-    "id": 734
+    "id": 734,
+    "rating": 3
   },
   {
     "title": "Downton Abbey: A New Era",
@@ -15806,7 +16541,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/Downton_Abbey_A_New_Era.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 735
+    "id": 735,
+    "rating": 3.6
   },
   {
     "title": "Chip 'n Dale: Rescue Rangers",
@@ -15832,7 +16568,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/46/Chip_n_Dale_Rescue_Rangers_Teaser_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 736
+    "id": 736,
+    "rating": 0.9
   },
   {
     "title": "Good Mourning",
@@ -15854,7 +16591,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_film_poster_to_represent_the_2022_film_%22Good_Mourning%22.png",
     "thumbnail_width": 261,
     "thumbnail_height": 382,
-    "id": 737
+    "id": 737,
+    "rating": 6.5
   },
   {
     "title": "The Valet",
@@ -15872,7 +16610,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Valet_%282022_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 390,
-    "id": 738
+    "id": 738,
+    "rating": 1.8
   },
   {
     "title": "Emergency",
@@ -15891,7 +16630,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d4/Emergency_%282022_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 739
+    "id": 739,
+    "rating": 5.1
   },
   {
     "title": "Top Gun: Maverick",
@@ -15915,7 +16655,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
     "thumbnail_width": 261,
     "thumbnail_height": 381,
-    "id": 740
+    "id": 740,
+    "rating": 1
   },
   {
     "title": "The Bob's Burgers Movie",
@@ -15940,7 +16681,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/Bob%27s_Burgers_Movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 741
+    "id": 741,
+    "rating": 2
   },
   {
     "title": "Zero Contact",
@@ -15958,7 +16700,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a0/Zero_Contact.jpg",
     "thumbnail_width": 265,
     "thumbnail_height": 376,
-    "id": 742
+    "id": 742,
+    "rating": 4.7
   },
   {
     "title": "A Chiara",
@@ -15976,7 +16719,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bd/A_Chiara_poster.jpeg",
     "thumbnail_width": 265,
     "thumbnail_height": 376,
-    "id": 743
+    "id": 743,
+    "rating": 8.3
   },
   {
     "title": "South Park The Streaming Wars",
@@ -15999,7 +16743,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ad/South_Park_The_Streaming_Wars.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 744
+    "id": 744,
+    "rating": 3
   },
   {
     "title": "Hollywood Stargirl",
@@ -16022,7 +16767,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/Hollywood_Stargirl.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 745
+    "id": 745,
+    "rating": 4.2
   },
   {
     "title": "Crimes of the Future",
@@ -16043,7 +16789,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d4/Crimes_of_the_Future_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 746
+    "id": 746,
+    "rating": 5.2
   },
   {
     "title": "Benediction",
@@ -16067,7 +16814,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5c/Benediction_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 747
+    "id": 747,
+    "rating": 3.6
   },
   {
     "title": "Interceptor",
@@ -16085,7 +16833,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/31/Interceptor_%28film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 748
+    "id": 748,
+    "rating": 6.8
   },
   {
     "title": "Fire Island",
@@ -16106,7 +16855,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/05/Fire_Island_Movie_Poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 749
+    "id": 749,
+    "rating": 0.1
   },
   {
     "title": "Watcher",
@@ -16124,7 +16874,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/52/Watcher_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 750
+    "id": 750,
+    "rating": 10
   },
   {
     "title": "Dashcam",
@@ -16140,7 +16891,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/Dashcamrobsavage.jpg",
     "thumbnail_width": 200,
     "thumbnail_height": 288,
-    "id": 751
+    "id": 751,
+    "rating": 0.6
   },
   {
     "title": "White Elephant",
@@ -16159,7 +16911,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/64/White_Elephant_%282022_film%29.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 752
+    "id": 752,
+    "rating": 4
   },
   {
     "title": "Hustle",
@@ -16182,7 +16935,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/50/Hustle_%282022_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 753
+    "id": 753,
+    "rating": 1.2
   },
   {
     "title": "Jurassic World Dominion",
@@ -16209,7 +16963,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 398,
-    "id": 754
+    "id": 754,
+    "rating": 1
   },
   {
     "title": "Jennifer Lopez: Halftime",
@@ -16225,7 +16980,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e0/Halftime_Poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 755
+    "id": 755,
+    "rating": 6
   },
   {
     "title": "Father of the Bride",
@@ -16247,7 +17003,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/The_Father_of_the_Bride_%282022_film%29_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 756
+    "id": 756,
+    "rating": 3.7
   },
   {
     "title": "Lightyear",
@@ -16274,7 +17031,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f9/Lightyear_%28film%29_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 757
+    "id": 757,
+    "rating": 7.4
   },
   {
     "title": "Spiderhead",
@@ -16293,7 +17051,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/Spiderhead.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 758
+    "id": 758,
+    "rating": 5.5
   },
   {
     "title": "Jerry & Marge Go Large",
@@ -16315,7 +17074,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/59/Jerry_%26_Marge_Go_Large.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 759
+    "id": 759,
+    "rating": 7.5
   },
   {
     "title": "Cha Cha Real Smooth",
@@ -16339,7 +17099,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/66/Cha_Cha_Real_Smooth_%28poster%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 760
+    "id": 760,
+    "rating": 7.3
   },
   {
     "title": "Mid-Century",
@@ -16359,7 +17120,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Mid-Century_2022.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 761
+    "id": 761,
+    "rating": 0.2
   },
   {
     "title": "Abandoned",
@@ -16377,7 +17139,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0e/Abandoned_%282022%29.jpeg",
     "thumbnail_width": 257,
     "thumbnail_height": 387,
-    "id": 762
+    "id": 762,
+    "rating": 3.4
   },
   {
     "title": "Beavis and Butt-Head Do the Universe",
@@ -16407,7 +17170,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/66/Beavis_and_Butt-head_2022_film_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 763
+    "id": 763,
+    "rating": 0.1
   },
   {
     "title": "Elvis",
@@ -16432,7 +17196,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/79/Elvis_2022_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 764
+    "id": 764,
+    "rating": 7.2
   },
   {
     "title": "The Black Phone",
@@ -16453,7 +17218,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7f/The_Black_Phone.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 398,
-    "id": 765
+    "id": 765,
+    "rating": 7.1
   },
   {
     "title": "The Man from Toronto",
@@ -16477,7 +17243,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/The_Man_from_Toronto_%282022_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 766
+    "id": 766,
+    "rating": 9.1
   },
   {
     "title": "The Sea Beast",
@@ -16501,7 +17268,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Sea_Beast_film_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 767
+    "id": 767,
+    "rating": 10
   },
   {
     "title": "Marcel the Shell with Shoes On",
@@ -16527,7 +17295,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d4/Marcel_the_Shell_with_Shoes_On_%282021_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 768
+    "id": 768,
+    "rating": 4.8
   },
   {
     "title": "Rise",
@@ -16550,7 +17319,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f5/Rise_%282022_film%29.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 769
+    "id": 769,
+    "rating": 2.9
   },
   {
     "title": "Press Play",
@@ -16573,7 +17343,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/af/PressPlay-Poster.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 770
+    "id": 770,
+    "rating": 4.4
   },
   {
     "title": "Beauty",
@@ -16594,7 +17365,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Beauty_%282022_film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 771
+    "id": 771,
+    "rating": 2.1
   },
   {
     "title": "Minions: The Rise of Gru",
@@ -16621,7 +17393,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/45/Minions_The_Rise_of_Gru_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 398,
-    "id": 772
+    "id": 772,
+    "rating": 1.1
   },
   {
     "title": "The Forgiven",
@@ -16647,7 +17420,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7b/The_Forgiven_%282021%29.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 773
+    "id": 773,
+    "rating": 3.7
   },
   {
     "title": "Mr. Malcolm's List",
@@ -16669,7 +17443,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3f/Mr._Malcolm%27s_List.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 774
+    "id": 774,
+    "rating": 9.9
   },
   {
     "title": "The Princess",
@@ -16691,7 +17466,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Princess_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 775
+    "id": 775,
+    "rating": 5
   },
   {
     "title": "Hot Seat",
@@ -16710,7 +17486,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/Hot_Seat_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 776
+    "id": 776,
+    "rating": 9.8
   },
   {
     "title": "Hello, Goodbye, and Everything in Between",
@@ -16732,7 +17509,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2e/Hello%2C_Goodbye%2C_and_Everything_in_Between_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 777
+    "id": 777,
+    "rating": 5.9
   },
   {
     "title": "Thor: Love and Thunder",
@@ -16754,7 +17532,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/88/Thor_Love_and_Thunder_poster.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 778
+    "id": 778,
+    "rating": 4.6
   },
   {
     "title": "South Park The Streaming Wars Part 2",
@@ -16778,7 +17557,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/25/South_Park_The_Streaming_Wars_Part_2_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 779
+    "id": 779,
+    "rating": 4.4
   },
   {
     "title": "The Gray Man",
@@ -16804,7 +17584,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/59/The_Gray_Man_poster.png",
     "thumbnail_width": 240,
     "thumbnail_height": 356,
-    "id": 780
+    "id": 780,
+    "rating": 5.8
   },
   {
     "title": "Where the Crawdads Sing",
@@ -16829,7 +17610,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/Where_the_Crawdads_Sing_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 781
+    "id": 781,
+    "rating": 3.1
   },
   {
     "title": "Paws of Fury: The Legend of Hank",
@@ -16855,7 +17637,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/51/Paws_of_Fury_poster.jpg",
     "thumbnail_width": 261,
     "thumbnail_height": 381,
-    "id": 782
+    "id": 782,
+    "rating": 3.8
   },
   {
     "title": "Persuasion",
@@ -16877,7 +17660,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fd/Persuasion_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 783
+    "id": 783,
+    "rating": 3.8
   },
   {
     "title": "Gone in the Night",
@@ -16897,7 +17681,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gone_in_the_Night_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 784
+    "id": 784,
+    "rating": 9.8
   },
   {
     "title": "1Up",
@@ -16917,7 +17702,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/1Up_%28film%29.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 785
+    "id": 785,
+    "rating": 8.5
   },
   {
     "title": "Wrong Place",
@@ -16934,7 +17720,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/25/Wrong_Place.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 786
+    "id": 786,
+    "rating": 2.4
   },
   {
     "title": "Don't Make Me Go",
@@ -16949,7 +17736,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Don%27t_Make_Me_Go.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 787
+    "id": 787,
+    "rating": 5.1
   },
   {
     "title": "He's Watching",
@@ -16967,7 +17755,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5f/He%27s_Watching.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 788
+    "id": 788,
+    "rating": 8.1
   },
   {
     "title": "Nope",
@@ -16990,7 +17779,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e6/Nope_%28film%29_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 789
+    "id": 789,
+    "rating": 9.1
   },
   {
     "title": "Anything's Possible",
@@ -17009,7 +17799,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/Anything%27s_Possible_%28film%29.jpg",
     "thumbnail_width": 240,
     "thumbnail_height": 356,
-    "id": 790
+    "id": 790,
+    "rating": 4.5
   },
   {
     "title": "Alone Together",
@@ -17031,7 +17822,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c9/Alone_Together_2022_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 791
+    "id": 791,
+    "rating": 3.1
   },
   {
     "title": "DC League of Super-Pets",
@@ -17057,7 +17849,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/09/DC_League_of_Super-Pets.jpg",
     "thumbnail_width": 256,
     "thumbnail_height": 384,
-    "id": 792
+    "id": 792,
+    "rating": 4.3
   },
   {
     "title": "Thirteen Lives",
@@ -17077,7 +17870,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b6/Thirteen_Lives.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 793
+    "id": 793,
+    "rating": 5.7
   },
   {
     "title": "Vengeance",
@@ -17098,7 +17892,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/02/Vengeance_%282022_film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 794
+    "id": 794,
+    "rating": 7.1
   },
   {
     "title": "Sharp Stick",
@@ -17121,7 +17916,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/Sharp_Stick.jpg",
     "thumbnail_width": 240,
     "thumbnail_height": 364,
-    "id": 795
+    "id": 795,
+    "rating": 4.8
   },
   {
     "title": "Not Okay",
@@ -17143,7 +17939,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/Not_Okay_Poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 796
+    "id": 796,
+    "rating": 5.4
   },
   {
     "title": "Paradise Highway",
@@ -17163,7 +17960,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b3/Paradise_Highway_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 797
+    "id": 797,
+    "rating": 8.4
   },
   {
     "title": "Resurrection",
@@ -17182,7 +17980,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/Resurrection_%282022_film%29.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 798
+    "id": 798,
+    "rating": 9.3
   },
   {
     "title": "A Love Song",
@@ -17199,7 +17998,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c4/A_Love_Song_%28film%29.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 799
+    "id": 799,
+    "rating": 3
   },
   {
     "title": "Honor Society",
@@ -17217,7 +18017,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/ba/Honor_Society_2022_film_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 800
+    "id": 800,
+    "rating": 9.7
   },
   {
     "title": "Allegoria",
@@ -17237,7 +18038,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/Allegoria.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 801
+    "id": 801,
+    "rating": 0.5
   },
   {
     "title": "Bullet Train",
@@ -17262,7 +18064,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/Bullet_Train_%28poster%29.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 802
+    "id": 802,
+    "rating": 3.1
   },
   {
     "title": "Luck",
@@ -17287,7 +18090,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6e/Luck_%282022%29_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 803
+    "id": 803,
+    "rating": 1.3
   },
   {
     "title": "Prey",
@@ -17309,7 +18113,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/Prey_2022_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 804
+    "id": 804,
+    "rating": 8.7
   },
   {
     "title": "Easter Sunday",
@@ -17331,7 +18136,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b7/Easter_Sunday_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 805
+    "id": 805,
+    "rating": 4.2
   },
   {
     "title": "Rise of the Teenage Mutant Ninja Turtles: The Movie",
@@ -17355,7 +18161,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Rise_of_the_Teenage_Mutant_Ninja_Turtles-_The_Movie.jpeg",
     "thumbnail_width": 316,
     "thumbnail_height": 316,
-    "id": 806
+    "id": 806,
+    "rating": 1
   },
   {
     "title": "Bodies Bodies Bodies",
@@ -17378,7 +18185,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7f/Bodies_Bodies_Bodies_%28poster%29.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 807
+    "id": 807,
+    "rating": 8.4
   },
   {
     "title": "They/Them",
@@ -17392,7 +18200,8 @@ const movies = [
     ],
     "genres": [],
     "href": "They/Them_(film)",
-    "id": 808
+    "id": 808,
+    "rating": 6.8
   },
   {
     "title": "Secret Headquarters",
@@ -17415,7 +18224,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f0/Secret_Headquarters_poster.jpg",
     "thumbnail_width": 240,
     "thumbnail_height": 355,
-    "id": 809
+    "id": 809,
+    "rating": 2.9
   },
   {
     "title": "Day Shift",
@@ -17440,7 +18250,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/Day_Shift_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 810
+    "id": 810,
+    "rating": 7.8
   },
   {
     "title": "Mack & Rita",
@@ -17465,7 +18276,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Mack_%26_Rita.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 811
+    "id": 811,
+    "rating": 8.6
   },
   {
     "title": "Fall",
@@ -17484,7 +18296,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2a/Fall_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 812
+    "id": 812,
+    "rating": 6.9
   },
   {
     "title": "Emily the Criminal",
@@ -17504,7 +18317,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/Emily_the_Criminal.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 813
+    "id": 813,
+    "rating": 2.1
   },
   {
     "title": "Summering",
@@ -17525,7 +18339,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ae/Summering.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 814
+    "id": 814,
+    "rating": 5
   },
   {
     "title": "Beast",
@@ -17545,7 +18360,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/81/Beast_2022_American_poster.jpg",
     "thumbnail_width": 240,
     "thumbnail_height": 300,
-    "id": 815
+    "id": 815,
+    "rating": 9.7
   },
   {
     "title": "Orphan: First Kill",
@@ -17565,7 +18381,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/OrphanFirstKillPoster.jpg",
     "thumbnail_width": 316,
     "thumbnail_height": 316,
-    "id": 816
+    "id": 816,
+    "rating": 6.2
   },
   {
     "title": "Spin Me Round",
@@ -17589,7 +18406,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/Spin_Me_Round_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 817
+    "id": 817,
+    "rating": 9.5
   },
   {
     "title": "Delia's Gone",
@@ -17608,7 +18426,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Delias_gone.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 818
+    "id": 818,
+    "rating": 7.1
   },
   {
     "title": "Three Thousand Years of Longing",
@@ -17627,7 +18446,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/27/Three_Thousand_Years_of_Longing.jpeg",
     "thumbnail_width": 250,
     "thumbnail_height": 363,
-    "id": 819
+    "id": 819,
+    "rating": 8.2
   },
   {
     "title": "Samaritan",
@@ -17647,7 +18467,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/Samaritan2022Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 820
+    "id": 820,
+    "rating": 4.9
   },
   {
     "title": "Me Time",
@@ -17667,7 +18488,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fa/Me_Time_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 821
+    "id": 821,
+    "rating": 7.1
   },
   {
     "title": "The Invitation",
@@ -17689,7 +18511,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Invitation_%282022_film%29_poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 822
+    "id": 822,
+    "rating": 4.3
   },
   {
     "title": "Breaking",
@@ -17711,7 +18534,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/Breaking_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 823
+    "id": 823,
+    "rating": 0.6
   },
   {
     "title": "Funny Pages",
@@ -17731,7 +18555,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/70/Funny_Pages.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 824
+    "id": 824,
+    "rating": 6.6
   },
   {
     "title": "Honk for Jesus. Save Your Soul.",
@@ -17753,7 +18578,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Honk_for_Jesus._Save_Your_Soul_film_poster.png",
     "thumbnail_width": 266,
     "thumbnail_height": 394,
-    "id": 825
+    "id": 825,
+    "rating": 4.5
   },
   {
     "title": "Gigi & Nate",
@@ -17775,7 +18601,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5a/Gigi-Nate-poster.jpeg",
     "thumbnail_width": 263,
     "thumbnail_height": 380,
-    "id": 826
+    "id": 826,
+    "rating": 4.2
   },
   {
     "title": "Wire Room",
@@ -17792,7 +18619,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f7/Wire_Room_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 827
+    "id": 827,
+    "rating": 4.7
   },
   {
     "title": "One Way",
@@ -17814,7 +18642,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e7/One_Way_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 376,
-    "id": 828
+    "id": 828,
+    "rating": 9.4
   },
   {
     "title": "After Ever Happy",
@@ -17840,7 +18669,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/63/AfterEverHappy.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 829
+    "id": 829,
+    "rating": 0.2
   },
   {
     "title": "Pinocchio",
@@ -17864,7 +18694,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5b/Pinocchio_2022_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 830
+    "id": 830,
+    "rating": 5.7
   },
   {
     "title": "Barbarian",
@@ -17883,7 +18714,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/eb/Barbarian_2022_film_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 831
+    "id": 831,
+    "rating": 4.3
   },
   {
     "title": "End of the Road",
@@ -17902,7 +18734,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3c/Film_poster_for_the_2022_film_End_of_the_Road.png",
     "thumbnail_width": 263,
     "thumbnail_height": 385,
-    "id": 832
+    "id": 832,
+    "rating": 4.4
   },
   {
     "title": "Lifemark",
@@ -17922,14 +18755,16 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0a/LifemarkPoster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 833
+    "id": 833,
+    "rating": 7.7
   },
   {
     "title": "Flight/Risk",
     "year": 2022,
     "cast": [],
     "genres": [],
-    "id": 834
+    "id": 834,
+    "rating": 7.2
   },
   {
     "title": "Clerks III",
@@ -17953,7 +18788,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/Clerks_III.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 835
+    "id": 835,
+    "rating": 9.8
   },
   {
     "title": "The Woman King",
@@ -17977,7 +18813,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Woman_King_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 312,
-    "id": 836
+    "id": 836,
+    "rating": 8.5
   },
   {
     "title": "See How They Run",
@@ -18000,7 +18837,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/72/See_How_They_Run_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 837
+    "id": 837,
+    "rating": 6.3
   },
   {
     "title": "Blonde",
@@ -18021,7 +18859,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6d/Blonde_2022_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 320,
-    "id": 838
+    "id": 838,
+    "rating": 0.7
   },
   {
     "title": "Pearl",
@@ -18041,7 +18880,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5b/Pearl_theatricalposter.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 839
+    "id": 839,
+    "rating": 2.2
   },
   {
     "title": "Do Revenge",
@@ -18062,7 +18902,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/Do_Revenge.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 840
+    "id": 840,
+    "rating": 5.9
   },
   {
     "title": "The Silent Twins",
@@ -18081,7 +18922,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/The_Silent_Twins_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 841
+    "id": 841,
+    "rating": 9.9
   },
   {
     "title": "Confess, Fletch",
@@ -18102,7 +18944,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/61/Confess%2C_Fletch.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 842
+    "id": 842,
+    "rating": 8.7
   },
   {
     "title": "Moonage Daydream",
@@ -18118,7 +18961,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Moonage_Daydream_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 367,
-    "id": 843
+    "id": 843,
+    "rating": 6.6
   },
   {
     "title": "God's Country",
@@ -18139,7 +18983,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6e/Godscountryposter.jpg",
     "thumbnail_width": 254,
     "thumbnail_height": 377,
-    "id": 844
+    "id": 844,
+    "rating": 5.5
   },
   {
     "title": "Goodnight Mommy",
@@ -18159,7 +19004,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/GoodnightMommy2022poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 845
+    "id": 845,
+    "rating": 0.8
   },
   {
     "title": "Running the Bases",
@@ -18178,7 +19024,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/RunningTheBases.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 846
+    "id": 846,
+    "rating": 1.2
   },
   {
     "title": "Jeepers Creepers: Reborn",
@@ -18199,7 +19046,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/Jeepers_Creepers_Reborn.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 847
+    "id": 847,
+    "rating": 5.9
   },
   {
     "title": "Don't Worry Darling",
@@ -18221,7 +19069,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4c/Don%27t_Worry_Darling_Poster_2.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 848
+    "id": 848,
+    "rating": 9.2
   },
   {
     "title": "Catherine Called Birdy",
@@ -18242,7 +19091,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/68/Catherine_Called_Birdy_%28film%29.png",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 849
+    "id": 849,
+    "rating": 8.8
   },
   {
     "title": "Section Eight",
@@ -18259,7 +19109,8 @@ const movies = [
     ],
     "href": "Section_Eight_(film)",
     "extract": "Section Eight is a 2022 American action film directed by Christian Sesma and starring Ryan Kwanten, Dolph Lundgren, Dermot Mulroney with Scott Adkins, Mickey Rourke, and Justin Furstenfeld.",
-    "id": 850
+    "id": 850,
+    "rating": 6.9
   },
   {
     "title": "Lou",
@@ -18277,7 +19128,8 @@ const movies = [
     ],
     "href": "Lou_(2022_film)",
     "extract": "Lou is a 2022 American action thriller film directed by Anna Foerster. The film stars Allison Janney, Jurnee Smollett, Logan Marshall-Green, Ridley Asha Bateman, and Matt Craven.",
-    "id": 851
+    "id": 851,
+    "rating": 8.8
   },
   {
     "title": "On the Come Up",
@@ -18299,7 +19151,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/On_the_Come_Up_movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 852
+    "id": 852,
+    "rating": 5.6
   },
   {
     "title": "A Jazzman's Blues",
@@ -18319,7 +19172,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/A_Jazzman%27s_Blues.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 853
+    "id": 853,
+    "rating": 3.8
   },
   {
     "title": "The Munsters",
@@ -18340,7 +19194,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/The_Munsters_%282022%29_Movie.png",
     "thumbnail_width": 266,
     "thumbnail_height": 375,
-    "id": 854
+    "id": 854,
+    "rating": 2.4
   },
   {
     "title": "Smile",
@@ -18364,7 +19219,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7f/Smile_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 855
+    "id": 855,
+    "rating": 3.8
   },
   {
     "title": "Bros",
@@ -18387,7 +19243,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fa/Bros_%28film%29.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 398,
-    "id": 856
+    "id": 856,
+    "rating": 7.1
   },
   {
     "title": "Hocus Pocus 2",
@@ -18412,7 +19269,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/Hocus_Pocus_2_Logo.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 857
+    "id": 857,
+    "rating": 1.3
   },
   {
     "title": "The Greatest Beer Run Ever",
@@ -18433,7 +19291,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f8/Greatest_Beer_Run_Ever.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 858
+    "id": 858,
+    "rating": 6.7
   },
   {
     "title": "The Good House",
@@ -18454,7 +19313,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Good_House_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 859
+    "id": 859,
+    "rating": 5.6
   },
   {
     "title": "Luckiest Girl Alive",
@@ -18478,7 +19338,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/91/Luckiest_Girl_Alive_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 860
+    "id": 860,
+    "rating": 7.3
   },
   {
     "title": "God's Creatures",
@@ -18496,7 +19357,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2b/God%27s_Creatures.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 861
+    "id": 861,
+    "rating": 1.9
   },
   {
     "title": "Dead for a Dollar",
@@ -18516,7 +19378,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/Dead_for_a_Dollar.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 361,
-    "id": 862
+    "id": 862,
+    "rating": 7.9
   },
   {
     "title": "My Best Friend's Exorcism",
@@ -18537,7 +19400,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/08/My_Best_Friend%27s_Exorcism_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 368,
-    "id": 863
+    "id": 863,
+    "rating": 1.1
   },
   {
     "title": "Hot Take: The Depp/Heard Trial",
@@ -18549,7 +19413,8 @@ const movies = [
       "Mary Carrig"
     ],
     "genres": [],
-    "id": 864
+    "id": 864,
+    "rating": 2.6
   },
   {
     "title": "Mr. Harrigan's Phone",
@@ -18570,7 +19435,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8f/Mr_harrigans_phone_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 865
+    "id": 865,
+    "rating": 0.8
   },
   {
     "title": "Terrifier 2",
@@ -18592,7 +19458,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cd/Terrifier_2_Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 368,
-    "id": 866
+    "id": 866,
+    "rating": 6.2
   },
   {
     "title": "Lyle, Lyle, Crocodile",
@@ -18614,7 +19481,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/39/Lyle%2C_Lyle%2C_Crocodile_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 867
+    "id": 867,
+    "rating": 0.1
   },
   {
     "title": "Amsterdam",
@@ -18647,7 +19515,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3c/Amsterdam_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 868
+    "id": 868,
+    "rating": 5.9
   },
   {
     "title": "Tár",
@@ -18669,7 +19538,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/19/T%C3%A1r_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 869
+    "id": 869,
+    "rating": 1.7
   },
   {
     "title": "Hellraiser",
@@ -18690,7 +19560,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/61/Hellraiser_2022_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 870
+    "id": 870,
+    "rating": 1.1
   },
   {
     "title": "Significant Other",
@@ -18708,7 +19579,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/Significant_Other_2022_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 871
+    "id": 871,
+    "rating": 3.5
   },
   {
     "title": "The Redeem Team",
@@ -18719,7 +19591,8 @@ const movies = [
       "Mike Krzyzewski"
     ],
     "genres": [],
-    "id": 872
+    "id": 872,
+    "rating": 4.5
   },
   {
     "title": "Halloween Ends",
@@ -18740,7 +19613,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d5/Halloween_ends_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 873
+    "id": 873,
+    "rating": 6.4
   },
   {
     "title": "Till",
@@ -18767,7 +19641,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Till_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 874
+    "id": 874,
+    "rating": 10
   },
   {
     "title": "Rosaline",
@@ -18788,7 +19663,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Rosaline_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 374,
-    "id": 875
+    "id": 875,
+    "rating": 9
   },
   {
     "title": "All Quiet on the Western Front",
@@ -18810,7 +19686,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c3/All_quiet_on_the_western_front_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 312,
-    "id": 876
+    "id": 876,
+    "rating": 3.1
   },
   {
     "title": "Raymond & Ray",
@@ -18830,7 +19707,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Raymond_and_Ray_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 877
+    "id": 877,
+    "rating": 7.8
   },
   {
     "title": "Stars at Noon",
@@ -18851,7 +19729,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8f/Stars_at_Noon.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 878
+    "id": 878,
+    "rating": 0.2
   },
   {
     "title": "The Curse of Bridge Hollow",
@@ -18874,7 +19753,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/The_Curse_of_Bridge_Hollow.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 879
+    "id": 879,
+    "rating": 3.5
   },
   {
     "title": "Bitch Ass",
@@ -18891,7 +19771,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/Bitch_ass.jpeg",
     "thumbnail_width": 268,
     "thumbnail_height": 372,
-    "id": 880
+    "id": 880,
+    "rating": 6.5
   },
   {
     "title": "The School for Good and Evil",
@@ -18915,7 +19796,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c5/The_School_for_Good_and_Evil_movie_poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 881
+    "id": 881,
+    "rating": 3.6
   },
   {
     "title": "The Good Nurse",
@@ -18937,7 +19819,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Good_nurse.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 882
+    "id": 882,
+    "rating": 6.5
   },
   {
     "title": "V/H/S/99",
@@ -18962,7 +19845,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/VHS99-movieposter.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 883
+    "id": 883,
+    "rating": 1.4
   },
   {
     "title": "Black Adam",
@@ -18986,7 +19870,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a9/Black_Adam_%28film%29_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 884
+    "id": 884,
+    "rating": 2.4
   },
   {
     "title": "Ticket to Paradise",
@@ -19008,7 +19893,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/Ticket_to_Paradise_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 885
+    "id": 885,
+    "rating": 8.8
   },
   {
     "title": "Wendell & Wild",
@@ -19032,7 +19918,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/24/Wendell_%26_Wild_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 372,
-    "id": 886
+    "id": 886,
+    "rating": 7.2
   },
   {
     "title": "The Banshees of Inisherin",
@@ -19051,7 +19938,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6e/The_Banshees_of_Inisherin.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 887
+    "id": 887,
+    "rating": 8.4
   },
   {
     "title": "My Policeman",
@@ -19073,7 +19961,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/My_Policeman_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 888
+    "id": 888,
+    "rating": 7.7
   },
   {
     "title": "Aftersun",
@@ -19091,7 +19980,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/11/Aftersun.jpg",
     "thumbnail_width": 253,
     "thumbnail_height": 375,
-    "id": 889
+    "id": 889,
+    "rating": 9
   },
   {
     "title": "Detective Knight: Rogue",
@@ -19110,7 +20000,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/Detective_Knight_Rogue_poster.png",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 890
+    "id": 890,
+    "rating": 8.8
   },
   {
     "title": "The Return of Tanya Tucker: Featuring Brandi Carlile",
@@ -19127,7 +20018,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1a/Return_of_tanya_tucker_featuring_brandi_carlile.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 891
+    "id": 891,
+    "rating": 2.8
   },
   {
     "title": "Armageddon Time",
@@ -19147,7 +20039,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7c/Armageddon_Time_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 892
+    "id": 892,
+    "rating": 0.8
   },
   {
     "title": "Call Jane",
@@ -19170,7 +20063,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/Call_Jane_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 893
+    "id": 893,
+    "rating": 1.8
   },
   {
     "title": "Causeway",
@@ -19191,7 +20085,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e2/Causeway_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 894
+    "id": 894,
+    "rating": 3.2
   },
   {
     "title": "Prey for the Devil",
@@ -19214,7 +20109,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Devil%27s_Light_Poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 895
+    "id": 895,
+    "rating": 9.5
   },
   {
     "title": "Run Sweetheart Run",
@@ -19237,7 +20133,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a7/Run_Sweetheart_Run.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 896
+    "id": 896,
+    "rating": 9.4
   },
   {
     "title": "The Wonder",
@@ -19266,7 +20163,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Wonder_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 897
+    "id": 897,
+    "rating": 7.4
   },
   {
     "title": "The Independent",
@@ -19287,7 +20185,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Independent_%282022_film%29_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 898
+    "id": 898,
+    "rating": 7.7
   },
   {
     "title": "Enola Holmes 2",
@@ -19310,7 +20209,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4b/Enola_Holmes_2_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 899
+    "id": 899,
+    "rating": 7.6
   },
   {
     "title": "My Father's Dragon",
@@ -19340,7 +20240,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/My_Father%27s_Dragon_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 372,
-    "id": 900
+    "id": 900,
+    "rating": 3.4
   },
   {
     "title": "Weird: The Al Yankovic Story",
@@ -19359,7 +20260,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cc/Weird_The_Al_Yankovic_Story.jpg",
     "thumbnail_width": 240,
     "thumbnail_height": 350,
-    "id": 901
+    "id": 901,
+    "rating": 5.4
   },
   {
     "title": "The Estate",
@@ -19381,7 +20283,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Estate_2022_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 902
+    "id": 902,
+    "rating": 3
   },
   {
     "title": "The Minute You Wake Up Dead",
@@ -19397,7 +20300,8 @@ const movies = [
     ],
     "href": "The_Minute_You_Wake_Up_Dead",
     "extract": "The Minute You Wake Up Dead is a 2022 American noir thriller film directed by Michael Mailer and starring Cole Hauser, Morgan Freeman and Jaimie Alexander.",
-    "id": 903
+    "id": 903,
+    "rating": 4.5
   },
   {
     "title": "On the Line",
@@ -19414,7 +20318,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/af/On_the_Line_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 344,
-    "id": 904
+    "id": 904,
+    "rating": 5.7
   },
   {
     "title": "Dear Zoe",
@@ -19435,7 +20340,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/db/Dear_Zoe_2022_film_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 383,
-    "id": 905
+    "id": 905,
+    "rating": 8.4
   },
   {
     "title": "Something in the Dirt",
@@ -19454,7 +20360,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/Something_in_the_Dirt.jpg",
     "thumbnail_width": 253,
     "thumbnail_height": 374,
-    "id": 906
+    "id": 906,
+    "rating": 3.7
   },
   {
     "title": "Good Night Oppy",
@@ -19468,7 +20375,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/Good_Night_Oppy.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 907
+    "id": 907,
+    "rating": 4.9
   },
   {
     "title": "Guillermo del Toro's Pinocchio",
@@ -19496,7 +20404,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Pinocchio_%282022_animated_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 908
+    "id": 908,
+    "rating": 7.9
   },
   {
     "title": "Falling for Christmas",
@@ -19517,7 +20426,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/35/Falling_for_Christmas_poster.png",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 909
+    "id": 909,
+    "rating": 0.1
   },
   {
     "title": "Black Panther: Wakanda Forever",
@@ -19543,7 +20453,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Black_Panther_Wakanda_Forever_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 910
+    "id": 910,
+    "rating": 6.3
   },
   {
     "title": "The Fabelmans",
@@ -19563,7 +20474,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/ba/Fabelmansposter.jpeg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 911
+    "id": 911,
+    "rating": 6.3
   },
   {
     "title": "Spirited",
@@ -19582,7 +20494,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spirited_poster.png",
     "thumbnail_width": 240,
     "thumbnail_height": 360,
-    "id": 912
+    "id": 912,
+    "rating": 2.2
   },
   {
     "title": "Is That Black Enough for You?!?",
@@ -19601,7 +20514,8 @@ const movies = [
     ],
     "href": "Is_That_Black_Enough_for_You%3F!%3F",
     "extract": "Is That Black Enough for You?!? is a 2022 documentary film and film essay written and directed by Elvis Mitchell. It examines the history, craft and legacy of African-American cinema—with a focus on the films released in the 1970s—and makes use of film excerpts, personal history, and recent interviews with artists such as Margaret Avery, Harry Belafonte, Charles Burnett, Laurence Fishburne, Whoopi Goldberg, Samuel L. Jackson, Suzanne de Passe, Glynn Turman, Billy Dee Williams, and Zendaya.",
-    "id": 913
+    "id": 913,
+    "rating": 2.3
   },
   {
     "title": "Paradise City",
@@ -19618,7 +20532,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/64/Paradise_City_poster.png",
     "thumbnail_width": 261,
     "thumbnail_height": 382,
-    "id": 914
+    "id": 914,
+    "rating": 6.4
   },
   {
     "title": "Poker Face",
@@ -19637,7 +20552,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/Poker_Face_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 915
+    "id": 915,
+    "rating": 3.8
   },
   {
     "title": "A Christmas Story Christmas",
@@ -19659,7 +20575,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a7/A_Christmas_Story_Christmas_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 916
+    "id": 916,
+    "rating": 6.7
   },
   {
     "title": "Christmas with You",
@@ -19669,7 +20586,8 @@ const movies = [
       "Freddie Prinze Jr."
     ],
     "genres": [],
-    "id": 917
+    "id": 917,
+    "rating": 8.2
   },
   {
     "title": "She Said",
@@ -19692,7 +20610,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/50/She_said_film_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 918
+    "id": 918,
+    "rating": 9.7
   },
   {
     "title": "The Menu",
@@ -19716,7 +20635,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Menu_%282022_film%29.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 330,
-    "id": 919
+    "id": 919,
+    "rating": 8.3
   },
   {
     "title": "Disenchanted",
@@ -19740,7 +20660,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/93/Disenchanted.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 920
+    "id": 920,
+    "rating": 8.5
   },
   {
     "title": "Slumberland",
@@ -19761,7 +20682,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/77/Slumberland_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 921
+    "id": 921,
+    "rating": 2.4
   },
   {
     "title": "Bones and All",
@@ -19786,7 +20708,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bones_and_All.jpg",
     "thumbnail_width": 264,
     "thumbnail_height": 377,
-    "id": 922
+    "id": 922,
+    "rating": 7.2
   },
   {
     "title": "The Inspection",
@@ -19811,7 +20734,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Inspection_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 923
+    "id": 923,
+    "rating": 1
   },
   {
     "title": "Scrooge: A Christmas Carol",
@@ -19836,7 +20760,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3e/Scrooge_A_Christmas_Carol_poster.png",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 924
+    "id": 924,
+    "rating": 4.8
   },
   {
     "title": "Lamborghini: The Man Behind the Legend",
@@ -19855,7 +20780,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/29/Lamborghini_-_The_Man_Behind_the_Legend_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 925
+    "id": 925,
+    "rating": 7
   },
   {
     "title": "The People We Hate at the Wedding",
@@ -19873,7 +20799,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fe/The_People_We_Hate_at_the_Wedding_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 926
+    "id": 926,
+    "rating": 9.3
   },
   {
     "title": "Prancer: A Christmas Tale",
@@ -19887,7 +20814,8 @@ const movies = [
     "genres": [],
     "href": "Prancer:_A_Christmas_Tale",
     "extract": "Prancer: A Christmas Tale is a 2022 film and a remake of the 1989 film Prancer. It was produced by Raffaella De Laurentiis and written by Greg Taylor, who, respectively, also produced and wrote the original.",
-    "id": 927
+    "id": 927,
+    "rating": 2.4
   },
   {
     "title": "Strange World",
@@ -19909,7 +20837,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fe/Strange_World_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 331,
-    "id": 928
+    "id": 928,
+    "rating": 4.4
   },
   {
     "title": "Glass Onion: A Knives Out Mystery",
@@ -19933,7 +20862,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Glass_Onion_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 929
+    "id": 929,
+    "rating": 9.3
   },
   {
     "title": "Devotion",
@@ -19954,7 +20884,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0f/Devotion_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 930
+    "id": 930,
+    "rating": 3.9
   },
   {
     "title": "Nanny",
@@ -19975,7 +20906,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/84/Nanny_2022_film_poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 931
+    "id": 931,
+    "rating": 9.4
   },
   {
     "title": "A Christmas Mystery",
@@ -19990,7 +20922,8 @@ const movies = [
       "Beau Bridges"
     ],
     "genres": [],
-    "id": 932
+    "id": 932,
+    "rating": 2.1
   },
   {
     "title": "Holiday Harmony",
@@ -20004,7 +20937,8 @@ const movies = [
       "Michael Wiseman"
     ],
     "genres": [],
-    "id": 933
+    "id": 933,
+    "rating": 1.6
   },
   {
     "title": "The Noel Diary",
@@ -20023,7 +20957,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/The_Noel_Diary_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 323,
-    "id": 934
+    "id": 934,
+    "rating": 8.3
   },
   {
     "title": "White Noise",
@@ -20048,7 +20983,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/54/White_Noise_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 935
+    "id": 935,
+    "rating": 6.2
   },
   {
     "title": "A Hollywood Christmas",
@@ -20061,7 +20997,8 @@ const movies = [
       "Missi Pyle"
     ],
     "genres": [],
-    "id": 936
+    "id": 936,
+    "rating": 9.1
   },
   {
     "title": "Violent Night",
@@ -20085,7 +21022,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Violent_Night_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 327,
-    "id": 937
+    "id": 937,
+    "rating": 1.9
   },
   {
     "title": "Emancipation",
@@ -20108,7 +21046,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b3/Emancipation_Release_Poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 938
+    "id": 938,
+    "rating": 9.1
   },
   {
     "title": "Spoiler Alert",
@@ -20128,7 +21067,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c1/Spoiler_Alert_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 939
+    "id": 939,
+    "rating": 3.4
   },
   {
     "title": "Diary of a Wimpy Kid: Rodrick Rules",
@@ -20150,7 +21090,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/72/Diary_of_a_Wimpy_Kid_Rodrick_Rules_2022_poster.jpeg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 940
+    "id": 940,
+    "rating": 8.1
   },
   {
     "title": "Darby and the Dead",
@@ -20175,7 +21116,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/86/Darby_and_the_Dead_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 941
+    "id": 941,
+    "rating": 6.6
   },
   {
     "title": "Lady Chatterley's Lover",
@@ -20194,7 +21136,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Lady_Chatterley%27s_Lover_%282022_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 942
+    "id": 942,
+    "rating": 0.6
   },
   {
     "title": "The Eternal Daughter",
@@ -20213,7 +21156,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8d/The_Eternal_Daughter.jpeg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 943
+    "id": 943,
+    "rating": 1.4
   },
   {
     "title": "Matilda the Musical",
@@ -20237,7 +21181,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/32/Matilda_the_Musical_UK_Film_Poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 944
+    "id": 944,
+    "rating": 3.3
   },
   {
     "title": "Empire of Light",
@@ -20261,7 +21206,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/14/Empire_of_Light_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 945
+    "id": 945,
+    "rating": 5.4
   },
   {
     "title": "Night at the Museum: Kahmunrah Rises Again",
@@ -20286,7 +21232,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/17/Night_at_the_Museum_Kahmunrah_Rises_Again.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 946
+    "id": 946,
+    "rating": 2.8
   },
   {
     "title": "The Whale",
@@ -20306,7 +21253,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f3/TheWhalePoster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 313,
-    "id": 947
+    "id": 947,
+    "rating": 5.6
   },
   {
     "title": "Something from Tiffany's",
@@ -20326,7 +21274,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/Something_from_Tiffany%27s_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 948
+    "id": 948,
+    "rating": 3.9
   },
   {
     "title": "Detective Knight: Redemption",
@@ -20344,7 +21293,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/37/Detective_Knight_Redemption_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 949
+    "id": 949,
+    "rating": 1.5
   },
   {
     "title": "The Mean One",
@@ -20367,7 +21317,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Mean_One_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 950
+    "id": 950,
+    "rating": 5.8
   },
   {
     "title": "5000 Blankets",
@@ -20381,7 +21332,8 @@ const movies = [
       "Cindy Hogan"
     ],
     "genres": [],
-    "id": 951
+    "id": 951,
+    "rating": 8.2
   },
   {
     "title": "Avatar: The Way of Water",
@@ -20401,7 +21353,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 390,
-    "id": 952
+    "id": 952,
+    "rating": 9.8
   },
   {
     "title": "Puss in Boots: The Last Wish",
@@ -20427,14 +21380,16 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/Puss_in_Boots_The_Last_Wish_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 953
+    "id": 953,
+    "rating": 0.4
   },
   {
     "title": "Wildcat",
     "year": 2022,
     "cast": [],
     "genres": [],
-    "id": 954
+    "id": 954,
+    "rating": 9.5
   },
   {
     "title": "Babylon",
@@ -20457,7 +21412,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/BabylonOfficialTheatricalPoster2022.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 955
+    "id": 955,
+    "rating": 2.9
   },
   {
     "title": "Whitney Houston: I Wanna Dance with Somebody",
@@ -20480,7 +21436,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/61/IWDWS.jpeg",
     "thumbnail_width": 260,
     "thumbnail_height": 384,
-    "id": 956
+    "id": 956,
+    "rating": 8
   },
   {
     "title": "The Pale Blue Eye",
@@ -20506,7 +21463,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/07/The_Pale_Blue_Eye_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 957
+    "id": 957,
+    "rating": 0.6
   },
   {
     "title": "Women Talking",
@@ -20527,7 +21485,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/Women_Talking_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 958
+    "id": 958,
+    "rating": 5.8
   },
   {
     "title": "A Man Called Otto",
@@ -20547,7 +21506,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/80/A_Man_Called_Otto_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 385,
-    "id": 959
+    "id": 959,
+    "rating": 3.8
   },
   {
     "title": "Alice, Darling",
@@ -20566,7 +21526,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Alice_darling.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 960
+    "id": 960,
+    "rating": 3.6
   },
   {
     "title": "M3GAN",
@@ -20588,7 +21549,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/M3GAN_Poster.jpeg",
     "thumbnail_width": 220,
     "thumbnail_height": 321,
-    "id": 961
+    "id": 961,
+    "rating": 8
   },
   {
     "title": "The Old Way",
@@ -20605,7 +21567,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bd/The_Old_Way_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 962
+    "id": 962,
+    "rating": 2.8
   },
   {
     "title": "The Devil Conspiracy",
@@ -20629,7 +21592,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ef/DevilConspiracy.png",
     "thumbnail_width": 250,
     "thumbnail_height": 369,
-    "id": 963
+    "id": 963,
+    "rating": 0.1
   },
   {
     "title": "Plane",
@@ -20649,7 +21613,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d2/Plane_%282023_film%29_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 964
+    "id": 964,
+    "rating": 5.4
   },
   {
     "title": "House Party",
@@ -20669,7 +21634,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4d/House_Party_%282023_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 371,
-    "id": 965
+    "id": 965,
+    "rating": 2.3
   },
   {
     "title": "Sick",
@@ -20688,7 +21654,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/73/SickFilmPoster.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 966
+    "id": 966,
+    "rating": 4.3
   },
   {
     "title": "The Drop",
@@ -20707,7 +21674,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e8/The_Drop_%282022_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 313,
-    "id": 967
+    "id": 967,
+    "rating": 8.6
   },
   {
     "title": "Dog Gone",
@@ -20726,7 +21694,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/00/DogGonePoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 968
+    "id": 968,
+    "rating": 9.5
   },
   {
     "title": "There's Something Wrong with the Children",
@@ -20745,7 +21714,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5f/There%27s_Something_Wrong_with_the_Children_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 969
+    "id": 969,
+    "rating": 9.8
   },
   {
     "title": "Missing",
@@ -20766,7 +21736,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Missing_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 390,
-    "id": 970
+    "id": 970,
+    "rating": 1.9
   },
   {
     "title": "The Son",
@@ -20787,7 +21758,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d6/The_Son_%282022_film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 971
+    "id": 971,
+    "rating": 1.6
   },
   {
     "title": "When You Finish Saving the World",
@@ -20809,7 +21781,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f6/WhenYouFinishSavingTheWorldFilm.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 972
+    "id": 972,
+    "rating": 8.8
   },
   {
     "title": "Detective Knight: Independence",
@@ -20825,7 +21798,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9c/Detective_Knight_Independence_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 375,
-    "id": 973
+    "id": 973,
+    "rating": 7.8
   },
   {
     "title": "Kids vs. Aliens",
@@ -20845,7 +21819,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Kids_vs_Aliens_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 974
+    "id": 974,
+    "rating": 2.2
   },
   {
     "title": "Teen Wolf: The Movie",
@@ -20873,7 +21848,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/Teen_Wolf-_The_Movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 975
+    "id": 975,
+    "rating": 4.5
   },
   {
     "title": "You People",
@@ -20895,7 +21871,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/75/You_People_Film_Poster.jpg",
     "thumbnail_width": 261,
     "thumbnail_height": 327,
-    "id": 976
+    "id": 976,
+    "rating": 0.4
   },
   {
     "title": "Shotgun Wedding",
@@ -20918,7 +21895,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/82/Shotgun_Wedding_2022_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 977
+    "id": 977,
+    "rating": 5.3
   },
   {
     "title": "Maybe I Do",
@@ -20940,7 +21918,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/99/Maybe_I_Do.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 978
+    "id": 978,
+    "rating": 3.5
   },
   {
     "title": "Life Upside Down",
@@ -20959,7 +21938,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/74/LifeUpsideDownPoster.png",
     "thumbnail_width": 254,
     "thumbnail_height": 377,
-    "id": 979
+    "id": 979,
+    "rating": 6.2
   },
   {
     "title": "Fear",
@@ -20979,7 +21959,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0a/Fear_%282023_film%29_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 980
+    "id": 980,
+    "rating": 8
   },
   {
     "title": "Knock at the Cabin",
@@ -21001,7 +21982,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e5/Knock_at_the_cabin.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 981
+    "id": 981,
+    "rating": 2.1
   },
   {
     "title": "80 for Brady",
@@ -21022,7 +22004,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/80_for_Brady.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 982
+    "id": 982,
+    "rating": 4.7
   },
   {
     "title": "The Locksmith",
@@ -21040,7 +22023,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3f/LocksmithFilmPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 983
+    "id": 983,
+    "rating": 1.6
   },
   {
     "title": "Baby Ruby",
@@ -21059,7 +22043,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/83/Baby_Ruby_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 984
+    "id": 984,
+    "rating": 3.4
   },
   {
     "title": "Freedom's Path",
@@ -21080,7 +22065,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8b/FreedomsPathPoster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 369,
-    "id": 985
+    "id": 985,
+    "rating": 7.4
   },
   {
     "title": "Magic Mike's Last Dance",
@@ -21098,7 +22084,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5d/Magic_Mike_Last_Dance_Poster.png",
     "thumbnail_width": 258,
     "thumbnail_height": 386,
-    "id": 986
+    "id": 986,
+    "rating": 7.7
   },
   {
     "title": "Sharper",
@@ -21119,7 +22106,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/SharperFilmPoster.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 383,
-    "id": 987
+    "id": 987,
+    "rating": 6.8
   },
   {
     "title": "Your Place or Mine",
@@ -21141,7 +22129,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/58/YourPlaceOrMinePoster.jpg",
     "thumbnail_width": 245,
     "thumbnail_height": 363,
-    "id": 988
+    "id": 988,
+    "rating": 5.9
   },
   {
     "title": "Somebody I Used to Know",
@@ -21163,7 +22152,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/94/SomebodyIUsedToKnowFilm.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 989
+    "id": 989,
+    "rating": 5
   },
   {
     "title": "Consecration",
@@ -21183,7 +22173,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/49/ConsecrationPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 990
+    "id": 990,
+    "rating": 4.2
   },
   {
     "title": "The Outwaters",
@@ -21202,7 +22193,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Outwaters_%282022%29_poster.jpg",
     "thumbnail_width": 245,
     "thumbnail_height": 363,
-    "id": 991
+    "id": 991,
+    "rating": 4.7
   },
   {
     "title": "Ant-Man and the Wasp: Quantumania",
@@ -21228,7 +22220,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 387,
-    "id": 992
+    "id": 992,
+    "rating": 5.6
   },
   {
     "title": "Cocaine Bear",
@@ -21253,7 +22246,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ab/Cocaine_Bear_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 395,
-    "id": 993
+    "id": 993,
+    "rating": 0.5
   },
   {
     "title": "We Have a Ghost",
@@ -21276,7 +22270,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a3/We_have_a_ghost_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 994
+    "id": 994,
+    "rating": 6.3
   },
   {
     "title": "Luther: The Fallen Sun",
@@ -21296,7 +22291,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b5/Luther_-_The_Fallen_Sun_%282023%29_Poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 353,
-    "id": 995
+    "id": 995,
+    "rating": 0.9
   },
   {
     "title": "Jesus Revolution",
@@ -21316,7 +22312,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e3/JesusRevolutionPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 996
+    "id": 996,
+    "rating": 9.6
   },
   {
     "title": "Bruiser",
@@ -21336,7 +22333,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/2b/BruiserPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 379,
-    "id": 997
+    "id": 997,
+    "rating": 5.6
   },
   {
     "title": "Linoleum",
@@ -21359,7 +22357,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e7/Linoleum_%28film%29.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 998
+    "id": 998,
+    "rating": 1.7
   },
   {
     "title": "God's Time",
@@ -21371,7 +22370,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 999
+    "id": 999,
+    "rating": 4.2
   },
   {
     "title": "Creed III",
@@ -21394,7 +22394,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c2/Creed_III_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1000
+    "id": 1000,
+    "rating": 5.6
   },
   {
     "title": "Operation Fortune: Ruse de Guerre",
@@ -21417,7 +22418,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/Operation_Fortune.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1001
+    "id": 1001,
+    "rating": 4.5
   },
   {
     "title": "A Little White Lie",
@@ -21437,7 +22439,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6c/A_Little_White_Lie_Poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1002
+    "id": 1002,
+    "rating": 5.9
   },
   {
     "title": "Children of the Corn",
@@ -21457,7 +22460,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/Children_of_the_Corn_%282020_film%29.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1003
+    "id": 1003,
+    "rating": 7.3
   },
   {
     "title": "Palm Trees and Power Lines",
@@ -21476,7 +22480,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Palm_Trees_and_Power_Lines.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 318,
-    "id": 1004
+    "id": 1004,
+    "rating": 1.9
   },
   {
     "title": "Hunt Her, Kill Her",
@@ -21488,7 +22493,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1005
+    "id": 1005,
+    "rating": 3.2
   },
   {
     "title": "Unseen",
@@ -21507,7 +22513,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/60/UnseenPoster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1006
+    "id": 1006,
+    "rating": 7.8
   },
   {
     "title": "Scream VI",
@@ -21534,7 +22541,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c9/Scream_VI_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 1007
+    "id": 1007,
+    "rating": 1.8
   },
   {
     "title": "65",
@@ -21555,7 +22563,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c4/65_film_teaser_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1008
+    "id": 1008,
+    "rating": 8.4
   },
   {
     "title": "Champions",
@@ -21575,7 +22584,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/74/Champions_xlg.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1009
+    "id": 1009,
+    "rating": 7
   },
   {
     "title": "Chang Can Dunk",
@@ -21594,7 +22604,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/Chang_can_dunk.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1010
+    "id": 1010,
+    "rating": 3.7
   },
   {
     "title": "Southern Gospel",
@@ -21607,7 +22618,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1011
+    "id": 1011,
+    "rating": 2.2
   },
   {
     "title": "Shazam! Fury of the Gods",
@@ -21634,7 +22646,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Shazam%21_Fury_of_the_Gods_%282023%29_Main_Poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1012
+    "id": 1012,
+    "rating": 3.4
   },
   {
     "title": "Boston Strangler",
@@ -21657,7 +22670,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fb/Boston_Strangler_Poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1013
+    "id": 1013,
+    "rating": 4.5
   },
   {
     "title": "The Magician's Elephant",
@@ -21686,7 +22700,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_Magician%27s_Elephant_poster.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 314,
-    "id": 1014
+    "id": 1014,
+    "rating": 0.9
   },
   {
     "title": "Moving On",
@@ -21706,7 +22721,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9c/MovingOnPoster.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 376,
-    "id": 1015
+    "id": 1015,
+    "rating": 3.7
   },
   {
     "title": "Wildflower",
@@ -21729,7 +22745,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/04/Wildflower_Film_Poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 368,
-    "id": 1016
+    "id": 1016,
+    "rating": 2.9
   },
   {
     "title": "Supercell",
@@ -21750,7 +22767,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d4/Supercell_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1017
+    "id": 1017,
+    "rating": 2.7
   },
   {
     "title": "Pinball: The Man Who Saved the Game",
@@ -21762,7 +22780,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1018
+    "id": 1018,
+    "rating": 8.8
   },
   {
     "title": "John Wick: Chapter 4",
@@ -21792,7 +22811,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d0/John_Wick_-_Chapter_4_promotional_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1019
+    "id": 1019,
+    "rating": 0.8
   },
   {
     "title": "A Good Person",
@@ -21812,7 +22832,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Good_Person_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 1020
+    "id": 1020,
+    "rating": 4.1
   },
   {
     "title": "The Tutor",
@@ -21824,7 +22845,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1021
+    "id": 1021,
+    "rating": 3.9
   },
   {
     "title": "Dungeons & Dragons: Honor Among Thieves",
@@ -21846,7 +22868,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/03/Theatrical_poster_for_Dungeons_and_Dragons%2C_Honor_Among_Thieves.jpg",
     "thumbnail_width": 262,
     "thumbnail_height": 382,
-    "id": 1022
+    "id": 1022,
+    "rating": 8.9
   },
   {
     "title": "Murder Mystery 2",
@@ -21870,7 +22893,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/71/Murder_Mystery_2_poster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 1023
+    "id": 1023,
+    "rating": 7.9
   },
   {
     "title": "Tetris",
@@ -21896,7 +22920,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b1/Tetris_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 1024
+    "id": 1024,
+    "rating": 1.7
   },
   {
     "title": "Spinning Gold",
@@ -21920,7 +22945,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/87/Spinning_gold_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1025
+    "id": 1025,
+    "rating": 5
   },
   {
     "title": "Space Oddity",
@@ -21941,7 +22967,8 @@ const movies = [
     ],
     "href": "Space_Oddity_(film)",
     "extract": "Space Oddity is an American romantic comedy science fiction film directed by Kyra Sedgwick.",
-    "id": 1026
+    "id": 1026,
+    "rating": 1.9
   },
   {
     "title": "A Thousand and One",
@@ -21961,7 +22988,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b1/Thousand_and_One_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1027
+    "id": 1027,
+    "rating": 3.9
   },
   {
     "title": "Assassin",
@@ -21980,7 +23008,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ee/Assassin_2023_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1028
+    "id": 1028,
+    "rating": 9.4
   },
   {
     "title": "Acidman",
@@ -21998,7 +23027,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/65/Acidman_film_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1029
+    "id": 1029,
+    "rating": 1.8
   },
   {
     "title": "Malum",
@@ -22018,7 +23048,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a4/Malum_%282023%29_poster.jpg",
     "thumbnail_width": 245,
     "thumbnail_height": 363,
-    "id": 1030
+    "id": 1030,
+    "rating": 2.1
   },
   {
     "title": "The Super Mario Bros. Movie",
@@ -22044,7 +23075,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/44/The_Super_Mario_Bros._Movie_poster.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 1031
+    "id": 1031,
+    "rating": 4.5
   },
   {
     "title": "Air",
@@ -22068,7 +23100,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1032
+    "id": 1032,
+    "rating": 0.7
   },
   {
     "title": "Praise This",
@@ -22089,7 +23122,8 @@ const movies = [
     ],
     "href": "Praise_This",
     "extract": "Praise This is a 2023 American musical comedy film directed by Tina Gordon and starring Chloe Bailey and Anjelika Washington.",
-    "id": 1033
+    "id": 1033,
+    "rating": 3.3
   },
   {
     "title": "Showing Up",
@@ -22112,7 +23146,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/Showing_Up_film_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1034
+    "id": 1034,
+    "rating": 10
   },
   {
     "title": "Paint",
@@ -22134,7 +23169,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/59/Paint_Poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1035
+    "id": 1035,
+    "rating": 8.8
   },
   {
     "title": "On a Wing and a Prayer",
@@ -22152,7 +23188,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/On_a_Wing_and_a_Prayer_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 1036
+    "id": 1036,
+    "rating": 9.2
   },
   {
     "title": "Chupa",
@@ -22171,7 +23208,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a8/Chupa_movie_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1037
+    "id": 1037,
+    "rating": 1.4
   },
   {
     "title": "How to Blow Up a Pipeline",
@@ -22195,7 +23233,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/aa/HowtoblowuppipelinePoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1038
+    "id": 1038,
+    "rating": 8
   },
   {
     "title": "One True Loves",
@@ -22213,7 +23252,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/One_True_Loves_poster.jpg",
     "thumbnail_width": 258,
     "thumbnail_height": 382,
-    "id": 1039
+    "id": 1039,
+    "rating": 4.5
   },
   {
     "title": "Beautiful Disaster",
@@ -22228,7 +23268,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1040
+    "id": 1040,
+    "rating": 1
   },
   {
     "title": "Renfield",
@@ -22251,7 +23292,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b1/Poster_Renfield.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 1041
+    "id": 1041,
+    "rating": 5.2
   },
   {
     "title": "The Pope's Exorcist",
@@ -22272,7 +23314,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bd/ThePopesExorcistPoster.png",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 1042
+    "id": 1042,
+    "rating": 1.6
   },
   {
     "title": "Mafia Mamma",
@@ -22292,7 +23335,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Mafia_mamma_film.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1043
+    "id": 1043,
+    "rating": 2.1
   },
   {
     "title": "Sweetwater",
@@ -22314,7 +23358,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/83/Sweetwater_2023_Poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1044
+    "id": 1044,
+    "rating": 8.8
   },
   {
     "title": "Rare Objects",
@@ -22328,7 +23373,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1045
+    "id": 1045,
+    "rating": 8.7
   },
   {
     "title": "Quasi",
@@ -22343,7 +23389,8 @@ const movies = [
     ],
     "genres": [],
     "href": null,
-    "id": 1046
+    "id": 1046,
+    "rating": 9.2
   },
   {
     "title": "Evil Dead Rise",
@@ -22364,7 +23411,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/EvilDeadRiseTeaser.jpg",
     "thumbnail_width": 243,
     "thumbnail_height": 360,
-    "id": 1047
+    "id": 1047,
+    "rating": 1.8
   },
   {
     "title": "The Covenant",
@@ -22387,7 +23435,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1048
+    "id": 1048,
+    "rating": 6.4
   },
   {
     "title": "Ghosted",
@@ -22412,7 +23461,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/Ghosted_Promo.png",
     "thumbnail_width": 255,
     "thumbnail_height": 383,
-    "id": 1049
+    "id": 1049,
+    "rating": 8.7
   },
   {
     "title": "Beau Is Afraid",
@@ -22436,7 +23486,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/92/Beau_Is_Afraid_poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1050
+    "id": 1050,
+    "rating": 2.6
   },
   {
     "title": "Chevalier",
@@ -22458,7 +23509,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7b/Chevalier_poster.jpeg",
     "thumbnail_width": 258,
     "thumbnail_height": 387,
-    "id": 1051
+    "id": 1051,
+    "rating": 1
   },
   {
     "title": "Somewhere in Queens",
@@ -22482,7 +23534,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9c/Somewhere_in_queens_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1052
+    "id": 1052,
+    "rating": 3
   },
   {
     "title": "A Tourist's Guide to Love",
@@ -22504,7 +23557,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/63/A-Tourists-Guide-To-Love.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1053
+    "id": 1053,
+    "rating": 0.9
   },
   {
     "title": "Peter Pan & Wendy",
@@ -22530,7 +23584,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Peter_Pan_%26_Wendy_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1054
+    "id": 1054,
+    "rating": 2.6
   },
   {
     "title": "Are You There God? It's Me, Margaret",
@@ -22551,7 +23606,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cd/AreYouThereGodFilmPoster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 385,
-    "id": 1055
+    "id": 1055,
+    "rating": 9.6
   },
   {
     "title": "Big George Foreman",
@@ -22575,7 +23631,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cb/BigGeorgePoster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1056
+    "id": 1056,
+    "rating": 6.9
   },
   {
     "title": "Sisu",
@@ -22595,7 +23652,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c6/Sisu_ver2.png",
     "thumbnail_width": 250,
     "thumbnail_height": 370,
-    "id": 1057
+    "id": 1057,
+    "rating": 0.9
   },
   {
     "title": "Guardians of the Galaxy Vol. 3",
@@ -22623,7 +23681,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/30/Guardians_of_the_Galaxy_Vol_3_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1058
+    "id": 1058,
+    "rating": 6.4
   },
   {
     "title": "Book Club: The Next Chapter",
@@ -22647,7 +23706,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fe/Book-Club-The-Next-Chapter.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1059
+    "id": 1059,
+    "rating": 4.5
   },
   {
     "title": "Love Again",
@@ -22670,7 +23730,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/21/Love_Again_film_poster.jpg",
     "thumbnail_width": 282,
     "thumbnail_height": 352,
-    "id": 1060
+    "id": 1060,
+    "rating": 8.9
   },
   {
     "title": "The Mother",
@@ -22688,7 +23749,8 @@ const movies = [
     ],
     "href": "The_Mother_(2023_film)",
     "extract": "The Mother is an upcoming American action drama film directed by Niki Caro with a screenplay by Misha Green, Andrea Berloff and Peter Craig, from a story by Green. The film stars Jennifer Lopez, Joseph Fiennes, Omari Hardwick, and Gael García Bernal.",
-    "id": 1061
+    "id": 1061,
+    "rating": 8.2
   },
   {
     "title": "Hypnotic",
@@ -22710,7 +23772,8 @@ const movies = [
     ],
     "href": "Hypnotic_(2023_film)",
     "extract": "Hypnotic is a 2023 American science fiction action thriller film co-written and directed by Robert Rodriguez. The film features an ensemble cast that includes Ben Affleck, Alice Braga, J. D. Pardo, Hala Finley, Dayo Okeniyi, Jeff Fahey, Jackie Earle Haley, and William Fichtner.",
-    "id": 1062
+    "id": 1062,
+    "rating": 0.1
   },
   {
     "title": "Crater",
@@ -22727,7 +23790,8 @@ const movies = [
     ],
     "href": "Crater_(film)",
     "extract": "Crater is an upcoming American coming-of-age science fiction adventure film directed by Kyle Patrick Alvarez from a screenplay by John Griffin and story by Griffin and Rpin Suwannath. It stars Isaiah Russell-Bailey, Mckenna Grace, Billy Barratt, Orson Hong, Thomas Boyce, and Scott Mescudi. The film is scheduled to be released on Disney+ on May 12, 2023.",
-    "id": 1063
+    "id": 1063,
+    "rating": 6.8
   },
   {
     "title": "Knights of the Zodiac",
@@ -22750,7 +23814,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d8/Knights_of_the_Zodiac_poster.jpg",
     "thumbnail_width": 280,
     "thumbnail_height": 350,
-    "id": 1064
+    "id": 1064,
+    "rating": 6.3
   },
   {
     "title": "Monica",
@@ -22770,7 +23835,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3a/Monica_%282022_film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 357,
-    "id": 1065
+    "id": 1065,
+    "rating": 2.3
   },
   {
     "title": "Fast X",
@@ -22802,7 +23868,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 348,
-    "id": 1066
+    "id": 1066,
+    "rating": 5.4
   },
   {
     "title": "White Men Can't Jump",
@@ -22825,7 +23892,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/White_Men_Can%27t_Jump_2023_logo.png/320px-White_Men_Can%27t_Jump_2023_logo.png",
     "thumbnail_width": 320,
     "thumbnail_height": 207,
-    "id": 1067
+    "id": 1067,
+    "rating": 0.5
   },
   {
     "title": "Master Gardener",
@@ -22846,7 +23914,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/48/Master_Gardener_%28film%29.jpg",
     "thumbnail_width": 250,
     "thumbnail_height": 380,
-    "id": 1068
+    "id": 1068,
+    "rating": 9.8
   },
   {
     "title": "The Little Mermaid",
@@ -22870,7 +23939,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Little_Mermaid_%282023_film%29.png",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 1069
+    "id": 1069,
+    "rating": 5.4
   },
   {
     "title": "About My Father",
@@ -22891,7 +23961,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/94/About_My_Father_poster.jpg",
     "thumbnail_width": 254,
     "thumbnail_height": 392,
-    "id": 1070
+    "id": 1070,
+    "rating": 2.4
   },
   {
     "title": "The Machine",
@@ -22912,7 +23983,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/TheMachine2023poster.png",
     "thumbnail_width": 184,
     "thumbnail_height": 273,
-    "id": 1071
+    "id": 1071,
+    "rating": 4
   },
   {
     "title": "Kandahar",
@@ -22931,7 +24003,8 @@ const movies = [
     ],
     "href": "Kandahar_(2023_film)",
     "extract": "Kandahar is an upcoming American action thriller film directed by Ric Roman Waugh, written by Mitchell LaFortune, and produced by Gerard Butler, who also stars in the film alongside Ali Fazal. The film is scheduled to be released in theaters on May 26, 2023, by Open Road Films.",
-    "id": 1072
+    "id": 1072,
+    "rating": 7.6
   },
   {
     "title": "You Hurt My Feelings",
@@ -22955,7 +24028,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/df/You_hurt_my_feelings_2023.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1073
+    "id": 1073,
+    "rating": 1.5
   },
   {
     "title": "Spider-Man: Across the Spider-Verse",
@@ -22985,7 +24059,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg",
     "thumbnail_width": 263,
     "thumbnail_height": 379,
-    "id": 1074
+    "id": 1074,
+    "rating": 8
   },
   {
     "title": "The Boogeyman",
@@ -23008,7 +24083,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/89/The_Boogeyman_2023_poster.png",
     "thumbnail_width": 262,
     "thumbnail_height": 381,
-    "id": 1075
+    "id": 1075,
+    "rating": 3.2
   },
   {
     "title": "Past Lives",
@@ -23027,7 +24103,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/Past_Lives_film_poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 378,
-    "id": 1076
+    "id": 1076,
+    "rating": 8.1
   },
   {
     "title": "Transformers: Rise of the Beasts",
@@ -23051,7 +24128,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Transformers-_Rise_of_the_Beasts.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1077
+    "id": 1077,
+    "rating": 7
   },
   {
     "title": "Strays",
@@ -23077,7 +24155,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/Strays2023Poster.png",
     "thumbnail_width": 250,
     "thumbnail_height": 396,
-    "id": 1078
+    "id": 1078,
+    "rating": 8.9
   },
   {
     "title": "Flamin' Hot",
@@ -23095,7 +24174,8 @@ const movies = [
     ],
     "href": "Flamin%27_Hot",
     "extract": "Flamin' Hot is a 2023 American biographical drama film directed by Eva Longoria, and written by Lewis Colick and Linda Yvette. It stars Jesse Garcia, Annie Gonzalez, Emilio Rivera, Dennis Haysbert, Matt Walsh, and Tony Shalhoub. It is based on the memoir A Boy, a Burrito and a Cookie: From Janitor to Executive by Richard Montañez, and on the life stories of Montañez and Judy Montañez.",
-    "id": 1079
+    "id": 1079,
+    "rating": 1.6
   },
   {
     "title": "The Flash",
@@ -23119,7 +24199,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_%28film%29_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1080
+    "id": 1080,
+    "rating": 3.6
   },
   {
     "title": "Elemental",
@@ -23146,7 +24227,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/ac/Elemental_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1081
+    "id": 1081,
+    "rating": 0.5
   },
   {
     "title": "Asteroid City",
@@ -23185,7 +24267,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/78/Asteroidcity.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 1082
+    "id": 1082,
+    "rating": 9.6
   },
   {
     "title": "Extraction 2",
@@ -23203,7 +24286,8 @@ const movies = [
     ],
     "href": "Extraction_2",
     "extract": "Extraction 2 is an upcoming American action thriller film directed by Sam Hargrave and written by Joe Russo, based on the graphic novel Ciudad by Ande Parks, Joe Russo, Anthony Russo, Fernando León González, and Eric Skillman. A sequel to the 2020 film, Chris Hemsworth, Golshifteh Farahani and Adam Bessa reprise their roles, with Olga Kurylenko, Daniel Bernhardt and Tinatin Dalakishvili joining the cast.",
-    "id": 1083
+    "id": 1083,
+    "rating": 6
   },
   {
     "title": "The Blackening",
@@ -23228,7 +24312,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/cf/The-blackening-poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 319,
-    "id": 1084
+    "id": 1084,
+    "rating": 5.5
   },
   {
     "title": "No Hard Feelings",
@@ -23247,7 +24332,8 @@ const movies = [
     ],
     "href": "No_Hard_Feelings_(2023_film)",
     "extract": "No Hard Feelings is an upcoming American coming of age sex comedy film directed by Gene Stupnitsky from a screenplay he co-wrote with John Phillips. Jennifer Lawrence produces and stars alongside Andrew Barth Feldman. Appearing in supporting roles are Matthew Broderick, Laura Benanti, Natalie Morales, Scott MacArthur and Ebon Moss-Bachrach.",
-    "id": 1085
+    "id": 1085,
+    "rating": 1.3
   },
   {
     "title": "The Perfect Find",
@@ -23264,7 +24350,8 @@ const movies = [
     ],
     "href": "The_Perfect_Find",
     "extract": "The Perfect Find is an upcoming American romantic comedy film written by Leigh Davenport and directed by Numa Perrier. It is based on the book of the same name by Tia Williams. The film stars Gina Torres, Keith Powers, and Gabrielle Union, who is also a co-producer.",
-    "id": 1086
+    "id": 1086,
+    "rating": 0.1
   },
   {
     "title": "Indiana Jones and the Dial of Destiny",
@@ -23290,7 +24377,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg",
     "thumbnail_width": 255,
     "thumbnail_height": 391,
-    "id": 1087
+    "id": 1087,
+    "rating": 7.4
   },
   {
     "title": "Ruby Gillman, Teenage Kraken",
@@ -23318,7 +24406,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/61/Ruby_Gillman_Teenage_Kraken_2023_poster.jpeg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 1088
+    "id": 1088,
+    "rating": 2.3
   },
   {
     "title": "Harold and the Purple Crayon",
@@ -23335,7 +24424,8 @@ const movies = [
     "genres": [],
     "href": "Harold_and_the_Purple_Crayon_(film)",
     "extract": "Harold and the Purple Crayon is an upcoming American film directed by Carlos Saldanha, in his live-action directorial debut. It is based on the 1955 children’s book of the same name written by Crockett Johnson, and will star Zachary Levi, Lil Rel Howery, Zooey Deschanel, Ravi Patel, Camille Guaty, Tanya Reynolds, and Pete Gardner.",
-    "id": 1089
+    "id": 1089,
+    "rating": 5.1
   },
   {
     "title": "Insidious: The Red Door",
@@ -23351,7 +24441,8 @@ const movies = [
     ],
     "href": "Insidious:_The_Red_Door",
     "extract": "Insidious: The Red Door is an upcoming American supernatural horror film directed by Patrick Wilson in his directorial debut, with a screenplay by Scott Teems from a story by series creator Leigh Whannell. The film is a direct sequel to Insidious (2010) and Insidious: Chapter 2 (2013), and serves as both the fifth installment in the Insidious franchise and the fifth installment in terms of chronology. Wilson, Rose Byrne, Ty Simpkins and Andrew Astor reprise their roles from the films.",
-    "id": 1090
+    "id": 1090,
+    "rating": 6.4
   },
   {
     "title": "Joy Ride",
@@ -23370,7 +24461,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8c/Joy_Ride_2023_film.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 383,
-    "id": 1091
+    "id": 1091,
+    "rating": 3
   },
   {
     "title": "Biosphere",
@@ -23380,7 +24472,8 @@ const movies = [
       "Mark Duplass"
     ],
     "genres": [],
-    "id": 1092
+    "id": 1092,
+    "rating": 5.5
   },
   {
     "title": "Mission: Impossible – Dead Reckoning Part One",
@@ -23407,7 +24500,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg",
     "thumbnail_width": 261,
     "thumbnail_height": 384,
-    "id": 1093
+    "id": 1093,
+    "rating": 7.8
   },
   {
     "title": "Theater Camp",
@@ -23427,7 +24521,8 @@ const movies = [
     ],
     "href": "Theater_Camp",
     "extract": "Theater Camp is a 2023 American comedy film directed by Molly Gordon and Nick Lieberman in their directorial debuts, from a screenplay by Gordon, Lieberman, Ben Platt, and Noah Galvin. A feature-length adaptation of the 2020 short film of the same name, the film features an ensemble cast, led by Gordon, Platt, Galvin, Jimmy Tatro, Patti Harrison, Ayo Edebiri, Alan Kim, and Amy Sedaris. Will Ferrell serves as a producer under his Gloria Sanchez Productions banner.",
-    "id": 1094
+    "id": 1094,
+    "rating": 4
   },
   {
     "title": "Oppenheimer",
@@ -23457,7 +24552,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 1095
+    "id": 1095,
+    "rating": 8.1
   },
   {
     "title": "Barbie",
@@ -23497,7 +24593,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
     "thumbnail_width": 260,
     "thumbnail_height": 385,
-    "id": 1096
+    "id": 1096,
+    "rating": 6.8
   },
   {
     "title": "They Cloned Tyrone",
@@ -23515,7 +24612,8 @@ const movies = [
     ],
     "href": "They_Cloned_Tyrone",
     "extract": "They Cloned Tyrone is an upcoming American science fiction comedy mystery film directed by Juel Taylor in his feature film directorial debut, from a screenplay by Taylor and Tony Rettenmaier. The film stars John Boyega, Teyonah Parris, Kiefer Sutherland, and Jamie Foxx. Foxx also serves as a producer of the film.",
-    "id": 1097
+    "id": 1097,
+    "rating": 1.4
   },
   {
     "title": "Cobweb",
@@ -23531,7 +24629,8 @@ const movies = [
     ],
     "href": "Cobweb_(upcoming_American_film)",
     "extract": "Cobweb is an upcoming American horror film directed by Samuel Bodin in his feature directorial debut. It stars Woody Norman, Antony Starr, Lizzy Caplan, and Cleopatra Coleman. The film's screenplay by Chris Thomas Devlin was included in the 2018 Black List.",
-    "id": 1098
+    "id": 1098,
+    "rating": 1.4
   },
   {
     "title": "Haunted Mansion",
@@ -23557,7 +24656,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/31/Haunted_Mansion_%282023%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326,
-    "id": 1099
+    "id": 1099,
+    "rating": 8.5
   },
   {
     "title": "Sympathy for the Devil",
@@ -23572,7 +24672,8 @@ const movies = [
     ],
     "href": "Sympathy_for_the_Devil_(2023_film)",
     "extract": "Sympathy for the Devil is an upcoming American psychological horror film written by Luke Paradise, directed by Yuval Adler and starring Joel Kinnaman and Nicolas Cage.",
-    "id": 1100
+    "id": 1100,
+    "rating": 3.5
   },
   {
     "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
@@ -23604,7 +24705,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/Mutant_Mayhem_poster.jpeg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1101
+    "id": 1101,
+    "rating": 4.8
   },
   {
     "title": "Meg 2: The Trench",
@@ -23619,7 +24721,8 @@ const movies = [
     ],
     "href": "Meg_2:_The_Trench",
     "extract": "Meg 2: The Trench is an upcoming science fiction film directed by Ben Wheatley, and written by Dean Georgaris, and Jon and Erich Hoeber, based on the 1999 book The Trench by Steve Alten. Serving as a sequel to the 2018 film The Meg, the film stars Jason Statham, Wu Jing, Sienna Guillory, Cliff Curtis, Skyler Samuels, Page Kennedy, Shuya Sophia Cai and Sergio Peris-Mencheta",
-    "id": 1102
+    "id": 1102,
+    "rating": 0.2
   },
   {
     "title": "Dreamin' Wild",
@@ -23639,7 +24742,8 @@ const movies = [
     ],
     "href": "Dreamin%27_Wild",
     "extract": "Dreamin' Wild is a 2022 American biographical drama film, written, directed, and produced by Bill Pohlad. It follows the life of singer-musician brothers Donnie and Joe Emerson. It stars Casey Affleck, Walton Goggins, Zooey Deschanel, Noah Jupe, Jack Dylan Grazer, Chris Messina, and Beau Bridges.",
-    "id": 1103
+    "id": 1103,
+    "rating": 4.5
   },
   {
     "title": "Gran Turismo",
@@ -23663,7 +24767,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Gran_turismo_movie.jpg/320px-Gran_turismo_movie.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 180,
-    "id": 1104
+    "id": 1104,
+    "rating": 8.6
   },
   {
     "title": "The Last Voyage of the Demeter",
@@ -23680,7 +24785,8 @@ const movies = [
     ],
     "href": "The_Last_Voyage_of_the_Demeter",
     "extract": "The Last Voyage of the Demeter is an upcoming American supernatural horror film directed by André Øvredal. It is an adaptation of \"The Captain's Log\", a chapter from the 1897 Bram Stoker novel Dracula. The film stars Corey Hawkins, Aisling Franciosi, Liam Cunningham, and David Dastmalchian.",
-    "id": 1105
+    "id": 1105,
+    "rating": 9.9
   },
   {
     "title": "Heart of Stone",
@@ -23698,7 +24804,8 @@ const movies = [
     ],
     "href": "Heart_of_Stone_(2023_film)",
     "extract": "Heart of Stone is an upcoming American spy action thriller film directed by Tom Harper from a screenplay by Greg Rucka and Allison Schroeder and a story by Rucka. The film stars Gal Gadot, Jamie Dornan, and Alia Bhatt.",
-    "id": 1106
+    "id": 1106,
+    "rating": 7.8
   },
   {
     "title": "Blue Beetle",
@@ -23721,7 +24828,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/c/c1/Blue_Beetle_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1107
+    "id": 1107,
+    "rating": 7.7
   },
   {
     "title": "White Bird: A Wonder Story",
@@ -23742,7 +24850,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/da/White_Bird_-_A_Wonder_Story_film_poster.png",
     "thumbnail_width": 264,
     "thumbnail_height": 394,
-    "id": 1108
+    "id": 1108,
+    "rating": 7.8
   },
   {
     "title": "Please Don't Destroy",
@@ -23756,7 +24865,8 @@ const movies = [
     ],
     "href": "Please_Don%27t_Destroy#Filmography",
     "extract": "Please Don't Destroy is a comedy group in New York City consisting of Ben Marshall, John Higgins, and Martin Herlihy, who began collaborating as students at New York University. The group was originally founded in 2017 and based on an act titled Please Don't Destroy My Farm. The troupe performed monthly comedy shows, appeared at the New York Comedy Festival and produced sketch videos posted to YouTube. During the COVID-19 pandemic, they began creating shorter videos for TikTok and Twitter.",
-    "id": 1109
+    "id": 1109,
+    "rating": 6.9
   },
   {
     "title": "The Hill",
@@ -23777,7 +24887,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/07/The_Hill_2023_Poster.png",
     "thumbnail_width": 255,
     "thumbnail_height": 377,
-    "id": 1110
+    "id": 1110,
+    "rating": 1.2
   },
   {
     "title": "Lift",
@@ -23799,7 +24910,8 @@ const movies = [
     ],
     "href": "Lift_(2023_film)",
     "extract": "Lift is an upcoming American heist action comedy thriller film directed by F. Gary Gray, written by Dan Kunka and Jeremy Doner, and co-produced by and starring Kevin Hart with Gugu Mbatha-Raw, Vincent D’Onofrio, Úrsula Corberó, Billy Magnussen, Jacob Batalon, Jean Reno, and Sam Worthington.",
-    "id": 1111
+    "id": 1111,
+    "rating": 0.9
   },
   {
     "title": "They Listen",
@@ -23813,7 +24925,8 @@ const movies = [
     ],
     "href": "They_Listen",
     "extract": "They Listen is an upcoming American horror film written and directed by Chris Weitz. It stars Katherine Waterston, John Cho and Lukita Maxwell. Jason Blum and Weitz produce through their Blumhouse Productions and Depth of Field banners respectively, alongside Andrew Miano.",
-    "id": 1112
+    "id": 1112,
+    "rating": 9
   },
   {
     "title": "The Equalizer 3",
@@ -23827,7 +24940,8 @@ const movies = [
     ],
     "href": "The_Equalizer_3",
     "extract": "The Equalizer 3 is an upcoming American vigilante action film directed by Antoine Fuqua. It is the sequel to the 2018 film The Equalizer 2, which was based on the TV series of the same name. The film stars Denzel Washington, Dakota Fanning, Sonia Ammar and Remo Girone. Washington and Fanning reuniting on-screen for the first time since 2004's Man on Fire. It follows retired U.S. Marine and former CIA officer Robert McCall. The film is the fifth collaboration between Washington and Fuqua, following Training Day (2001), The Equalizer (2014), The Magnificent Seven (2016), and The Equalizer 2 (2018).",
-    "id": 1113
+    "id": 1113,
+    "rating": 1.6
   },
   {
     "title": "The Nun 2",
@@ -23843,7 +24957,8 @@ const movies = [
     ],
     "href": "The_Nun_2",
     "extract": "The Nun 2 is an upcoming American gothic supernatural horror film directed by Michael Chaves and written by Akela Cooper, Ian Goldberg, and Richard Naing from a story by Cooper. It serves as the sequel to The Nun (2018) and the ninth installment in The Conjuring Universe franchise. The film stars Storm Reid, Taissa Farmiga, and Anna Popplewell. Wan and Peter Safran return as co-producers, with Judson Scott also serving as a producer.",
-    "id": 1114
+    "id": 1114,
+    "rating": 4.7
   },
   {
     "title": "My Big Fat Greek Wedding 3",
@@ -23866,7 +24981,8 @@ const movies = [
     ],
     "href": "My_Big_Fat_Greek_Wedding_3",
     "extract": "My Big Fat Greek Wedding 3 is an upcoming American romantic comedy film written and directed by Nia Vardalos. The film stars Vardalos, John Corbett, Elena Kampouris, Andrea Martin, and Lainie Kazan. It is the third installment in the My Big Fat Greek Wedding series. Filming began on June 22, 2022 in Athens, Greece, and wrapped on August 10.",
-    "id": 1115
+    "id": 1115,
+    "rating": 0.6
   },
   {
     "title": "A Haunting in Venice",
@@ -23889,7 +25005,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/A_Haunting_in_Venice_logo.jpg/320px-A_Haunting_in_Venice_logo.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 216,
-    "id": 1116
+    "id": 1116,
+    "rating": 8.7
   },
   {
     "title": "Challengers",
@@ -23906,7 +25023,8 @@ const movies = [
     ],
     "href": "Challengers_(film)",
     "extract": "Challengers is an upcoming American romantic sports comedy film directed by Luca Guadagnino from a screenplay by Justin Kuritzkes. Its cast includes Zendaya, Mike Faist, and Josh O'Connor.",
-    "id": 1117
+    "id": 1117,
+    "rating": 9.1
   },
   {
     "title": "The Expendables 4",
@@ -23929,7 +25047,8 @@ const movies = [
     ],
     "href": "The_Expendables_4",
     "extract": "The Expendables 4 is an upcoming American action film directed by Scott Waugh, with a script co-written by Kurt Wimmer, Tad Daggerhart and Max Adams, from an original story by Kurt Wimmer, Spenser Cohen and Tad Daggerhart. It is the fourth installment in The Expendables franchise and the sequel to The Expendables 3 (2014), starring an ensemble cast including Jason Statham, Dolph Lundgren, Randy Couture, and Sylvester Stallone reprising their roles from previous films, alongside 50 Cent, Megan Fox, Andy García, Tony Jaa, Jacob Scipio, Iko Uwais, Levy Tran and Eddie Hall.",
-    "id": 1118
+    "id": 1118,
+    "rating": 3.6
   },
   {
     "title": "The Book of Clarence",
@@ -23949,7 +25068,8 @@ const movies = [
     "genres": [],
     "href": "The_Book_of_Clarence",
     "extract": "The Book of Clarence is an upcoming American epic film written and directed by Jeymes Samuel. The film is due for release on September 22, 2023.",
-    "id": 1119
+    "id": 1119,
+    "rating": 7.2
   },
   {
     "title": "Next Goal Wins",
@@ -23974,7 +25094,8 @@ const movies = [
     ],
     "href": "Next_Goal_Wins_(2023_film)",
     "extract": "Next Goal Wins is an upcoming sports comedy-drama film directed by Taika Waititi, who co-wrote the screenplay with Iain Morris. The film is based on the 2014 documentary of the same name by Mike Brett and Steve Jamison about Dutch-American coach Thomas Rongen's efforts to lead the American Samoa national football team, considered the weakest football team in the world, to qualification for the 2014 FIFA World Cup.",
-    "id": 1120
+    "id": 1120,
+    "rating": 7.7
   },
   {
     "title": "PAW Patrol: The Mighty Movie",
@@ -23999,7 +25120,8 @@ const movies = [
     ],
     "href": "PAW_Patrol:_The_Mighty_Movie",
     "extract": "PAW Patrol: The Mighty Movie is an upcoming Canadian computer-animated action-adventure comedy film based on the television series PAW Patrol created by Keith Chapman. Produced by Spin Master Entertainment, the toy company behind the series, with animation provided by Mikros Image, and released by Paramount Pictures and Nickelodeon Movies, it is the sequel to the 2021 film PAW Patrol: The Movie and the second film under the Spin Master Entertainment banner. Directed by Cal Brunker and written by Bob Barlen, it features elements from the Mighty Pups sub-theme of the main show. In the film, the PAW Patrol pups, who are given superpowers when a magical meteor crash lands in Adventure City, must stop the supervillains when Mayor Humdinger escaped from prison and teams up with Victoria Vance by planning to steal the superpowers for themselves, before its too late.",
-    "id": 1121
+    "id": 1121,
+    "rating": 6.7
   },
   {
     "title": "Kraven the Hunter",
@@ -24021,7 +25143,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kraven_the_Hunter_%28film%29.jpg/320px-Kraven_the_Hunter_%28film%29.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 107,
-    "id": 1122
+    "id": 1122,
+    "rating": 7.5
   },
   {
     "title": "Killers of the Flower Moon",
@@ -24041,7 +25164,8 @@ const movies = [
     ],
     "href": "Killers_of_the_Flower_Moon_(film)",
     "extract": "Killers of the Flower Moon is an upcoming American Western crime drama film directed by Martin Scorsese, from a screenplay he co-wrote with Eric Roth, based on the best-selling 2017 non-fiction book Killers of the Flower Moon: The Osage Murders and the Birth of the FBI by David Grann. Its plot centers on a series of Oklahoma murders in the Osage Nation during the 1920s, committed after oil was discovered on tribal land. The film stars Leonardo DiCaprio, who also serves as an executive producer, alongside Jesse Plemons, Lily Gladstone, Brendan Fraser, John Lithgow and Robert De Niro. It marks the seventh collaboration between Scorsese and DiCaprio as well as the eleventh collaboration between Scorsese and De Niro.",
-    "id": 1123
+    "id": 1123,
+    "rating": 9.4
   },
   {
     "title": "True Love",
@@ -24058,7 +25182,8 @@ const movies = [
     ],
     "href": "True_Love_(2023_film)",
     "extract": "True Love is an upcoming American science fiction film directed, written and co-produced by Gareth Edwards. The film stars John David Washington, Gemma Chan, Ralph Ineson, Allison Janney, and Ken Watanabe.",
-    "id": 1124
+    "id": 1124,
+    "rating": 2.9
   },
   {
     "title": "Untitled The Exorcist film",
@@ -24074,7 +25199,8 @@ const movies = [
     ],
     "href": "Untitled_The_Exorcist_film",
     "extract": "The untitled The Exorcist film is an upcoming American supernatural horror film directed by David Gordon Green, with a screenplay he co-wrote with Peter Sattler, from a story he co-authored with Scott Teems and Danny McBride. It stars Leslie Odom Jr., Ellen Burstyn, Ann Dowd and Jennifer Nettles.",
-    "id": 1125
+    "id": 1125,
+    "rating": 0.9
   },
   {
     "title": "Damsel",
@@ -24093,7 +25219,8 @@ const movies = [
     ],
     "href": "Damsel_(2023_film)",
     "extract": "Damsel is an upcoming American fantasy film directed by Juan Carlos Fresnadillo, written by Dan Mazeau, and starring Millie Bobby Brown, Nick Robinson, Angela Bassett, Robin Wright, Ray Winstone, Brooke Carter, and Shohreh Aghdashloo. It is set for release on Netflix on October 13, 2023.",
-    "id": 1126
+    "id": 1126,
+    "rating": 1.9
   },
   {
     "title": "Ordinary Angels",
@@ -24109,7 +25236,8 @@ const movies = [
     ],
     "href": "Ordinary_Angels_(film)",
     "extract": "Ordinary Angels is an upcoming American drama film directed by Jon Gunn and starring Hilary Swank, Alan Ritchson, Emily Mitchell, and Nancy Travis.",
-    "id": 1127
+    "id": 1127,
+    "rating": 4.4
   },
   {
     "title": "Dumb Money",
@@ -24134,7 +25262,8 @@ const movies = [
     ],
     "href": "Dumb_Money",
     "extract": "Dumb Money is an upcoming American biographical comedy-drama film directed by Craig Gillespie, from a script by Lauren Schuker Blum and Rebecca Angelo, based on the book The Antisocial Network: The GameStop Short Squeeze and the Ragtag Group of Amateur Traders That Brought Wall Street to Its Knees by Ben Mezrich. The film chronicles the GameStop short squeeze from January 2021, and stars an ensemble cast featuring Paul Dano, Sebastian Stan, Seth Rogen, and Pete Davidson. Teddy Schwarzman, Aaron Ryder, and Gillespie are producing the project. The film will be released theatrically on October 20, 2023, by Stage 6 Films and Sony Pictures Releasing.",
-    "id": 1128
+    "id": 1128,
+    "rating": 4.6
   },
   {
     "title": "The Underdoggs",
@@ -24147,7 +25276,8 @@ const movies = [
       "George Lopez"
     ],
     "genres": [],
-    "id": 1129
+    "id": 1129,
+    "rating": 1.7
   },
   {
     "title": "Five Nights at Freddy's",
@@ -24164,7 +25294,8 @@ const movies = [
     ],
     "href": "Five_Nights_at_Freddy%27s_(film)",
     "extract": "Five Nights at Freddy's is an upcoming American supernatural horror film directed by Emma Tammi, from a screenplay she co-wrote with Scott Cawthon and Seth Cuddeback, based on the video game franchise of the same name created and developed by Cawthon. It stars Josh Hutcherson, Matthew Lillard, Mary Stuart Masterson, Piper Rubio, Kat Conner Sterling, and Elizabeth Lail.",
-    "id": 1130
+    "id": 1130,
+    "rating": 1.5
   },
   {
     "title": "Saw X",
@@ -24181,7 +25312,8 @@ const movies = [
     ],
     "href": "Saw_X",
     "extract": "Saw X is an upcoming American horror film directed by Kevin Greutert and written by Josh Stolberg and Peter Goldfinger. The film is the tenth installment overall in the Saw film series, and stars Tobin Bell, Shawnee Smith, Synnøve Macody Lund, Steven Brand, and Michael Beach.",
-    "id": 1131
+    "id": 1131,
+    "rating": 4
   },
   {
     "title": "Pain Hustlers",
@@ -24199,7 +25331,8 @@ const movies = [
     ],
     "href": "Pain_Hustlers",
     "extract": "Pain Hustlers is an upcoming American conspiracy drama film directed by David Yates from a screenplay by Wells Tower, based on a 2018 New York Times Magazine article, \"The Pain Hustlers\", by Evan Hughes and his subsequent novel The Hard Sell released in 2022. It stars Emily Blunt, Chris Evans, Andy García, Catherine O'Hara, Jay Duplass, Brian d'Arcy James, and Chloe Coleman.",
-    "id": 1132
+    "id": 1132,
+    "rating": 6.2
   },
   {
     "title": "Dune: Part Two",
@@ -24226,7 +25359,8 @@ const movies = [
     ],
     "href": "Dune:_Part_Two",
     "extract": "Dune: Part Two is an upcoming American epic science fiction film directed by Denis Villeneuve from a screenplay by Villeneuve, Jon Spaihts, and Eric Roth. The direct sequel to the 2021 film, it is the second of a two-part adaptation of the 1965 novel Dune by Frank Herbert and will cover roughly the second half of the book. Timothée Chalamet, Rebecca Ferguson, Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, Charlotte Rampling, and Javier Bardem reprise their roles from the first film, with Florence Pugh, Austin Butler, Christopher Walken, Léa Seydoux, Souheila Yacoub, and Tim Blake Nelson joining the ensemble cast.",
-    "id": 1133
+    "id": 1133,
+    "rating": 0.8
   },
   {
     "title": "The Marvels",
@@ -24246,7 +25380,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Marvels_poster.jpg",
     "thumbnail_width": 259,
     "thumbnail_height": 384,
-    "id": 1134
+    "id": 1134,
+    "rating": 2.8
   },
   {
     "title": "Chicken Run: Dawn of the Nugget",
@@ -24273,7 +25408,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Chicken_run_ver1.jpg/320px-Chicken_run_ver1.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 228,
-    "id": 1135
+    "id": 1135,
+    "rating": 2.9
   },
   {
     "title": "The Killer",
@@ -24292,7 +25428,8 @@ const movies = [
     ],
     "href": "The_Killer_(2023_film)",
     "extract": "The Killer is an upcoming American neo-noir action thriller film directed by David Fincher and with a screenplay by Andrew Kevin Walker. The film is based on the French graphic novel series of the same name by Alexis Nolent and Luc Jacamon. The film stars Michael Fassbender, Charles Parnell, Arliss Howard, Sophie Charlotte, and Tilda Swinton.",
-    "id": 1136
+    "id": 1136,
+    "rating": 4.8
   },
   {
     "title": "The Holdovers",
@@ -24309,7 +25446,8 @@ const movies = [
     ],
     "href": "The_Holdovers",
     "extract": "The Holdovers is an upcoming American comedy-drama film directed by Alexander Payne, written by David Hemingson and starring Paul Giamatti.",
-    "id": 1137
+    "id": 1137,
+    "rating": 1.4
   },
   {
     "title": "The Hunger Games: The Ballad of Songbirds and Snakes",
@@ -24333,7 +25471,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b5/Hunger_games_the_ballad_of_songbirds_and_snakes.png",
     "thumbnail_width": 255,
     "thumbnail_height": 393,
-    "id": 1138
+    "id": 1138,
+    "rating": 2.2
   },
   {
     "title": "Trolls Band Together",
@@ -24362,7 +25501,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/bd/Trolls3film.jpg",
     "thumbnail_width": 251,
     "thumbnail_height": 397,
-    "id": 1139
+    "id": 1139,
+    "rating": 5
   },
   {
     "title": "A Family Affair",
@@ -24380,7 +25520,8 @@ const movies = [
     ],
     "href": "A_Family_Affair_(2023_film)",
     "extract": "A Family Affair is an upcoming American romantic comedy film directed by Richard LaGravenese and written by Carrie Solomon. The film stars Nicole Kidman, Zac Efron, Joey King, Liza Koshy, and Kathy Bates.",
-    "id": 1140
+    "id": 1140,
+    "rating": 2.1
   },
   {
     "title": "Thanksgiving",
@@ -24395,7 +25536,8 @@ const movies = [
     ],
     "href": "Thanksgiving_(upcoming_film)",
     "extract": "Thanksgiving is an upcoming American slasher film directed by Eli Roth and produced by Roger Birnbaum, from a screenplay written by Roth and Jeff Rendell. It is based on Roth's mock trailer of the same name from Grindhouse (2007). The film stars Addison Rae and Patrick Dempsey.",
-    "id": 1141
+    "id": 1141,
+    "rating": 9.4
   },
   {
     "title": "Wish",
@@ -24409,7 +25551,8 @@ const movies = [
     ],
     "href": "List_of_Walt_Disney_Animation_Studios_films#Upcoming_films",
     "extract": "Walt Disney Animation Studios is an American animation studio headquartered in Burbank, California, the original feature film division of The Walt Disney Company. The studio's films are also often called \"Disney Classics\", or \"Disney Animated Canon\".",
-    "id": 1142
+    "id": 1142,
+    "rating": 8.6
   },
   {
     "title": "Napoleon",
@@ -24425,7 +25568,8 @@ const movies = [
     ],
     "href": "Napoleon_(2023_film)",
     "extract": "Napoleon is an upcoming epic historical drama film directed and produced by Ridley Scott and written by David Scarpa. It stars Joaquin Phoenix as Napoleon and depicts the French leader's rise to power. The film is scheduled to be theatrically released by Sony Pictures Releasing on November 22, 2023, before streaming on Apple TV+ at a later date.",
-    "id": 1143
+    "id": 1143,
+    "rating": 4.9
   },
   {
     "title": "Leo",
@@ -24438,7 +25582,8 @@ const movies = [
       "Rob Schneider"
     ],
     "genres": [],
-    "id": 1144
+    "id": 1144,
+    "rating": 3.8
   },
   {
     "title": "Leave the World Behind",
@@ -24457,7 +25602,8 @@ const movies = [
     ],
     "href": "Leave_the_World_Behind_(film)",
     "extract": "Leave the World Behind is an upcoming psychological thriller film written, directed and produced by Sam Esmail, based on the 2020 the novel of the same name by Rumaan Alam. The film stars Julia Roberts, Mahershala Ali, Ethan Hawke, Myha'la Herrold, Farrah Mackenzie, Charlie Evans, and Kevin Bacon.",
-    "id": 1145
+    "id": 1145,
+    "rating": 4.7
   },
   {
     "title": "Magazine Dreams",
@@ -24475,7 +25621,8 @@ const movies = [
     ],
     "href": "Magazine_Dreams",
     "extract": "Magazine Dreams is a 2023 American drama film written and directed by Elijah Bynum. It stars Jonathan Majors, Haley Bennett, Taylour Paige, Mike O'Hearn, Harrison Page and Harriet Sansom Harris.",
-    "id": 1146
+    "id": 1146,
+    "rating": 9.7
   },
   {
     "title": "Wonka",
@@ -24496,7 +25643,8 @@ const movies = [
     ],
     "href": "Wonka_(film)",
     "extract": "Wonka is an upcoming musical fantasy film directed by Paul King, who co-wrote the screenplay with Simon Farnaby. The film serves as a prequel to the 1964 novel Charlie and the Chocolate Factory by Roald Dahl and stars Timothée Chalamet as the titular character, following his early days as an eccentric chocolatier. Keegan-Michael Key, Rowan Atkinson, Sally Hawkins, Olivia Colman, and Jim Carter star in supporting roles.",
-    "id": 1147
+    "id": 1147,
+    "rating": 3.6
   },
   {
     "title": "Aquaman and the Lost Kingdom",
@@ -24519,7 +25667,8 @@ const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aquaman_and_the_Lost_Kingdom_logo.jpg/320px-Aquaman_and_the_Lost_Kingdom_logo.jpg",
     "thumbnail_width": 320,
     "thumbnail_height": 163,
-    "id": 1148
+    "id": 1148,
+    "rating": 3.4
   },
   {
     "title": "Untitled Ghostbusters: Afterlife sequel",
@@ -24545,7 +25694,8 @@ const movies = [
     ],
     "href": "Untitled_Ghostbusters:_Afterlife_sequel",
     "extract": "The untitled Ghostbusters: Afterlife sequel is an upcoming American supernatural comedy film directed by Gil Kenan from a screenplay co-written by Jason Reitman and Kenan. It serves as the sequel to Ghostbusters: Afterlife (2021), and the fifth film in the Ghostbusters franchise. The film stars Finn Wolfhard, Mckenna Grace, Celeste O'Connor, Carrie Coon, Paul Rudd and Ernie Hudson reprising their roles, with new additions to the cast including Kumail Nanjiani, Patton Oswalt, James Acaster and Emily Alyn Lind.",
-    "id": 1149
+    "id": 1149,
+    "rating": 6.8
   },
   {
     "title": "Rebel Moon",
@@ -24568,7 +25718,8 @@ const movies = [
     ],
     "href": "Rebel_Moon",
     "extract": "Rebel Moon is an upcoming American epic space opera film directed by Zack Snyder from a screenplay he co-wrote with Shay Hatten and Kurt Johnstad, based on a story he also created with Johnstad. Produced by The Stone Quarry and Grand Electric, and distributed by Netflix. The film features an ensemble cast that includes Sofia Boutella, Charlie Hunnam, Ray Fisher, Djimon Hounsou, Jena Malone, Corey Stoll, Ed Skrein, Cleopatra Coleman, Fra Fee, Cary Elwes, and Anthony Hopkins.",
-    "id": 1150
+    "id": 1150,
+    "rating": 9.2
   },
   {
     "title": "Migration",
@@ -24577,7 +25728,8 @@ const movies = [
     "genres": [],
     "href": "Migration_(2023_film)",
     "extract": "This is a list of productions produced by Illumination, an American film and animation studio based in Santa Monica, California, United States. This includes feature films, television specials, shorts, and digital series. As of 2023, Illumination has released 13 feature films, which were all distributed by Universal Pictures, with their first being Despicable Me on July 9, 2010, and their latest being The Super Mario Bros. Movie on April 5, 2023.",
-    "id": 1151
+    "id": 1151,
+    "rating": 2.6
   },
   {
     "title": "The Color Purple",
@@ -24605,7 +25757,8 @@ const movies = [
     ],
     "href": "The_Color_Purple_(2023_film)",
     "extract": "The Color Purple is an upcoming American musical coming-of-age period drama film directed by Blitz Bazawule and adapted for the screen by Marcus Gardley from the 2005 stage musical of the same name, which is in turn based on Alice Walker's 1982 Pulitzer Prize-winning novel of the same name. It is the second film adaptation of the novel, following Steven Spielberg's 1985 film adaptation. Spielberg and Quincy Jones return to produce this version, along with the stage musical's producers Scott Sanders and Oprah Winfrey, the latter of whom also starred in the 1985 film as Sofia.",
-    "id": 1152
+    "id": 1152,
+    "rating": 3.9
   }
 ];
 
