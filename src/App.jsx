@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />} >
             <Route path='/' element={<FilmsPage />} />
-            <Route path='/films/:href' element={<FilmPage/>} />
+            <Route path='/films/:id' element={<FilmPage/>} />
             <Route path='/search' element={<SearchPage />} />
             <Route path='*' element={<NotFoundPage />} />
           </Route>

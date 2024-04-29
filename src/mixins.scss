@@ -1,4 +1,16 @@
-$mainBlue: #30384b;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$fontFamily: "Roboto", sans-serif;
+$color: #eae3fb;
+$background: #0c041d;
+$primary: #a887ef;
+$primary5: rgba($primary, 0.05);
+$primary10: rgba($primary, 0.10);
+$primary15: rgba($primary, 0.15);
+$primary20: rgba($primary, 0.20);
+$secondary: #8b1370;
+$accent: #e32c80;
+
 
 @mixin border-radius($value){
     border-radius: $value;

@@ -13,7 +13,7 @@ import { ADD_TO_FAVOURITES,
          FILTER_GENRES} from "./actions";
 import movies from "../movies-2020s";
 
-const initialMovies = movies;
+export const initialMovies = movies;
 const sortedMovies = [...initialMovies];
 const initialSelectSort = 'default';
 const initialFavouritesState = [];

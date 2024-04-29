@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ButtonCategory from "../ButtonCategory/ButtonCategory";
 
 export default function SidebarFilmCard({id, title, href, thumbnail, toggleFavourite, toggleWatchLater, isFavourite, isWatchLater}){
     return(
@@ -8,19 +9,21 @@ export default function SidebarFilmCard({id, title, href, thumbnail, toggleFavou
                 <img src={thumbnail} alt="" />
             </div>
             <div className="sidebar__film__title">
-                <Link to={`films/${href}`}>
+                <Link to={`films/${id}`}>
                     {title}
                 </Link>
             </div>
             {isFavourite && (
-                <button onClick={() => toggleFavourite(id)}>
-                    -F
-                </button>
+                <ButtonCategory isActive={isFavourite} onClick={() => toggleFavourite(id)}>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                </ButtonCategory>
             )}
             {isWatchLater && (
-                <button onClick={() => toggleWatchLater(id)}>
-                    -W
-                </button>
+                <ButtonCategory isActive={isWatchLater} onClick={() => toggleWatchLater(id)}>
+                    <i className="fa-solid fa-bookmark"></i>
+                    <i className="fa-regular fa-bookmark"></i>
+                </ButtonCategory>
             )}
         </div>
     )

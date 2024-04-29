@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import FilmCard from "../FilmCard/FilmCard";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater } from "../../store/actions";
 import SortRatingSelect from "../SortRatingSelect/SortRatingSelect";
+import styles from './FilmsPage.module.scss';
 
 export default function FilmsPage({}){
     // const [sortRating, setSortRating] = useState();
@@ -49,12 +50,14 @@ export default function FilmsPage({}){
     return(
         <>
             <SortRatingSelect />
-            {movies.map((movie) => {
-                return(
-                    <FilmCard key={movie.id} id={movie.id} href={movie.href} title={movie.title} cast={movie.cast} genres={movie.genres} description={movie.extract} rating={movie.rating} toggleFavourite={toggleFavourite} isFavourite={favourites.includes(movie.id) ? true : false}
-                    toggleWatchLater={toggleWatchLater} isWatchLater={watchLater.includes(movie.id) ? true : false}/>
-                )
-            })}
+            <div className={styles.container}>
+                {movies.map((movie) => {
+                    return(
+                        <FilmCard key={movie.id} id={movie.id} href={movie.href} title={movie.title} cast={movie.cast} genres={movie.genres} description={movie.extract} thumbnail={movie.thumbnail} rating={movie.rating} toggleFavourite={toggleFavourite} isFavourite={favourites.includes(movie.id) ? true : false}
+                        toggleWatchLater={toggleWatchLater} isWatchLater={watchLater.includes(movie.id) ? true : false}/>
+                    )
+                })}
+            </div>
         </>
     )
 }

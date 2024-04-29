@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import FilmCard from "../FilmCard/FilmCard";
-import movies from "../../movies-2020s";
+//import movies from "../../movies-2020s";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater, filterGenres } from "../../store/actions";
 import SearchFilm from "../SearchFilm/SearchFilm";
 import FilterGenres from "../FilterGenres/FilterGenres";
+import SortRatingSelect from "../SortRatingSelect/SortRatingSelect";
 
 export default function SearchPage(){
     const [queryFilms, setQueryFilms] = useState('');
@@ -13,6 +14,7 @@ export default function SearchPage(){
     const dispatch = useDispatch();
     const favourites = useSelector((state) => state.favourites);
     const watchLater = useSelector((state) => state.watchLater);
+    const movies = useSelector((state) => state.sortedMovies);
     const checkedGenres = useSelector((state) => state.filterGenres);
 
     function toggleFavourite(id){
@@ -56,9 +58,10 @@ export default function SearchPage(){
         <>
             <SearchFilm findFilms={findFilms} setQueryFilms={setQueryFilms} queryFilms={queryFilms} />
             <FilterGenres handleChangeCheckbox={handleChangeCheckbox}/>
+            <SortRatingSelect />
             {searchedMovies != '' && 
                 searchedMovies.map((movie, i) => 
-                    <FilmCard key={movie.id} id={movie.id} href={movie.href} title={movie.title} cast={movie.cast} genres={movie.genres} description={movie.extract} rating={movie.rating} toggleFavourite={toggleFavourite} isFavourite={favourites.includes(movie.id) ? true : false}
+                    <FilmCard fromSearch={true} key={movie.id} id={movie.id} href={movie.href} title={movie.title} cast={movie.cast} genres={movie.genres} description={movie.extract} rating={movie.rating} toggleFavourite={toggleFavourite} isFavourite={favourites.includes(movie.id) ? true : false}
                     toggleWatchLater={toggleWatchLater} isWatchLater={watchLater.includes(movie.id) ? true : false}/>
             )}
         </>

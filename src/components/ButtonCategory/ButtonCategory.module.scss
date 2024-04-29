@@ -1,0 +1,14 @@
+@import '../../mixins.scss';
+
+.btn_category{
+    background-color: transparent;
+    border: none;
+    i{
+        font-size: 22px;
+        color: $primary;
+        @include transition(0.2s);
+        &:hover{
+            @include transform(rotate(30deg));
+        }
+    }
+}

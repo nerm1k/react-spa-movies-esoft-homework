@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { sortAscRating, sortDescRating, sortDefaultRating, selectAscRating, selectDescRating, selectDefaultRating } from "../../store/actions";
 
-export default function SortRatingSelect({handleChange}){
+export default function SortRatingSelect({}){
     const dispatch = useDispatch();
     const selectedSort = useSelector((state) => state.selectSort);
 

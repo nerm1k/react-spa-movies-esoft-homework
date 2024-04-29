@@ -1,19 +1,24 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useState, useLayoutEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import movies from "../../movies-2020s";
+import { initialMovies } from "../../store/reducers";
 import AddComment from "../AddComment/AddComment";
 import Comment from "../Comment/Comment";
+import ButtonCategory from "../ButtonCategory/ButtonCategory";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater, addComment, ADD_COMMENT } from "../../store/actions";
 
 export default function FilmPage(){
-    const { href } = useParams();
+    const { id } = useParams();
     // const [comments, setComments] = useState([]);
     const [comment, setComment] = useState('');
     const dispatch = useDispatch();
     const favourites = useSelector((state) => state.favourites);
     const watchLater = useSelector((state) => state.watchLater);
     const comments = useSelector((state) => state.comments);
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    }, [id]);
 
     function toggleFavourite(id){
         if (favourites.includes(id)){
@@ -42,10 +47,25 @@ export default function FilmPage(){
     //     setComment('');
     // }
 
-    const film = movies.find(movie => {
-        return movie.href == href;
+    const film = initialMovies.find(movie => {
+        return movie.id == id;
     });
 
+    const genres = film.genres;
+    const similarGenresArray = [];
+
+    if (genres.length > 1){
+        similarGenresArray[0] = genres[Math.floor(Math.random() * genres.length)];
+        similarGenresArray[1] = similarGenresArray[0];
+        while (similarGenresArray[1] == similarGenresArray[0]){
+            similarGenresArray[1] = genres[Math.floor(Math.random() * genres.length)];
+        }
+    } else{
+        similarGenresArray[0] = genres[Math.floor(Math.random() * genres.length)];
+    }
+    
+
+    const similarFilms = initialMovies.filter(movie => similarGenresArray.every(genre => movie.genres.includes(genre)) && movie.href != film.href);
     
     function handleSubmit(e){
         e.preventDefault();
@@ -66,12 +86,14 @@ export default function FilmPage(){
                 <div className="film__rating">
                     {film.rating}
                 </div>
-                <button className={isFavourite ? "film__favourite favourite" : "film__favourite"} onClick={() => toggleFavourite(film.id)}>
-                    F
-                </button>
-                <button className={isWatchLater ? "film__watch-later watch-later" : "film__watch-later"} onClick={() => toggleWatchLater(film.id)}>
-                    W
-                </button>
+                <ButtonCategory isActive={isFavourite} onClick={() => toggleFavourite(film.id)}>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                </ButtonCategory>
+                <ButtonCategory isActive={isWatchLater} onClick={() => toggleWatchLater(film.id)}>
+                    <i className="fa-solid fa-bookmark"></i>
+                    <i className="fa-regular fa-bookmark"></i>
+                </ButtonCategory>
                 <div className="film__year">
                     {film.year}
                 </div>
@@ -107,6 +129,24 @@ export default function FilmPage(){
                         <Comment key={i} text={c}/>
                     )
                 })}
+            </div>
+            <div className="similar-films">
+                <h3 className="similar-films__title">Фильмы с похожими категориями</h3>
+                {similarFilms.map(movie => (
+                    <div key={movie.id} className="similar-film">
+                        <Link to={`../../films/${movie.id}`}>
+                            <div className="similar-film__title">
+                                {movie.title}
+                            </div>
+                        </Link>
+                        <div className="similar-film__thumbnail" style={{width: '60px'}}>
+                            <img src={movie.thumbnail} alt=""/>
+                        </div>
+                        <div className="similar-film__rating">
+                            {movie.rating}
+                        </div>
+                    </div>
+                ))}
             </div>
         </>
     )

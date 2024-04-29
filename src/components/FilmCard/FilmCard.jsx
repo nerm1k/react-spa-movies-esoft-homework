@@ -1,29 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './film-card.scss';
+import styles from './FilmCard.module.scss';
+import ButtonCategory from "../ButtonCategory/ButtonCategory";
 
-export default function FilmCard({id, href, title, cast, genres, description, rating, toggleFavourite, isFavourite, toggleWatchLater, isWatchLater}){
-    // function setFavourite(){
-    //     dispatch(toggleFavorites(id));
-    // }
+export default function FilmCard({id, fromSearch, href, thumbnail, title, cast, genres, description, rating, toggleFavourite, isFavourite, toggleWatchLater, isWatchLater}){
 
     return(
-        <div className="film">
-            <div className="film__title">
-                <Link to={`films/${href}`}>
-                    {title}
-                </Link>
+        <div className={styles.film}>
+            <div className={styles.film__title}>
+                {fromSearch ? 
+                    <Link to={`../films/${id}`}>
+                        {title}
+                    </Link> 
+                    : 
+                    <Link to={`films/${id}`}>
+                        {title}
+                    </Link>
+                }
             </div>
-            <div className="film__rating">
-                {rating}
+            <div className={styles.film__rating}>
+                Рейтинг: {rating}
             </div>
-            <button className={isFavourite ? "film__favourite favourite" : "film__favourite"} onClick={() => toggleFavourite(id)}>
-                F
-            </button>
-            <button className={isWatchLater ? "film__watch-later watch-later" : "film__watch-later"} onClick={() => toggleWatchLater(id)}>
-                W
-            </button>
-            <div className="film__cast">
+            <div className={styles.film__image}>
+                <img src={thumbnail} alt="" />
+            </div>
+            <div className={styles.film__category}>
+                <ButtonCategory isActive={isFavourite} onClick={() => toggleFavourite(id)}>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                </ButtonCategory>
+                <ButtonCategory isActive={isWatchLater} onClick={() => toggleWatchLater(id)}>
+                    <i className="fa-solid fa-bookmark"></i>
+                    <i className="fa-regular fa-bookmark"></i>
+                </ButtonCategory>
+            </div>
+            <div className={styles.film__cast}>
                 Актеры:
                 <ul>
                     {cast.map((actor, i) => 
@@ -31,7 +42,7 @@ export default function FilmCard({id, href, title, cast, genres, description, ra
                     )}
                 </ul>
             </div>
-            <div className="film__genres">
+            <div className={styles.film__genres}>
                 Жанры:
                 <ul>
                     {genres.map((genre, i) => 
@@ -39,7 +50,7 @@ export default function FilmCard({id, href, title, cast, genres, description, ra
                     )}
                 </ul>
             </div>
-            <div className="film__description">
+            <div className={styles.film__description}>
                 {description}
             </div>
         </div>
