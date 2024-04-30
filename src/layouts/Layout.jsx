@@ -15,9 +15,7 @@ export default function Layout(){
             <main>
                 <Outlet />
             </main>
-            <div className="sidebar">
-                <Sidebar />
-            </div>
+            <Sidebar />
             <footer>
                 2024
             </footer>

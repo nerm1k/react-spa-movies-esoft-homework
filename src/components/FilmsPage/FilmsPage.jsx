@@ -49,7 +49,9 @@ export default function FilmsPage({}){
 
     return(
         <>
-            <SortRatingSelect />
+            <div className={styles.select_sort}>
+                <SortRatingSelect />
+            </div>
             <div className={styles.container}>
                 {movies.map((movie) => {
                     return(

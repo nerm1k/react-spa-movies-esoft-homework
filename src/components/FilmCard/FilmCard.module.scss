@@ -3,12 +3,19 @@
 .film{
     width: 300px;
     max-height: 800px;
-    overflow-y: clip;
-    overflow-x: visible;
     position: relative;
     padding: 10px;
+    line-height: 22px;
     background-color: $primary5;
+    border: 1px solid transparent;
     @include border-radius(8px);
+    box-shadow: 0px 0px 4px 0px $secondary10;
+    overflow-y: clip;
+    overflow-x: visible;
+    @include transition(0.2s);
+    &:hover{
+        border: 1px solid $accent10;
+    }
     &__title{
         font-size: 28px;
         font-weight: 700;

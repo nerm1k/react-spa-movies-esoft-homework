@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater } from "../../store/actions";
 import movies from "../../movies-2020s";
 import SidebarFilmCard from "../SidebarFilmCard/SidebarFilmCard";
+import styles from './Sidebar.module.scss';
 
 export default function Sidebar(){
     const dispatch = useDispatch();
@@ -32,12 +33,18 @@ export default function Sidebar(){
     ))
 
     return(
-        <div className="sidebar__content">
-            <h2>Избранные и фильмы к просмотру позже</h2>
-            {films.map(film => (
-                <SidebarFilmCard key={film.id} id={film.id} title={film.title} href={film.href} thumbnail={film.thumbnail} toggleFavourite={toggleFavourite} toggleWatchLater={toggleWatchLater} isFavourite={favourites.includes(film.id) ? true : false}
-                isWatchLater={watchLater.includes(film.id) ? true : false} />
-            ))}
+        <div className={styles.sidebar}>
+            <div className={styles.sidebar__content}>
+                <h3 className={styles.sidebar__content__title}>Избранные и фильмы к просмотру позже</h3>
+                <hr className={styles.sidebar__content__line} />
+                <div className={styles.sidebar__content__films}>
+                    {films.map(film => (
+                        <SidebarFilmCard key={film.id} id={film.id} title={film.title} href={film.href} thumbnail={film.thumbnail} toggleFavourite={toggleFavourite} toggleWatchLater={toggleWatchLater} isFavourite={favourites.includes(film.id) ? true : false}
+                        isWatchLater={watchLater.includes(film.id) ? true : false} />
+                    ))}
+                </div>
+            </div>
         </div>
+        
     )
 }

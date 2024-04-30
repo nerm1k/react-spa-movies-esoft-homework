@@ -47,15 +47,6 @@ main{
     padding: 40px 50px;
 }
 
-.sidebar{
-    grid-area: sidebar;
-    padding: 40px 20px;
-    &__content{
-        position: sticky;
-        top: 81px;
-    }
-}
-
 footer{
     grid-area: footer;
 }

@@ -9,7 +9,16 @@ $primary10: rgba($primary, 0.10);
 $primary15: rgba($primary, 0.15);
 $primary20: rgba($primary, 0.20);
 $secondary: #8b1370;
+$secondary5: rgba($secondary, 0.05);
+$secondary10: rgba($secondary, 0.10);
+$secondary15: rgba($secondary, 0.15);
+$secondary20: rgba($secondary, 0.20);
+$secondary50: rgba($secondary, 0.50);
 $accent: #e32c80;
+$accent5: rgba($accent, 0.05);
+$accent10: rgba($accent, 0.10);
+$accent15: rgba($accent, 0.15);
+$accent20: rgba($accent, 0.20);
 
 
 @mixin border-radius($value){

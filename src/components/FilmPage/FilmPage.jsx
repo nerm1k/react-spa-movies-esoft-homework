@@ -6,10 +6,10 @@ import AddComment from "../AddComment/AddComment";
 import Comment from "../Comment/Comment";
 import ButtonCategory from "../ButtonCategory/ButtonCategory";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater, addComment, ADD_COMMENT } from "../../store/actions";
+import styles from './FilmPage.module.scss';
 
 export default function FilmPage(){
     const { id } = useParams();
-    // const [comments, setComments] = useState([]);
     const [comment, setComment] = useState('');
     const dispatch = useDispatch();
     const favourites = useSelector((state) => state.favourites);
@@ -38,15 +38,6 @@ export default function FilmPage(){
         }
     }
 
-    // function addComment(e){
-    //     e.preventDefault();
-    //     setComments([...comments, {
-    //         id: comments.length + 1,
-    //         text: comment
-    //     }]);
-    //     setComment('');
-    // }
-
     const film = initialMovies.find(movie => {
         return movie.id == id;
     });
@@ -64,13 +55,14 @@ export default function FilmPage(){
         similarGenresArray[0] = genres[Math.floor(Math.random() * genres.length)];
     }
     
-
     const similarFilms = initialMovies.filter(movie => similarGenresArray.every(genre => movie.genres.includes(genre)) && movie.href != film.href);
     
     function handleSubmit(e){
         e.preventDefault();
-        dispatch(addComment(film.id, comment));
-        setComment('');
+        if (comment != ''){
+            dispatch(addComment(film.id, comment));
+            setComment('');
+        }
     }
 
     const isFavourite = favourites.includes(film.id) ? true : false;
@@ -79,50 +71,55 @@ export default function FilmPage(){
 
     return(
         <>
-            <div className="film">
-                <div className="film__title">
+            <div className={styles.film}>
+                <div className={styles.film__title}>
                     {film.title}
                 </div>
-                <div className="film__rating">
-                    {film.rating}
+                <div className={styles.film__rating}>
+                    Рейтинг: {film.rating}
                 </div>
-                <ButtonCategory isActive={isFavourite} onClick={() => toggleFavourite(film.id)}>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-regular fa-star"></i>
-                </ButtonCategory>
-                <ButtonCategory isActive={isWatchLater} onClick={() => toggleWatchLater(film.id)}>
-                    <i className="fa-solid fa-bookmark"></i>
-                    <i className="fa-regular fa-bookmark"></i>
-                </ButtonCategory>
-                <div className="film__year">
-                    {film.year}
+                <div className={styles.film__year}>
+                    Год выпуска: {film.year}
                 </div>
-                <div className="film__img">
+                <div className={styles.film__img}>
                     <img src={film.thumbnail}/>
+                    <div className={styles.film__category}>
+                        <ButtonCategory isActive={isFavourite} onClick={() => toggleFavourite(film.id)}>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-regular fa-star"></i>
+                        </ButtonCategory>
+                        <ButtonCategory isActive={isWatchLater} onClick={() => toggleWatchLater(film.id)}>
+                            <i className="fa-solid fa-bookmark"></i>
+                            <i className="fa-regular fa-bookmark"></i>
+                        </ButtonCategory>
+                    </div>
                 </div>
-                <div className="film__cast">
-                    Актеры:
-                    <ul>
-                        {film.cast.map((actor, i) => 
-                            <li key={i}>{actor}</li>
-                        )}
-                    </ul>
+                <div className={styles['film__cast-and-genres-wrapper']}>
+                    <div className={styles['film__cast-and-genres-wrapper__cast']}>
+                        Актеры:
+                        <ul>
+                            {film.cast.map((actor, i) => 
+                                <li key={i}>{actor}</li>
+                            )}
+                        </ul>
+                    </div>
+                    <div className={styles['film__cast-and-genres-wrapper__genres']}>
+                        Жанры:
+                        <ul>
+                            {film.genres.map((genre, i) => 
+                                <li key={i}>{genre}</li>
+                            )}
+                        </ul>
+                    </div>
                 </div>
-                <div className="film__genres">
-                    Жанры:
-                    <ul>
-                        {film.genres.map((genre, i) => 
-                            <li key={i}>{genre}</li>
-                        )}
-                    </ul>
-                </div>
-                <div className="film__description">
+                <div className={styles.film__description}>
                     {film.description}
                 </div>
+                <div className={styles['add-comment']}>
+                    <AddComment id={film.id} comment={comment} setComment={setComment} handleSubmit={handleSubmit}/>
+                </div>
             </div>
-            <div className="add-comment">
-                <AddComment id={film.id} comment={comment} setComment={setComment} handleSubmit={handleSubmit}/>
-            </div>
+
             <div className="comments">
                 {commentsMovie.length > 0 && commentsMovie[0].comments.map((c, i) => {
                     return(

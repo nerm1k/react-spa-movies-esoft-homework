@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { sortAscRating, sortDescRating, sortDefaultRating, selectAscRating, selectDescRating, selectDefaultRating } from "../../store/actions";
+import styles from './SortRatingSelect.module.scss';
 
 export default function SortRatingSelect({}){
     const dispatch = useDispatch();
@@ -25,7 +26,7 @@ export default function SortRatingSelect({}){
 
     return(
         <>
-            <select name="rating" onChange={handleChange} defaultValue={selectedSort}>
+            <select className={styles.sorting} name="rating" onChange={handleChange} defaultValue={selectedSort}>
                 <option value="default">Без сортировки</option>
                 <option value="asc">По возрастанию рейтинга</option>
                 <option value="desc">По убыванию рейтинга</option>
