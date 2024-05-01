@@ -1,8 +1,26 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Приложение с фильмами.**
 
-Currently, two official plugins are available:
+Реализованы функции:
+1. Список фильмов, сортировка фильмов
+2. Поиск фильмов с фильтрами
+3. Любымие фильмы и посмотреть позже
+4. Страница отдельного фильма
+5. Добавление комментариев
+6. Похожие фильмы
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-----
+
+Особенности:
+1. Сохранение настроек фильтров, сортировок, комментариев при переходе на другие страницы
+2. Интерактивный дизайн
+
+-----
+
+Сделать не смог / не пытался:
+1. Ссылка на каждый фильм в виде film/The_Movie (вместо этого сделал film/1, потому что, как я думаю, некоторые фильмы были со спец символами, и все ломалось)
+2. Dark/Light тема
+3. По клику на категорию, должен быть переход на страницу поиска фильмов, с автоматически выбранной категорией(предзаполненая форма) и отображением фильмов по этой категории
+
+
