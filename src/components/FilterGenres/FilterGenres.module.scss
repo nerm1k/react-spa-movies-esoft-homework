@@ -1,0 +1,10 @@
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    .genre{
+        width: 20%;
+        display: flex;
+        gap: 6px;
+    }
+}

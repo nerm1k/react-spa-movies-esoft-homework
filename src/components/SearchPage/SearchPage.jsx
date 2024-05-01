@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import FilmCard from "../FilmCard/FilmCard";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater, filterGenres } from "../../store/actions";
-import SearchFilm from "../SearchFilm/SearchFilm";
+import SearchFilmInput from "../SearchFilmInput/SearchFilmInput";
 import FilterGenres from "../FilterGenres/FilterGenres";
 import SortRatingSelect from "../SortRatingSelect/SortRatingSelect";
 import styles from './SearchPage.module.scss';
@@ -47,7 +47,7 @@ export default function SearchPage(){
 
     return(
         <>
-            <SearchFilm findFilms={findFilms} setQueryFilms={setQueryFilms} queryFilms={queryFilms} />
+            <SearchFilmInput findFilms={findFilms} setQueryFilms={setQueryFilms} queryFilms={queryFilms} />
             <FilterGenres handleChangeCheckbox={handleChangeCheckbox}/>
             <SortRatingSelect />
             <div className={styles.container}>

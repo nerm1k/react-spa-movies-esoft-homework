@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from './AddComment.module.scss';
 
 export default function AddComment({id, comment, setComment, handleSubmit}){

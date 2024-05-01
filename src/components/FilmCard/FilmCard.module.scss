@@ -17,10 +17,11 @@
         border: 1px solid $accent10;
     }
     &__title{
+        margin-bottom: 6px;
         font-size: 28px;
         font-weight: 700;
         text-align: center;
-        margin-bottom: 6px;
+        line-height: 28px;
     }
     &__rating{
         text-align: center;

@@ -7,6 +7,8 @@ import Comment from "../Comment/Comment";
 import ButtonCategory from "../ButtonCategory/ButtonCategory";
 import { addToFavourites, addToWatchLater, removeFromFavourites, removeFromWatchLater, addComment, ADD_COMMENT } from "../../store/actions";
 import styles from './FilmPage.module.scss';
+import SimilarFilms from "../SimilarFilms/SimilarFilms";
+import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 export default function FilmPage(){
     const { id } = useParams();
@@ -41,6 +43,12 @@ export default function FilmPage(){
     const film = initialMovies.find(movie => {
         return movie.id == id;
     });
+
+    if (!film){
+        return (
+            <NotFoundPage />
+        )
+    }
 
     const genres = film.genres;
     const similarGenresArray = [];
@@ -118,32 +126,14 @@ export default function FilmPage(){
                 <div className={styles['add-comment']}>
                     <AddComment id={film.id} comment={comment} setComment={setComment} handleSubmit={handleSubmit}/>
                 </div>
-            </div>
-
-            <div className="comments">
-                {commentsMovie.length > 0 && commentsMovie[0].comments.map((c, i) => {
-                    return(
-                        <Comment key={i} text={c}/>
-                    )
-                })}
-            </div>
-            <div className="similar-films">
-                <h3 className="similar-films__title">Фильмы с похожими категориями</h3>
-                {similarFilms.map(movie => (
-                    <div key={movie.id} className="similar-film">
-                        <Link to={`../../films/${movie.id}`}>
-                            <div className="similar-film__title">
-                                {movie.title}
-                            </div>
-                        </Link>
-                        <div className="similar-film__thumbnail" style={{width: '60px'}}>
-                            <img src={movie.thumbnail} alt=""/>
-                        </div>
-                        <div className="similar-film__rating">
-                            {movie.rating}
-                        </div>
-                    </div>
-                ))}
+                <div className={styles.comments}>
+                    {commentsMovie.length > 0 && commentsMovie[0].comments.map((c, i) => {
+                        return(
+                            <Comment key={i} text={c}/>
+                        )
+                    })}
+                </div>
+                <SimilarFilms similarFilms={similarFilms}/>
             </div>
         </>
     )
