@@ -1,0 +1,54 @@
+@import './src/mixins.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background;
+    color: $color;
+}
+
+#root{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "main sidebar"
+        "footer footer";
+    font-family: $fontFamily;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.active-link{
+    color: $primary;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    min-height: 100vh;
+    padding: 40px 50px;
+    margin-bottom: 100px;
+}
+
+footer{
+    grid-area: footer;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$fontFamily: "Roboto", sans-serif;
+$color: #eae3fb;
+$black: #000;
+$black50: rgba($black, 0.50);
+$background: #0c041d;
+$backgroundSecondary: #1c0c3f41;
+$primary: #a887ef;
+$primary5: rgba($primary, 0.05);
+$primary20: rgba($primary, 0.20);
+$secondary: #8b1370;
+$secondary5: rgba($secondary, 0.05);
+$secondary10: rgba($secondary, 0.10);
+$secondary50: rgba($secondary, 0.50);
+$accent: #e32c80;
+$accent10: rgba($accent, 0.10);
+
+
+@mixin border-radius($value){
+    border-radius: $value;
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    -ms-border-radius: $value;
+    -o-border-radius: $value;
+}
+
+@mixin transition($duration, $timing-function: ease){
+    transition: all $duration $timing-function;
+    -webkit-transition: all $duration $timing-function;
+    -moz-transition: all $duration $timing-function;
+    -o-transition: all $duration $timing-function;
+    -ms-transition: all $duration $timing-function;
+}
+
+@mixin transform($function){
+    transform: $function;
+    -webkit-transform: $function;
+    -moz-transform: $function;
+    -ms-transform: $function;
+    -o-transform: $function;
+}

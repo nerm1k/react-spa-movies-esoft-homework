@@ -1,0 +1,33 @@
+@import '../../mixins.scss';
+
+.sidebar__film{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    @include border-radius(6px);
+    @include transition(0.3s);
+    &:hover{
+        background-color: $accent10;
+    }
+    &__image{
+        width: 75px;
+        position: relative;
+        margin-bottom: 8px;
+        &__category{
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            i{
+                color: $secondary;
+            }
+        }
+    }
+    &__title{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+}

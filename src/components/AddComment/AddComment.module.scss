@@ -1,0 +1,30 @@
+@import '../../mixins.scss';
+
+.form-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    .comment{
+        width: 400px;
+        height: 200px;
+        resize: none;
+        font-size: 22px;
+    }
+    .button{
+        padding: 16px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        color: $color;
+        background-color: $primary;
+        border: none;
+        @include border-radius(8px);
+        @include transition(0.3s);
+        &:hover{
+            @include transform(translate(0, -3px));
+            box-shadow: 0 20px 60px -15px $primary;
+        }
+    }
+}
+

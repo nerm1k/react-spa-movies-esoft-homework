@@ -1,0 +1,24 @@
+@import '../../mixins.scss';
+
+.sidebar{
+    grid-area: sidebar;
+    padding: 40px 20px;
+    &__content{
+        position: sticky;
+        top: 81px;
+        &__title{
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+        &__line{
+            margin-bottom: 20px;
+            border: 1px solid $secondary50;
+            @include border-radius(1px);
+        }
+        &__films{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    }
+}

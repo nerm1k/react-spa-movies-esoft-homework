@@ -1,0 +1,59 @@
+@import '../../mixins.scss';
+
+.film{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 22px;
+    &__title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    &__rating{
+    }
+    &__category{
+        position: absolute;
+        top: 5px;
+        i{
+            font-size:30px;
+            color: $secondary;
+            margin-left: 5px;
+        }
+    }
+    &__year{
+
+    }
+    &__img{
+        position: relative;
+        img{
+            width: 300px;
+        }
+    }
+    &__cast-and-genres-wrapper{
+        display: flex;
+        gap: 100px;
+        &__cast{
+            ul{
+                margin-left: 22px;
+                line-height: 30px;
+            }
+        }
+        &__genres{
+            ul{
+                margin-left: 22px;
+            }
+        }
+    }
+    // &__description{
+
+    // }
+    // .add-comment{
+    
+    // }
+    .comments{
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+

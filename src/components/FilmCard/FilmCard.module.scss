@@ -1,0 +1,58 @@
+@import '../../mixins.scss';
+
+.film{
+    width: 300px;
+    max-height: 800px;
+    position: relative;
+    padding: 10px;
+    line-height: 22px;
+    background-color: $primary5;
+    border: 1px solid transparent;
+    @include border-radius(8px);
+    box-shadow: 0px 0px 4px 0px $secondary10;
+    overflow-y: clip;
+    overflow-x: visible;
+    @include transition(0.2s);
+    &:hover{
+        border: 1px solid $accent10;
+    }
+    &__title{
+        margin-bottom: 6px;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 28px;
+    }
+    &__rating{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    &__image{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+        img{
+            height: 350px;
+        }
+    }
+    &__category{
+        position: absolute;
+        top: 20px;
+        left: -13px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__cast{
+        margin-bottom: 12px;
+        ul{
+            padding-left: 18px;
+        }
+    }
+    &__genres{
+        @extend .film__cast;
+    }
+    &__description{
+        text-align: justify;
+    }
+}
